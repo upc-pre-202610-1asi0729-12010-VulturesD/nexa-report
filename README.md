@@ -1,0 +1,131 @@
+<div align="center">
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website/main/nexa.svg" alt="Nexa" width="200"/>
+
+<br/><br/>
+
+# Nexa — Academic Report
+
+**Software Engineering academic report for the Nexa B2B platform**
+
+<br/>
+
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Docs as Code](https://img.shields.io/badge/Docs--as--Code-UPC-0a2540?style=for-the-badge)
+
+<br/>
+
+![Course](https://img.shields.io/badge/Course-1ASI0729%20Open%20Source-0a2540?style=flat-square)
+![Cycle](https://img.shields.io/badge/Cycle-2026--10-0a2540?style=flat-square)
+![University](https://img.shields.io/badge/University-UPC-0a2540?style=flat-square)
+![Team](https://img.shields.io/badge/Team-Vultures%20Devs-2a67d9?style=flat-square)
+![Status](https://img.shields.io/badge/Status-TB1%20Active-22c55e?style=flat-square)
+
+<br/>
+
+</div>
+
+---
+
+## What is this repository?
+
+This repository contains the full academic documentation for the Nexa project, structured following the UPC Docs-as-Code standard. All content is written in Markdown and organized with numeric prefixes and kebab-case naming for reproducible PDF generation via Pandoc.
+
+---
+
+## Repository structure
+
+```text
+nexa-report/
+│
+└── report/
+    ├── front-matter/
+    │   ├── 01-cover.md
+    │   ├── 02-version-history.md
+    │   ├── 03-table-of-contents.md
+    │   ├── 04-project-report-collaboration-insights.md
+    │   └── 05-student-outcome.md
+    │
+    ├── 10-chapter-1-introduction/
+    ├── 20-chapter-2-requirements-elicitation/
+    ├── 30-chapter-3-requirements-specification/
+    ├── 40-chapter-4-product-design/
+    ├── 50-chapter-5-implementation-validation-deployment/
+    │
+    ├── 90-conclusions.md
+    ├── 99-bibliography.md
+    │
+    ├── annexes/
+    └── assets/
+```
+
+---
+
+## Report PDF
+
+Generate locally (requires Pandoc + XeLaTeX):
+
+```bash
+bash scripts/build-pdf.sh
+```
+
+Output is written to `dist/nexa-report.pdf`.
+
+The latest published PDF can also be downloaded from GitHub Actions:
+**Actions → Build Report PDF → Artifacts → `nexa-report-pdf`**
+
+---
+
+## Related repositories
+
+| Repository | Description |
+|---|---|
+| [nexa-website](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website) | Landing page (HTML5 / CSS3 / JS) — [live](https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-website/) |
+| [nexa-webapp](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp) | Main web application (Vue.js) — [live](https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-webapp/) |
+| [nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform) | Backend service layer |
+
+---
+
+## Branching strategy
+
+For TB1, observable delivery is concentrated in `main` and Conventional Commits. GitFlow remains documented as a working convention for the next delivery:
+
+| Branch | Purpose |
+|---|---|
+| `main` | Stable deliverable version |
+| `develop` | Integration branch convention |
+| `feature/*` | Work by feature or section |
+| `release/*` | Delivery closing convention |
+| `hotfix/*` | Urgent correction convention |
+
+All commits follow [Conventional Commits 1.0.0](https://www.conventionalcommits.org/): `type(scope): description` — lowercase, no trailing period.
+
+---
+
+## Team
+
+**Organization:** [upc-pre-202610-1asi0729-12010-VulturesD](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD)
+
+| Code | Member | Role |
+|---|---|---|
+| U202323040 | Yucra Sandoval, Diego Sebastian | Team Leader |
+| U202411937 | Marín Cueva, César Fernando | Team Member |
+| U20241A054 | Verde Bueno, Joaquín Francisco | Team Member |
+| U202416289 | Torrejón De Los Santos, Gino Rodrigo | Team Member |
+| U202413142 | Rojas Mancilla, Gerard Gianpier | Team Member |
+
+---
+
+<div align="center">
+
+<br/>
+
+**Nexa** · Universidad Peruana de Ciencias Aplicadas · 2026-10
+
+*1ASI0729 — Desarrollo de Aplicaciones Open Source · Ingeniería de Software*
+
+<br/>
+
+</div>
