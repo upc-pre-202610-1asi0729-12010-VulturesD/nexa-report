@@ -40,7 +40,7 @@ El siguiente cuadro concentra los enlaces a las plataformas colaborativas y repo
 | **Repositorio GitHub (Webapp)** | [upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp)                                            |
 | **Repositorio GitHub (Backend / Plataforma futura)** | [upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform)                                        |
 | **Landing Page desplegada** | [https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-website/](https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-website/)                       |
-| **Webapp desplegada TB1** | [https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-webapp/#/auth/login](https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-webapp/#/auth/login) |
+| **Webapp desplegada TB1** | [https://nexa-webapp-opensource.web.app/login](https://nexa-webapp-opensource.web.app/login) |
 
 ## A.4. Evidencia de Coordinación Grupal
 

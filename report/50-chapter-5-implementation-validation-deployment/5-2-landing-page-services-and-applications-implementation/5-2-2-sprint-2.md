@@ -357,8 +357,8 @@ El Fake API se configuró con JSON Server sobre `db.json`. En desarrollo local s
 | Artefacto | Estado TB1 | URL / evidencia | Observación |
 |---|---|---|---|
 | Landing page `nexa-website` | Publicada como capa pública | [GitHub Pages – nexa-website](https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-website/) | Punto de entrada comercial |
-| Web application `nexa-webapp` | Publicada para revisión TB1 con hash routing | [GitHub Pages – nexa-webapp](https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-webapp/#/auth/login) | Frontend con datos simulados |
-| Fake API | Configurado como simulación de servicios | [Render – nexa-api](https://nexa-api.onrender.com) | JSON Server documentado para consumo público desde la webapp desplegada |
+| Web application `nexa-webapp` | Publicada para revisión TB1 | [Firebase Hosting – nexa-webapp](https://nexa-webapp-opensource.web.app/login) | Frontend con datos simulados |
+| Fake API | Configurado como simulación de servicios | [Render – nexa-api](https://nexa-api.onrender.com) | JSON Server documentado para validación frontend, sin declarar backend productivo |
 | Reporte `nexa-report` | Fuente Docs-as-Code | repositorio GitHub y fuente Markdown | Evidencia documental |
 | Backend / plataforma | Planificado | [nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform) | No se declara desplegado |
 

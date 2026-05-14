@@ -12,7 +12,7 @@ Esta sección documenta la colaboración del equipo **Vultures Devs** alrededor 
 | Repositorio de la Web Application TB1 | [https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp) |
 | Repositorio del Backend / Plataforma (futuro) | [https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform) |
 | Landing desplegada (GitHub Pages) | [https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-website/](https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-website/) |
-| Web App desplegada (Firebase Hosting) | [https://nexa-2f1bb.web.app/](https://nexa-2f1bb.web.app/) |
+| Web App desplegada (Firebase Hosting) | [https://nexa-webapp-opensource.web.app](https://nexa-webapp-opensource.web.app) |
 
 ### Distribución de actividades del equipo
 

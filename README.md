@@ -83,7 +83,7 @@ The latest published PDF can also be downloaded from GitHub Actions:
 | Repository | Description |
 |---|---|
 | [nexa-website](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website) | Landing page (HTML5 / CSS3 / JS) — [live](https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-website/) |
-| [nexa-webapp](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp) | Main web application (Vue.js) — [live](https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-webapp/) |
+| [nexa-webapp](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp) | Main web application (Angular) — [live](https://nexa-webapp-opensource.web.app) |
 | [nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform) | Backend service layer |
 
 ---
