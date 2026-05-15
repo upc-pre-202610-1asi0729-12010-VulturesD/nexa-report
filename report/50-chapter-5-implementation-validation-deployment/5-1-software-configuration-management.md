@@ -31,9 +31,9 @@ El control de versiones se organiza bajo GitFlow adaptado al alcance real del pr
 
 *Tabla. Resumen de repositorios auditados al cierre de TB1*
 
-| Repositorio | Ramas revisadas | Commits no-merge revisados | Commits representativos TB1 | Evidencia principal |
+| Repositorio | Ramas revisadas | Commits revisados | Commits representativos TB1 | Evidencia principal |
 |---|---:|---:|---:|---|
-| `nexa-report` | `main`, `develop`, `release/sprint-1-baseline`, `release/tb1-report` | 104 | 104 | Historial GitHub, ramas GitFlow y tags |
+| `nexa-report` | `main`, `develop`, `release/sprint-1-baseline`, `release/tb1-report` | 114 | 114 | Historial GitHub, ramas GitFlow y tags |
 | `nexa-webapp` | `main`, `develop`, 12 ramas `feature/*`, 7 ramas `release/*` | 152 | 51 | Historial GitHub, rama `main` |
 | `nexa-website` | `main`, `develop`, `release/tb1-final` | 91 | 14 | Historial GitHub, rama `main` |
 | `nexa-platform` | `main`, `backup/platform-before-tb1-reset` | 15 | 13 | Historial GitHub, rama `main` |
