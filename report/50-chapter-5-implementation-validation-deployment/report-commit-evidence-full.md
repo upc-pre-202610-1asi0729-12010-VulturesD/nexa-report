@@ -73,3 +73,7 @@ This file records the full reconstructed evidence table for the Nexa report repo
 | nexa-report | GitFlow merged branch | `bf7d3be` | DiegoS284 | docs(deployment): clarify report and WebApp delivery evidence | Clarify repository URLs, Pages links and simulated service evidence. This supports Sprint 2 deployment evidence. | Sprint 2 / TB1 | 2026-05-11 20:02 -0500 |
 | nexa-report | GitFlow merged branch | `e43611c` | DiegoS284 | chore(release): merge deployment collaboration evidence | Integrate deployment collaboration evidence into the report line. This supports GitFlow traceability for the corresponding sprint and evidence package. | Sprint 2 / TB1 | 2026-05-12 22:01 -0500 |
 | nexa-report | GitFlow merged branch | `26a3794` | DiegoS284 | chore(release): merge TB1 report release | Integrate TB1 report release into the report line. This supports GitFlow traceability for the corresponding sprint and evidence package. | Sprint 2 / TB1 | 2026-05-14 22:46 -0500 |
+
+## Sprint 1 Evidence Reading
+
+The Sprint 1 rows show the report foundation, startup definition, requirements analysis, product backlog, UX/UI design, architecture diagrams and first implementation evidence. These rows support the baseline dated from 2026-04-01 to 2026-04-23.
