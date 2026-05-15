@@ -85,3 +85,7 @@ The Sprint 2 rows show WebApp evidence, deployment evidence, collaboration evide
 ## Table Usage Rule
 
 The main report may cite representative rows when space is limited. This full register remains the source for complete commit review, author distribution and sprint-period verification.
+
+## Scope Boundary
+
+Rows that mention Fake API evidence refer to simulated frontend validation and academic review support. They do not declare a production backend or production database for TB1.
