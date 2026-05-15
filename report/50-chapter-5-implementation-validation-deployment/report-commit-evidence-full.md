@@ -81,3 +81,7 @@ The Sprint 1 rows show the report foundation, startup definition, requirements a
 ## Sprint 2 Evidence Reading
 
 The Sprint 2 rows show WebApp evidence, deployment evidence, collaboration evidence, final report polish and release validation. These rows support the TB1 period dated from 2026-04-25 to 2026-05-14.
+
+## Table Usage Rule
+
+The main report may cite representative rows when space is limited. This full register remains the source for complete commit review, author distribution and sprint-period verification.
