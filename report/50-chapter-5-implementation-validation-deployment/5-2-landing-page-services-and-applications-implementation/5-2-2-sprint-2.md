@@ -375,5 +375,3 @@ La colaboración de Sprint 2 se sostiene en commits distribuidos, revisión docu
 | Manejo de ajustes | Correcciones de nombres, segmentos, style guidelines, assets, mockups y alcance Fake API | Reducción de contradicciones antes de entrega |
 
 La lectura final de Sprint 2 es que TB1 consolida una web application frontend y una documentación técnica defendible, manteniendo límites explícitos sobre servicios productivos, autenticación productiva, base de datos real, evidencia de entrega productiva y seguimiento en vivo.
-
-La tabla completa de commits del repositorio de reporte se conserva en [`report-commit-evidence-full.md`](../report-commit-evidence-full.md).
