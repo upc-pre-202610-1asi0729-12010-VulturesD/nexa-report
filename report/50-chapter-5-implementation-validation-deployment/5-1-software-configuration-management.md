@@ -33,7 +33,7 @@ El control de versiones se organiza bajo GitFlow adaptado al alcance real del pr
 
 | Repositorio | Ramas revisadas | Commits no-merge revisados | Commits representativos TB1 | Evidencia principal |
 |---|---:|---:|---:|---|
-| `nexa-report` | `main`, `develop`, `release/tb1-final` | 558 | 100 | Historial GitHub, rama `main` |
+| `nexa-report` | `main`, `develop`, `release/sprint-1-baseline`, `release/tb1-report` | 104 | 104 | Historial GitHub, ramas GitFlow y tags |
 | `nexa-webapp` | `main`, `develop`, 12 ramas `feature/*`, 7 ramas `release/*` | 152 | 51 | Historial GitHub, rama `main` |
 | `nexa-website` | `main`, `develop`, `release/tb1-final` | 91 | 14 | Historial GitHub, rama `main` |
 | `nexa-platform` | `main`, `backup/platform-before-tb1-reset` | 15 | 13 | Historial GitHub, rama `main` |
@@ -42,7 +42,7 @@ El control de versiones se organiza bajo GitFlow adaptado al alcance real del pr
 
 | Repositorio | Propósito | Rama principal observable | Otras ramas observables | URL |
 |---|---|---|---|---|
-| `nexa-report` | Informe técnico, trazabilidad académica y documentación del proyecto | `main` | `develop`, `release/tb1-report-language-commit-evidence`, `release/tb1-sprint-commit-evidence`, `release/tb1-final` | [nexa-report](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report) |
+| `nexa-report` | Informe técnico, trazabilidad académica y documentación del proyecto | `main` | `develop`, `feature/*`, `release/sprint-1-baseline`, `release/tb1-report` | [nexa-report](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report) |
 | `nexa-website` | Implementación del sitio público desplegado | `main` | `develop`, `release/tb1-final` | [nexa-website](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website) |
 | `nexa-webapp` | Web application TB1 con frontend operativo y datos simulados | `main` | `develop`, `feature/*` (11 ramas), `release/*` (7 ramas) | [nexa-webapp](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp) |
 | `nexa-platform` | Alcance backend planificado para siguiente hito | `main` | `backup/platform-before-tb1-reset` | [nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform) |
@@ -57,8 +57,8 @@ La organización del control de versiones sigue un modelo GitFlow adaptado al al
 |---|---|---|---|
 | `main` | `nexa-report`, `nexa-webapp`, `nexa-website`, `nexa-platform` | Versión estable y entregable; rama de entrega oficial del hito | Concentra el incremento final de cada entrega: AV1 y TB1 |
 | `develop` | `nexa-report`, `nexa-webapp`, `nexa-website` | Integración continua de feature branches antes de cada release | Punto de convergencia del trabajo de Sprint 2 antes del merge a `main` |
-| `feature/*` | `nexa-webapp` (12 ramas activas), `nexa-report` (múltiples ramas) | Desarrollo enfocado por frente de trabajo o bounded context | Sprint 2: estructuración DDD, integración de Fake API en la nube, semántica de bounded contexts, alineación de capa DDD, router modular, infraestructura compartida |
-| `release/*` | `nexa-webapp` (7 ramas), `nexa-report`, `nexa-website` | Estabilización y validación previas al merge en `main` | Cierre TB1 por frente: `release/tb1-ddd-render-firebase-readiness`, `release/tb1-firebase-static-api-deploy`, `release/tb1-final-ddd-alignment`, `release/tb1-sprint-commit-evidence`, entre otras |
+| `feature/*` | `nexa-report` (9 ramas), `nexa-webapp` (12 ramas activas) | Desarrollo enfocado por frente de trabajo o bounded context | Reporte: capítulos, arquitectura, UX/UI, evidencia Sprint 1, evidencia Sprint 2 y polish TB1. WebApp: estructuración DDD, integración de Fake API en la nube, semántica de bounded contexts, alineación de capa DDD, router modular, infraestructura compartida |
+| `release/*` | `nexa-report` (`release/sprint-1-baseline`, `release/tb1-report`), `nexa-webapp` (7 ramas), `nexa-website` | Estabilización y validación previas al merge en `main` | Cierre por hito: baseline Sprint 1 y release TB1 del reporte, además de releases técnicos de WebApp |
 | `hotfix/*` | No registrada en ningún repositorio en TB1 | Corrección urgente sobre versión estable de producción | No aplicable: no se requirió corrección urgente sobre producción en este hito |
 | `backup/*` | `nexa-platform` (`backup/platform-before-tb1-reset`) | Preservación del estado del repositorio previo a una reestructuración de alcance | Salvaguarda el estado de `nexa-platform` antes del ajuste al alcance real de TB1 |
 
@@ -66,7 +66,7 @@ La organización del control de versiones sigue un modelo GitFlow adaptado al al
 
 | Repositorio | Ramas principales | Ramas feature observadas | Ramas release observadas | Notas |
 |---|---|---|---|---|
-| `nexa-report` | `main`, `develop` | `feature/report-ubiquitous-language-commit-evidence`, `feature/relocate-sprint-commit-evidence` | `release/tb1-report-language-commit-evidence`, `release/tb1-sprint-commit-evidence`, `release/tb1-final` | GitFlow aplicado en el informe técnico desde TB1 |
+| `nexa-report` | `main`, `develop` | `feature/report-foundation`, `feature/startup-solution-profile`, `feature/requirements-analysis`, `feature/product-backlog-user-stories`, `feature/product-design-ux-ui`, `feature/domain-architecture-diagrams`, `feature/sprint-1-evidence`, `feature/webapp-sprint-2-evidence`, `feature/deployment-collaboration-evidence`, `feature/tb1-report-polish` | `release/sprint-1-baseline`, `release/tb1-report` | GitFlow aplicado en el informe técnico desde Sprint 1 hasta TB1 |
 | `nexa-webapp` | `main`, `develop` | `feature/bounded-context-structure-polish`, `feature/cloud-fake-api-integration`, `feature/ddd-render-firebase-readiness`, `feature/final-ddd-layer-alignment`, `feature/final-firebase-static-api-deploy`, `feature/final-webapp-structure-semantics-responsive`, `feature/modular-router-alignment`, `feature/remove-hardcoded-business-data`, `feature/semantic-bounded-context-names`, `feature/server-fake-api-migration`, `feature/shared-infrastructure-api` | `release/tb1-cloud-api-cleanup`, `release/tb1-ddd-render-firebase-readiness`, `release/tb1-final-ddd-alignment`, `release/tb1-final-webapp-polish`, `release/tb1-firebase-static-api-deploy`, `release/tb1-semantic-contexts`, `release/tb1-structure-alignment` | Repositorio con mayor densidad de GitFlow en TB1; flujo completo `feature → develop → release → main` verificable |
 | `nexa-website` | `main`, `develop` | — | `release/tb1-final` | GitFlow básico aplicado; sin ramas feature individuales por el alcance de mantenimiento de la landing |
 | `nexa-platform` | `main` | — | — | `backup/platform-before-tb1-reset` preserva el estado previo al ajuste de alcance; sin GitFlow activo en TB1 |
