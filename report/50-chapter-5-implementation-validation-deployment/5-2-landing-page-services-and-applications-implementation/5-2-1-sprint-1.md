@@ -135,7 +135,7 @@ La tabla incluye los 30 commits disponibles del historial reconstruido del Landi
 
 *Evidencia visual del repositorio `nexa-website`*
 
-![Historial de commits del repositorio nexa-website - Sprint 1](commit-evidence/website-commits-page-01.png)
+![Historial de commits del repositorio nexa-website - Sprint 1](../../assets/images/chapter-5/sprint-evidence/commit-evidence/website-commits-page-01.png)
 
 Figura. Historial de commits de `nexa-website` en GitHub sobre la rama `develop`.
 
