@@ -216,9 +216,24 @@ Los read models consolidan información de los contextos principales para mejora
 
 ### Full Database Diagram
 
-![Full Database Diagram](../assets/images/chapter-4/database/full-database-diagram.png)
+El siguiente diagrama resume las entidades persistentes verificables en la implementación Spring Data JPA. El modelo detallado posterior conserva estructuras objetivo del dominio y debe interpretarse como diseño evolutivo, no como afirmación de que todas las tablas ya existen.
 
- > *Nota:* El diagrama completo de base de datos consolida las principales estructuras relacionales requeridas por los cinco bounded contexts y las capacidades de soporte transversal. Elaboración propia.
+```mermaid
+erDiagram
+    USER_ACCOUNT }o--o{ ROLE : has
+    CATEGORY ||--o{ PRODUCT : groups
+    CUSTOMER ||--o{ SALES_ORDER : places
+    SALES_ORDER ||--|{ SALES_ORDER_ITEM : contains
+    WAREHOUSE ||--o{ INVENTORY_ITEM : stores
+    INVENTORY_ITEM ||--o{ STOCK_BATCH : tracks
+    INVENTORY_ITEM ||--o{ INVENTORY_MOVEMENT : records
+    DELIVERY_ROUTE ||--o{ SHIPMENT : routes
+    SHIPMENT ||--o| DRIVER_CHECKLIST : verifies
+    INVOICE ||--|{ INVOICE_LINE : contains
+    INVOICE ||--o{ PAYMENT : receives
+```
+
+> *Nota:* Los nombres corresponden a entidades Java existentes en `nexa-platform`; Hibernate aplica la estrategia física `snake_case` para las tablas PostgreSQL.
 
 La siguiente tabla resume la agrupación completa de base de datos:
 

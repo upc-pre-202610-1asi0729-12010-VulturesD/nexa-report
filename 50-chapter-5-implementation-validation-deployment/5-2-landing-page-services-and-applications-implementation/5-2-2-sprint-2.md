@@ -278,7 +278,7 @@ La evidencia de despliegue de Sprint 2 se concentra en la Web Application, el La
 | Artefacto | Estado TB1 | URL / evidencia | Observación |
 |---|---|---|---|
 | Landing Page `nexa-website` | Publicada como capa pública actualizada | **GitHub Pages – nexa-website:** [https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-website/](https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-website/) | Punto de entrada comercial y conexión hacia la Web Application. |
-| Web Application `nexa-webapp` | Publicada para revisión académica con navegación frontend; en AV2 se registra despliegue en Render. | **Render – nexa-webapp:** [https://nexa-webapp.onrender.com](https://nexa-webapp.onrender.com) | Frontend con datos simulados parciales, flujos operativos y preparación progresiva hacia backend. |
+| Web Application `nexa-webapp` | Publicada para revisión académica con navegación frontend; en AV2 se registra despliegue en Render. | **Render – nexa-webapp:** [https://nexa-webapp-fv2v.onrender.com](https://nexa-webapp-fv2v.onrender.com) | Frontend con datos simulados parciales, flujos operativos y preparación progresiva hacia backend. |
 | Fake API | Soporte simulado para revisión frontend | JSON Server / configuración documentada en `nexa-webapp` | No corresponde a Web Services internos productivos. |
 | Project Report `nexa-report` | Fuente Docs-as-Code del informe | Repositorio GitHub y fuente Markdown | Evidencia documental y trazabilidad TB1. |
 | Backend / `nexa-platform` | Planificado para fase posterior | **nexa-platform:** [https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform) | No se declara desplegado en TB1. |

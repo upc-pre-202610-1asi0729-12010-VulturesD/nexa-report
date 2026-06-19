@@ -13,7 +13,7 @@
 <br/>
 
 ![Markdown](https://img.shields.io/badge/Markdown-docs--as--code-0a2540?style=for-the-badge&logo=markdown&logoColor=white)
-![Open Source](https://img.shields.io/badge/Open%20Source-course%20evidence-0EA5E9?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-audited%20evidence-0EA5E9?style=for-the-badge)
 ![Architecture](https://img.shields.io/badge/Architecture-DDD%20%7C%20bounded%20contexts-2a67d9?style=for-the-badge)
 ![Evidence](https://img.shields.io/badge/Evidence-AV2%20release-22c55e?style=for-the-badge)
 
@@ -23,7 +23,7 @@
 ![Cycle](https://img.shields.io/badge/Cycle-2026--10-0a2540?style=flat-square)
 ![University](https://img.shields.io/badge/University-UPC-0a2540?style=flat-square)
 ![Team](https://img.shields.io/badge/Team-Nexa-2a67d9?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Release%203.0.0-22c55e?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Release%204.0.1-22c55e?style=flat-square)
 
 <br/>
 
@@ -60,11 +60,11 @@ The report is maintained as Docs-as-Code in Markdown and aligns with the technic
     <td width="50%">
       <p><a href="https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp">upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp</a></p>
       <p>Angular Web Application for operational workflows and buyer-facing coordination.</p>
-      <p><a href="https://nexa-webapp.onrender.com/#/auth/login">Open Live WebApp Login</a></p>
+      <p><a href="https://nexa-webapp-fv2v.onrender.com/login">Open Live WebApp Login</a></p>
       <p>
-        <img alt="Angular" src="https://img.shields.io/badge/Angular-18-DD0031?style=flat-square&logo=angular&logoColor=white" />
-        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.5-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img alt="Angular Material" src="https://img.shields.io/badge/Angular%20Material-18-0a2540?style=flat-square" />
+        <img alt="Angular" src="https://img.shields.io/badge/Angular-21-DD0031?style=flat-square&logo=angular&logoColor=white" />
+        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.9-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img alt="Angular Material" src="https://img.shields.io/badge/Angular%20Material-21-0a2540?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -85,7 +85,7 @@ The report is maintained as Docs-as-Code in Markdown and aligns with the technic
       <p><a href="https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report">Open Report Repository</a></p>
       <p>
         <img alt="Documentation" src="https://img.shields.io/badge/Documentation-report-0F172A?style=flat-square" />
-        <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source-course%20evidence-0EA5E9?style=flat-square" />
+        <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source-audited%20evidence-0EA5E9?style=flat-square" />
       </p>
     </td>
   </tr>

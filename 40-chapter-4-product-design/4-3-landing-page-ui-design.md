@@ -14,7 +14,7 @@ Cada elemento del sitio público mantiene continuidad con una capacidad del prod
 |---|---|---|---|
 | Hero / Pitch message | Presentar el problema operativo y la promesa central de Nexa en el primer contacto visual | Introduce el flujo transversal: S3 solicita, S1 valida y S2 ejecuta | Landing Page |
 | CTA `Request a demo` / `Solicitar una demostración` | Convertir el interés del visitante en contacto comercial | Contacto guiado, revisión de operación y explicación del demo | Landing Page / Company contact |
-| CTA `Log in` / `Ingresar` | Permitir acceso a usuarios autenticados | Entrada al sistema mediante login | `#/auth/login` |
+| CTA `Log in` / `Ingresar` | Permitir acceso a usuarios autenticados | Entrada al sistema mediante login | `/login` |
 | Home | Presentar el problema, la promesa de valor y el recorrido principal | Explica la relación entre pedidos, disponibilidad, coordinación y despacho | Landing Page |
 | Platform | Explicar capacidades de catálogo, pedidos, inventario, despacho y trazabilidad | Conecta la propuesta pública con dashboards y módulos internos | `/ops/commercial/dashboard`, `/ops/operations/dashboard`, `/portal/home` |
 | Solutions Hub | Segmentar la comunicación por tipo de empresa interesada | Permite que importadores, distribuidores y operadores de almacenamiento entiendan el valor según su operación | Landing Page |

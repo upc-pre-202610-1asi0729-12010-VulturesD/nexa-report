@@ -12,7 +12,7 @@
 <p><strong>Código del curso:</strong> 1ASI0729</p>
 <p><strong>Curso:</strong>  Desarrollo de Aplicaciones Open Source</p>
 <p><strong>NRC:</strong> 12010</p>
-<p><strong>Docente:</strong> Robles Fernández, Iván</p>
+<p><strong>Docente:</strong> Iván Robles Fernández</p>
 
 <hr>
 
