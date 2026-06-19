@@ -1,38 +1,27 @@
-<div align="center">
+# Nexa Report Wiki
 
-# Nexa Ecosystem Documentation Wiki
+This wiki summarizes how the Nexa academic report is organized for the course Desarrollo de Aplicaciones Open Source.
 
-**Operational, technical, and academic documentation for the Nexa cold-chain operations ecosystem**
+## Repository Purpose
 
-</div>
+`nexa-report` is the Docs-as-Code repository for the academic evidence of Nexa. It connects the product research, backlog, software architecture, implementation evidence, deployment evidence, validation, releases, and annexes with the three implementation repositories.
 
----
+## Main References
 
-Welcome to the engineering and academic wiki for **Nexa**. This documentation centralizes the most important technical, database, architectural, and requirement specifications required to understand, run, and maintain the Nexa ecosystem.
+| Resource | Link |
+| --- | --- |
+| Report repository | [upc-pre-202610-1asi0729-12010-VulturesD/nexa-report](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report) |
+| Website repository | [upc-pre-202610-1asi0729-12010-VulturesD/nexa-website](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website) |
+| WebApp repository | [upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp) |
+| Platform repository | [upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform) |
 
-## Purpose
+## Maintenance Rules
 
-The purpose of this Wiki is to provide a single documentation space for:
-- **Product Scope**: Understanding the business case, goals, and target segments of Nexa.
-- **Academic Requirements**: Tracing User Stories, prioritized backlog, and impact maps.
-- **Architectural Reference**: Domain-Driven Design (DDD) contexts, UML class boundaries, and database layouts.
-- **SCM Guidelines**: Branching structures (GitFlow), Conventional Commits, and PR compliance.
-- **Validation**: Testing protocols, outcomes (ABET 5), and verification credentials.
-
----
-
-## Quick Navigation
-
-| Area | Page |
-|---|---|
-| **Product Context** | [Project Overview](./Project-Overview.md) |
-| **Scope Definition** | [Product Scope](./Product-Scope.md) |
-| **Ecosystem Architecture** | [Ecosystem Architecture](./Ecosystem-Architecture.md) |
-| **Repository Structure** | [Repository Structure](./Repository-Structure.md) |
-| **Main Technologies** | [Main Technologies](./Main-Technologies.md) |
+- Keep evidence aligned with actual repository names, release tags, and deployment URLs.
+- Prefer concise evidence notes over duplicate audit logs.
+- Keep current Open Source naming in delivery files unless older wording is part of immutable historical evidence.
+- Use `nexa-report` for current repository references.
 
 ---
 
-<p align="center">
-  <strong>Nexa Wiki</strong> · Universidad Peruana de Ciencias Aplicadas · 2026-10
-</p>
+Team Nexa · Course 1ASI0729 · 2026-10
