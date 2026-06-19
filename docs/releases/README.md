@@ -2,6 +2,7 @@
 
 | Version | Scope |
 | --- | --- |
+| [`v4.0.2`](./v4.0.2.md) | Final OpenAPI metadata and release-link synchronization. |
 | [`v4.0.1`](./v4.0.1.md) | Deep Open Source audit, architecture rewrite, current technologies and production links. |
 | [`v3.0.0`](./v3.0.0.md) | Open Source AV2 report release with updated architecture, implementation, deployment, GitHub, and validation evidence. |
 
