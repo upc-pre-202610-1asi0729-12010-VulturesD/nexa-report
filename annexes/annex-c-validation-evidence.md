@@ -12,7 +12,7 @@ Como respaldo de la fase de levantamiento de requisitos e investigación de camp
 
 | Evidencia | Enlace de Evidencia | Sobre el contenido | Estado |
 |---|---|---|---|
-| Validation Interviews AV2 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQCl_8cJxwFxQJ2j-SPApYDZAZWDTrZYgNXN_r3o5jYW9bE?e=TLhRWn | Presenta validaciones, hallazgos y reacciones de usuarios frente al producto o prototipo, incluyendo tareas realizadas y observaciones principales. | Realizado |
+| Validation Interviews AV2 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQDTvTCE4HRVR4YyppgXwWt7AUgNZ0WgW-T29UxyU0I1vO0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TUX5bD | Presenta validaciones, hallazgos y reacciones de usuarios frente al producto o prototipo, incluyendo tareas realizadas y observaciones principales. | Realizado |
 
 ## C.3. Evaluaciones heurísticas
 

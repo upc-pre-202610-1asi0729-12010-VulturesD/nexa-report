@@ -43,7 +43,7 @@ El video inicia con el flujo de S1 — Commercial Coordination y luego incorpora
 |---|---|
 | Video | `upc-pre-202610-1asi0729-12010-nexa-webapp-prototype-sprint-3` |
 | Plataforma | Microsoft Stream / SharePoint |
-| URL | **Microsoft Stream / SharePoint:** [https://upcedupe-my.sharepoint.com/personal/u202416289_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416289%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202610%2D1asi0729%2D12010%2DVulturesD%2Fnexa%2Dprototype%2Fupc%2Dpre%2D202610%2D1asi0729%2D12010%2Dnexa%2Dwebbapp%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E739e15be%2D2efd%2D49c4%2Da343%2D4cb5d8cab16a](https://upcedupe-my.sharepoint.com/personal/u202416289_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416289%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202610%2D1asi0729%2D12010%2DVulturesD%2Fnexa%2Dprototype%2Fupc%2Dpre%2D202610%2D1asi0729%2D12010%2Dnexa%2Dwebbapp%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E739e15be%2D2efd%2D49c4%2Da343%2D4cb5d8cab16a) |
+| URL | **Microsoft Stream / SharePoint:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQAIokM7WTDARpGIOsk3il61Aac_JPdbBlKAXjRq2djcCrM?e=liKhiY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQAIokM7WTDARpGIOsk3il61Aac_JPdbBlKAXjRq2djcCrM?e=liKhiY) |
 | Duración | `6:46` |
 | Segmento S1 | Inicio del recorrido |
 | Cambio a segmento S2 | `1:44` |

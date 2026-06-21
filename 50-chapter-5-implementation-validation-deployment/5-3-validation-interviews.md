@@ -145,7 +145,7 @@ La siguiente tabla registra las entrevistas de validación AV2 disponibles para 
 
 | Código | Nombres y apellidos     | Edad | Distrito   | Segmento | Screenshot del video | URL Microsoft Stream | Timing de inicio | Duración | Resumen descriptivo                                                             |
 | --- |-------------------------|------|------------| --- | --- | --- |------------------|----------|---------------------------------------------------------------------------------|
-| VI-S3-01 | Alonso Alcántara Cerdán | 19 | San Isidro | S3 | ![Alonso](../assets/images/chapter-5/interviews/alonso-alcantara.png) | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQCl_8cJxwFxQJ2j-SPApYDZAZWDTrZYgNXN_r3o5jYW9bE?e=TLhRWn | 0:00 | 3:43 | Se mostró el flujo del comprador B2B a un participante vinculado al entorno de una empresa importadora. La sesión permitió observar comprensión inicial del catálogo, solicitud, seguimiento y navegación general del portal. |
+| VI-S3-01 | Alonso Alcántara Cerdán | 19 | San Isidro | S3 | ![Alonso](../assets/images/chapter-5/interviews/alonso-alcantara.png) | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQDTvTCE4HRVR4YyppgXwWt7AUgNZ0WgW-T29UxyU0I1vO0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TUX5bD | 0:00 | 3:43 | Se mostró el flujo del comprador B2B a un participante vinculado al entorno de una empresa importadora. La sesión permitió observar comprensión inicial del catálogo, solicitud, seguimiento y navegación general del portal. |
 
 ### 5.3.3. Evaluaciones según heurísticas
 

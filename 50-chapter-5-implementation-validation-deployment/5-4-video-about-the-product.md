@@ -18,7 +18,7 @@ Para el segmento comercial y operativo, el video explica que Nexa permite manten
 |---|---|
 | Título del video | `upc-pre-202610-1asi0729-12010-VulturesD-about-the-product-sprint-3` |
 | Plataforma de publicación | Microsoft Stream / SharePoint y YouTube |
-| URL Microsoft Stream | https://upcedupe-my.sharepoint.com/personal/u202416289_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416289%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202610%2D1asi0729%2D12010%2DVulturesD%2Fnexa%2Dmedia%2Fupc%2Dpre%2D202610%2D1asi0729%2D12010%2DVulturesD%2Dabout%2Dthe%2Dproduct%2Dsprint%2D3%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edc587b63%2Db4f9%2D46cf%2Dbf5f%2D8428348af1f3 |
+| URL Microsoft Stream | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQCIdGy0-MMSSZXhTg3-RBBhAXQCg-wluwpE55i0keKPavI?e=JDAXYo |
 | URL YouTube | https://youtu.be/ypedAqjH19c?si=YKAWFK_y6Vo0jM5n |
 | Duración | `2:14` |
 | Fecha de publicación | 18/06/2026 |
