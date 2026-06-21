@@ -302,23 +302,11 @@ La versión frontend queda respaldada por el release `nexa-webapp v2.0.0`, mient
 
 La ejecución también incluye evidencia de WebApp desplegada en Render, Platform API desplegada en Render, Swagger/OpenAPI publicado para revisión de endpoints y flujos core preparados para validación. Estos flujos se consideran parcialmente incorporados porque las capturas de login, catálogo, video de navegación, Swagger/OpenAPI y despliegues Render sustentan el avance, pero todavía no declaran cobertura total del roadmap, reemplazo completo de servicios simulados ni integración productiva con todos los módulos de la Web Application.
 
-**Estructura del proyecto backend `nexa-platform`.** Como evidencia complementaria de implementación, se presenta la estructura del proyecto backend desarrollada para AV2. La solución se encuentra organizada por bounded contexts y capas, mostrando los módulos `CatalogManagement`, `Iam`, `Invoicing`, `Logistics`, `Sales`, `Shared` y `Warehouse`, cada uno con `Application`, `Domain`, `Infrastructure` e `Interfaces`. Además, incorpora recursos REST, configuración de aplicación, persistencia y entrypoint Spring Boot, confirmando la adopción de DDD y Layered Architecture en la solución.
+**Estructura del proyecto backend `nexa-platform`.**
 
-**Estructura backend de `nexa-platform` — parte 1.**
+La estructura actual de `nexa-platform` muestra una base Java/Spring Boot con `src/main`, `src/test`, `resources`, wrapper de Maven y artefactos de compilación bajo `target`. Esta captura la uso como evidencia del backend revisado para el corte, porque deja visible el empaquetado `nexa-platform-1.0.0.jar`, los recursos de ejecución y la organización mínima necesaria para compilar y desplegar la Platform API.
 
-La imagen muestra la primera parte de la estructura del proyecto backend. Permite evidenciar que la Platform API fue organizada con separación modular y por capas, manteniendo carpetas relacionadas con application, domain, infrastructure e interfaces para sostener una arquitectura basada en DDD.
-
-![Nexa Platform backend project structure - part 1](../../assets/images/chapter-5/sprint-evidence/nexa-platform-project-structure-1.png)
-
-> *Nota.* La captura muestra la organización inicial del proyecto `nexa-platform`, incluyendo bounded contexts y capas técnicas utilizadas para la primera versión de Web Services. Elaboración propia.
-
-**Estructura backend de `nexa-platform` — parte 2.**
-
-La imagen complementa la vista anterior de la solución backend. En conjunto, ambas capturas permiten comprobar la presencia de bounded contexts como Catalog Management, IAM, Invoicing, Logistics, Sales, Warehouse y módulos compartidos requeridos para persistencia, configuración y ejecución de la API.
-
-![Nexa Platform backend project structure - part 2](../../assets/images/chapter-5/sprint-evidence/nexa-platform-project-structure-2.png)
-
-> *Nota.* La captura complementa la evidencia de organización backend y permite observar módulos, archivos de configuración, migraciones y elementos de soporte de la Platform API. Elaboración propia.
+![Estructura backend actual de nexa-platform](../../assets/images/chapter-5/sprint-evidence/backend/nexa-platform-backend-structure-current.png)
 
 **Video de navegación Sprint 3 / AV2.**
 
@@ -360,7 +348,7 @@ Esta cobertura diferencia operaciones HTTP individuales de capacidades core agru
 
 La imagen muestra la documentación general de la Platform API expuesta mediante Swagger/OpenAPI. Esta evidencia permite revisar que los controladores REST del backend fueron publicados con documentación navegable para la validación de endpoints durante Sprint Review.
 
-La captura histórica utilizada en AV2 fue retirada porque correspondía a una implementación tecnológica anterior. La evidencia Open Source vigente se valida desde el código Spring Boot, sus tests y los recursos desplegados.
+![Swagger OpenAPI general de Platform API](../../assets/images/chapter-5/sprint-evidence/backend/swagger-openapi-platform-api.png)
 
 **Endpoints de autenticación en Swagger/OpenAPI.**
 
@@ -368,11 +356,15 @@ La imagen presenta los endpoints asociados a autenticación. Esta evidencia resp
 
 Los endpoints IAM vigentes son los implementados por `AuthController` y `UsersController` en `nexa-platform`.
 
+![Swagger endpoints de autenticación](../../assets/images/chapter-5/sprint-evidence/backend/swagger-authentication.png)
+
 **Endpoints de Catalog Items en Swagger/OpenAPI.**
 
 La imagen presenta los endpoints del recurso `Catalog Items`. Esta evidencia se vincula con el bounded context Catalog Management, encargado de exponer operaciones para consultar y gestionar productos refrigerados dentro de la Platform API.
 
 La evidencia vigente se encuentra en `CatalogItemsController`, `ProductsController` y `CategoriesController`.
+
+![Swagger endpoints de Catalog Items](../../assets/images/chapter-5/sprint-evidence/backend/swagger-catalog-items.png)
 
 **Endpoints de Inventory Items en Swagger/OpenAPI.**
 
@@ -380,11 +372,15 @@ La imagen muestra los endpoints del recurso `Inventory Items`. Esta evidencia se
 
 La evidencia vigente se encuentra en `InventoryController` y `WarehousesController`.
 
+![Swagger endpoints de Inventory Items](../../assets/images/chapter-5/sprint-evidence/backend/swagger-inventory-items.png)
+
 **Endpoints de Orders en Swagger/OpenAPI.**
 
 La imagen presenta los endpoints del recurso `Orders`. Esta evidencia se relaciona con el bounded context Sales, responsable de soportar solicitudes, confirmaciones, rechazos, cancelaciones y seguimiento de órdenes comerciales B2B.
 
 La evidencia vigente se encuentra en `OrdersController`, `CustomersController` y `PurchaseRequestsController`.
+
+![Swagger endpoints de Orders](../../assets/images/chapter-5/sprint-evidence/backend/swagger-orders.png)
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -400,7 +396,7 @@ La evidencia distingue entre versión preparada, ejecución controlada y validac
 
 La imagen muestra el dashboard general de Render usado para revisar los servicios desplegados durante el Sprint 3. Esta evidencia permite sustentar que el equipo configuró un entorno cloud para la revisión académica del corte AV2.
 
-La captura histórica fue retirada. Los servicios vigentes se verifican mediante las URLs públicas documentadas en el Anexo E.
+![Vista general del proyecto Nexa en Render](../../assets/images/chapter-5/sprint-evidence/deployment/render-project-overview.png)
 
 **Servicios Nexa visibles en Render.**
 
@@ -408,11 +404,15 @@ La imagen presenta los servicios de Nexa registrados en Render. Esta evidencia p
 
 Los componentes vigentes son WebApp, Platform y PostgreSQL, cada uno con responsabilidad independiente.
 
+![Servicios Nexa visibles en Render](../../assets/images/chapter-5/sprint-evidence/deployment/render-nexa-services-overview.png)
+
 **Servicio Render de la Web Application.**
 
 La imagen evidencia el servicio de Render asociado a la Web Application. Esta captura permite verificar el despliegue controlado de `nexa-webapp` como parte del cierre AV2 y su disponibilidad para revisión de navegación.
 
 WebApp vigente: https://nexa-webapp-fv2v.onrender.com/login
+
+![Servicio Render de WebApp](../../assets/images/chapter-5/sprint-evidence/deployment/render-webapp-service-events.png)
 
 **Configuración de entorno de la WebApp en Render.**
 
@@ -420,11 +420,15 @@ La imagen muestra la configuración de entorno asociada al servicio WebApp en Re
 
 La WebApp solo requiere `NODE_VERSION=20` en Render; la URL de Platform se compila desde `environment.prod.ts`.
 
+![Configuración de entorno de WebApp en Render](../../assets/images/chapter-5/sprint-evidence/deployment/render-webapp-environment-current.png)
+
 **Servicio Render de la Platform API.**
 
 La imagen evidencia el servicio de Render asociado a la Platform API. Esta captura respalda que la primera versión de Web Services fue preparada para revisión académica desde un entorno cloud.
 
 Platform vigente: https://nexa-platform.onrender.com
+
+![Servicio Render de Platform API](../../assets/images/chapter-5/sprint-evidence/deployment/render-platform-service-events.png)
 
 **Configuración de entorno de la Platform API en Render.**
 
@@ -432,11 +436,19 @@ La imagen muestra la configuración de entorno del servicio Platform API en Rend
 
 Las variables vigentes se documentan en 5.1.4 sin exponer secretos.
 
+![Configuración de entorno de Platform API en Render](../../assets/images/chapter-5/sprint-evidence/deployment/render-platform-environment.png)
+
 **Servicio PostgreSQL en Render.**
 
 La imagen presenta el servicio PostgreSQL configurado en Render para el despliegue académico AV2. Esta evidencia sustenta la preparación de persistencia relacional del backend, alineada con Java Spring Boot, JPA y el entorno cloud usado para la revisión del Sprint 3.
 
-Platform utiliza PostgreSQL 16 administrado por Render.
+Platform utiliza PostgreSQL 18 administrado por Render.
+
+![Información de PostgreSQL en Render](../../assets/images/chapter-5/sprint-evidence/deployment/render-postgresql-info.png)
+
+La vista de conexiones de PostgreSQL permite revisar host interno, puerto y nombre de base sin exponer credenciales. Esta captura respalda la conexión entre Platform API y la base administrada de Render.
+
+![Conexiones de PostgreSQL en Render](../../assets/images/chapter-5/sprint-evidence/deployment/render-postgresql-connections.png)
 
 **Landing Page desplegada en GitHub Pages.**
 
