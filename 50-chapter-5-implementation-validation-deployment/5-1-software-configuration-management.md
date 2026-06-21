@@ -30,8 +30,8 @@ Enlaces de revisión:
 
 | Repositorio | Responsabilidad | Release vigente al inicio de esta auditoría | Rama |
 |---|---|---|---|
-| `nexa-report` | Informe y evidencia Docs-as-Code | `v4.0.0` | `main` |
-| `nexa-website` | Landing Page pública | `v4.0.0` | `main` |
+| `nexa-report` | Informe y evidencia Docs-as-Code | `v3.0.0` | `main` |
+| `nexa-website` | Landing Page pública | `v3.0.0` | `main` |
 | `nexa-webapp` | Angular Web Application | `v2.0.0` | `main` |
 | `nexa-platform` | Spring Boot REST API | `v1.0.0` | `main` |
 

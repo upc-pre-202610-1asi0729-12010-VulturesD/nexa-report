@@ -4,8 +4,8 @@ El trabajo colaborativo de Nexa se organiza en cuatro repositorios oficiales. La
 
 | Repositorio | Propósito | Rama entregable | Release auditada |
 |---|---|---|---|
-| [nexa-report](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report) | Reporte Docs-as-Code | `main` | `v4.0.2` |
-| [nexa-website](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website) | Landing Page | `main` | `v4.0.1` |
+| [nexa-report](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report) | Reporte Docs-as-Code | `main` | `v3.0.0` |
+| [nexa-website](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website) | Landing Page | `main` | `v3.0.0` |
 | [nexa-webapp](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp) | Angular Web Application | `main` | `v2.0.1` |
 | [nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform) | Spring Boot Platform API | `main` | `v1.0.2` |
 

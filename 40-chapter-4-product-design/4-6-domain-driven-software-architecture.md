@@ -20,6 +20,68 @@ El diseño táctico se deriva del flujo principal del producto:
 
 Los puntos de control del dominio se concentran en autenticación y autorización, validación comercial, disponibilidad de inventario, transición de estado del pedido, preparación de despacho y registro documental. El backend aplica estas reglas mediante servicios de aplicación, modelos de dominio, puertos de repositorio y adaptadores JPA.
 
+### Design-Level EventStorming visual evidence
+
+Las imágenes originales del modelado por bounded contexts se mantienen como evidencia visual compartida con Apps Web y con el análisis del dominio. El paquete fuente se conserva en [`images bounded contexts open source.zip`](../assets/images/chapter-4/architecture/ddd/images%20bounded%20contexts%20open%20source.zip), y las imágenes extraídas se versionan dentro de `assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/`.
+
+![Bounded contexts Open Source - Step 1](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step1.png)
+
+![Bounded contexts Open Source - Step 1 detail](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step1-1.png)
+
+![Bounded contexts Open Source - Step 2](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step2.png)
+
+![Bounded contexts Open Source - Step 2 detail 1](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step2-1.png)
+
+![Bounded contexts Open Source - Step 2 detail 2](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step2-2.png)
+
+![Bounded contexts Open Source - Step 3](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step3.png)
+
+![Bounded contexts Open Source - Step 3 detail 1](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step3-1.png)
+
+![Bounded contexts Open Source - Step 3 detail 2](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step3-2.png)
+
+![Bounded contexts Open Source - Step 4](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step4.png)
+
+![Bounded contexts Open Source - Step 4 detail 1](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step4-1.png)
+
+![Bounded contexts Open Source - Step 4 detail 2](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step4-2.png)
+
+![Bounded contexts Open Source - Step 5](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step5.png)
+
+![Bounded contexts Open Source - Step 5 detail 1](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step5-1.png)
+
+![Bounded contexts Open Source - Step 5 detail 2](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step5-2.png)
+
+![Bounded contexts Open Source - Step 5 detail 3](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step5-3.png)
+
+![Bounded contexts Open Source - Step 6](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step6.png)
+
+![Bounded contexts Open Source - Step 6 detail](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step6-1.png)
+
+![Bounded contexts Open Source - Step 7](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step7.png)
+
+![Bounded contexts Open Source - Step 7 detail 1](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step7-1.png)
+
+![Bounded contexts Open Source - Step 7 detail 2](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step7-2.png)
+
+![Bounded contexts Open Source - Step 7 detail 3](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step7-3.png)
+
+![Bounded contexts Open Source - Step 9](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step9.png)
+
+![Bounded contexts Open Source - Step 9 detail 1](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step9-1.png)
+
+![Bounded contexts Open Source - Step 9 detail 2](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step9-2.png)
+
+![Bounded contexts Open Source - Step 9 detail 3](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step9-3.png)
+
+![Bounded contexts Open Source - Step 10](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step10.png)
+
+![Bounded contexts Open Source - Step 10 detail 1](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step10-1.png)
+
+![Bounded contexts Open Source - Step 10 detail 2](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step10-2.png)
+
+![Bounded contexts Open Source - Step 10 detail 3](../assets/images/chapter-4/architecture/ddd/open-source-bounded-contexts/step10-3.png)
+
 ## 4.6.2. Bounded Contexts
 
 | Contexto | Responsabilidad | Evidencia en `nexa-platform` | Consumidor principal |
@@ -36,6 +98,10 @@ Los puntos de control del dominio se concentran en autenticación y autorizació
 La WebApp mantiene una separación equivalente por capacidades: `iam`, `catalog`, `clients`, `ordering`, `inventory`, `dispatch`, `analytics`, `dashboard` y `portal`, además de `shared`. Cada capacidad separa `domain`, `application`, `infrastructure` y `presentation` cuando corresponde.
 
 ## 4.6.3. Software Architecture Context Diagram
+
+![C4 Context Diagram - Nexa](../assets/images/chapter-4/architecture/c4/c4-context-diagram.svg)
+
+![C4 Context Diagram Key](../assets/images/chapter-4/architecture/c4/c4-context-diagram-key.svg)
 
 ```mermaid
 flowchart LR
@@ -61,6 +127,10 @@ flowchart LR
 El Website presenta la propuesta de valor, dirige hacia la WebApp e integra YouTube como servicio externo de terceros para publicar los videos About-the-Product y About-the-Team. La WebApp ejecuta los flujos por rol y consume recursos relativos `api/v1/*`. El interceptor compartido compone esas rutas con `environment.apiBaseUrl`. Platform expone REST sobre HTTPS, valida JWT y persiste en PostgreSQL.
 
 ## 4.6.4. Software Architecture Container Diagram
+
+![C4 Container Diagram - Nexa](../assets/images/chapter-4/architecture/c4/c4-container-diagram.svg)
+
+![C4 Container Diagram Key](../assets/images/chapter-4/architecture/c4/c4-container-diagram-key.svg)
 
 | Contenedor | Tecnología real | Responsabilidad | Despliegue |
 |---|---|---|---|
@@ -90,6 +160,8 @@ flowchart TB
 ```
 
 ## 4.6.5. Software Architecture Component Diagram
+
+![C4 Component Diagram - Nexa](../assets/images/chapter-4/architecture/c4/c4-component-diagram.png)
 
 ```mermaid
 flowchart LR

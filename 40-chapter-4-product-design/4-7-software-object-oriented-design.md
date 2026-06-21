@@ -4,7 +4,15 @@ Esta sección representa el diseño orientado a objetos que existe en `nexa-plat
 
 ## 4.7.1. Class Diagrams
 
+### Consolidated Tactical Class Map
+
+![Consolidated DDD Tactical Map](../assets/images/chapter-4/architecture/class-diagrams/consolidated-ddd-tactical-map.png)
+
+El mapa táctico consolida los bounded contexts principales y sus relaciones de dominio, manteniendo trazabilidad con la WebApp, la Platform API y el diseño de base de datos.
+
 ### Identity and Access Management
+
+![Identity and Access Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-identity-access.png)
 
 ```mermaid
 classDiagram
@@ -26,6 +34,8 @@ classDiagram
 IAM concentra autenticación, usuarios, roles y emisión/validación de JWT. Spring Security actúa como adaptador técnico y no como lógica de dominio.
 
 ### Catalog and Promotions
+
+![Catalog Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-catalog.png)
 
 ```mermaid
 classDiagram
@@ -49,6 +59,8 @@ classDiagram
 
 ### Sales
 
+![Orders and Commercial Management Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-orders-commercial-management.png)
+
 ```mermaid
 classDiagram
     class Customer
@@ -69,6 +81,8 @@ classDiagram
 Sales diferencia clientes, órdenes e ítems. Los recursos de solicitudes de compra son proyecciones compatibles con la WebApp y no se presentan como aggregates inexistentes.
 
 ### Warehouse
+
+![Inventory Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-inventory.png)
 
 ```mermaid
 classDiagram
@@ -97,6 +111,8 @@ Warehouse modela existencias y movimientos con trazabilidad por lote. Las reglas
 
 ### Logistics
 
+![Dispatch and Traceability Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-dispatch-traceability.png)
+
 ```mermaid
 classDiagram
     class Shipment
@@ -119,6 +135,8 @@ classDiagram
 Logistics implementa envíos, rutas y checklist operativo. La WebApp presenta el seguimiento a partir del estado del envío y de recursos compatibles expuestos por Platform.
 
 ### Invoicing
+
+![Invoicing Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-invoicing.png)
 
 ```mermaid
 classDiagram

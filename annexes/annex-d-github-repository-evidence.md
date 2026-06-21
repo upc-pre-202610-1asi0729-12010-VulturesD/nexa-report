@@ -12,8 +12,8 @@
 
 | Repositorio | Release |
 |---|---|
-| Report | https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report/releases/tag/v4.0.2 |
-| Website | https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website/releases/tag/v4.0.1 |
+| Report | https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report/releases/tag/v3.0.0 |
+| Website | https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website/releases/tag/v3.0.0 |
 | WebApp | https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp/releases/tag/v2.0.1 |
 | Platform | https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform/releases/tag/v1.0.2 |
 

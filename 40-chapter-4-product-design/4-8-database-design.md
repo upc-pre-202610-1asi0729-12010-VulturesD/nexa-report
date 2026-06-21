@@ -218,6 +218,10 @@ Los read models consolidan información de los contextos principales para mejora
 
 El siguiente diagrama resume las entidades persistentes verificables en la implementación Spring Data JPA. El modelo detallado posterior conserva estructuras objetivo del dominio y debe interpretarse como diseño evolutivo, no como afirmación de que todas las tablas ya existen.
 
+![Full Database Diagram](../assets/images/chapter-4/database/full-database-diagram.png)
+
+> *Nota:* El diagrama completo de base de datos consolida las estructuras relacionales requeridas por los bounded contexts y las capacidades de soporte transversal. Elaboración propia.
+
 ```mermaid
 erDiagram
     USER_ACCOUNT }o--o{ ROLE : has
