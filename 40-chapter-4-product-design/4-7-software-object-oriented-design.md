@@ -14,46 +14,11 @@ El mapa táctico consolida los bounded contexts principales y sus relaciones de 
 
 ![Identity and Access Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-identity-access.png)
 
-```mermaid
-classDiagram
-    class UserAccount
-    class Role
-    class RoleName
-    class AuthService
-    class JwtService
-    class UserAccountRepositoryPort
-    class RoleRepositoryPort
-
-    UserAccount "*" --> "*" Role
-    Role --> RoleName
-    AuthService --> UserAccountRepositoryPort
-    AuthService --> RoleRepositoryPort
-    AuthService --> JwtService
-```
-
 IAM concentra autenticación, usuarios, roles y emisión/validación de JWT. Spring Security actúa como adaptador técnico y no como lógica de dominio.
 
 ### Catalog and Promotions
 
 ![Catalog Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-catalog.png)
-
-```mermaid
-classDiagram
-    class Product
-    class Category
-    class ColdChainRequirement
-    class Promotion
-    class CatalogService
-    class ProductRepositoryPort
-    class CategoryRepositoryPort
-    class PromotionRepository
-
-    Product "*" --> "1" Category
-    Product --> ColdChainRequirement
-    CatalogService --> ProductRepositoryPort
-    CatalogService --> CategoryRepositoryPort
-    Promotion --> PromotionRepository
-```
 
 `Product` y `Category` representan el catálogo real. `ColdChainRequirement` encapsula condiciones de conservación y `Promotion` pertenece a un contexto independiente para evitar mezclar reglas promocionales con persistencia del catálogo.
 
@@ -61,51 +26,11 @@ classDiagram
 
 ![Orders and Commercial Management Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-orders-commercial-management.png)
 
-```mermaid
-classDiagram
-    class Customer
-    class SalesOrder
-    class SalesOrderItem
-    class OrderStatus
-    class SalesService
-    class CustomerRepositoryPort
-    class SalesOrderRepositoryPort
-
-    Customer "1" --> "*" SalesOrder
-    SalesOrder "1" *-- "*" SalesOrderItem
-    SalesOrder --> OrderStatus
-    SalesService --> CustomerRepositoryPort
-    SalesService --> SalesOrderRepositoryPort
-```
-
 Sales diferencia clientes, órdenes e ítems. Los recursos de solicitudes de compra son proyecciones compatibles con la WebApp y no se presentan como aggregates inexistentes.
 
 ### Warehouse
 
 ![Inventory Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-inventory.png)
-
-```mermaid
-classDiagram
-    class Warehouse
-    class InventoryItem
-    class StockBatch
-    class InventoryMovement
-    class MovementType
-    class TemperatureBand
-    class WarehouseService
-    class WarehouseRepositoryPort
-    class InventoryItemRepositoryPort
-    class InventoryMovementRepositoryPort
-
-    Warehouse "1" --> "*" InventoryItem
-    InventoryItem "1" --> "*" StockBatch
-    InventoryItem "1" --> "*" InventoryMovement
-    InventoryMovement --> MovementType
-    StockBatch --> TemperatureBand
-    WarehouseService --> WarehouseRepositoryPort
-    WarehouseService --> InventoryItemRepositoryPort
-    WarehouseService --> InventoryMovementRepositoryPort
-```
 
 Warehouse modela existencias y movimientos con trazabilidad por lote. Las reglas FEFO se aplican sobre la información de `StockBatch`; no se documenta una clase `FEFOCriteria` porque no existe como tipo independiente en la implementación actual.
 
@@ -113,47 +38,11 @@ Warehouse modela existencias y movimientos con trazabilidad por lote. Las reglas
 
 ![Dispatch and Traceability Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-dispatch-traceability.png)
 
-```mermaid
-classDiagram
-    class Shipment
-    class ShipmentStatus
-    class DeliveryRoute
-    class DriverChecklist
-    class LogisticsService
-    class ShipmentRepositoryPort
-    class DeliveryRouteRepositoryPort
-    class DriverChecklistRepositoryPort
-
-    Shipment --> ShipmentStatus
-    Shipment "*" --> "1" DeliveryRoute
-    Shipment "1" --> "0..1" DriverChecklist
-    LogisticsService --> ShipmentRepositoryPort
-    LogisticsService --> DeliveryRouteRepositoryPort
-    LogisticsService --> DriverChecklistRepositoryPort
-```
-
 Logistics implementa envíos, rutas y checklist operativo. La WebApp presenta el seguimiento a partir del estado del envío y de recursos compatibles expuestos por Platform.
 
 ### Invoicing
 
 ![Invoicing Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-invoicing.png)
-
-```mermaid
-classDiagram
-    class Invoice
-    class InvoiceLine
-    class InvoiceStatus
-    class Payment
-    class InvoicingService
-    class InvoiceRepositoryPort
-    class PaymentRepositoryPort
-
-    Invoice "1" *-- "*" InvoiceLine
-    Invoice --> InvoiceStatus
-    Invoice "1" --> "*" Payment
-    InvoicingService --> InvoiceRepositoryPort
-    InvoicingService --> PaymentRepositoryPort
-```
 
 Invoicing gestiona facturas, líneas, pagos y documentos comerciales. Las respuestas REST se ensamblan en `interfaces/rest/transform`, evitando exponer directamente las entidades JPA.
 
