@@ -1,0 +1,17 @@
+
+# Local Evidence Folders
+reu screanshots/
+commits report/
+commits website/
+.DS_Store
+.idea/
+
+# PDF build output
+dist/
+
+# Local-only audit/reference files
+/project-rubric.pdf
+/platform release.png
+/webapp release.png
+/website release.png
+/software architect /
