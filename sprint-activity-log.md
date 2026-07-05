@@ -67,3 +67,4 @@
 * [2026-07-04T16:34:00-05:00] - Gerard Gianpier Rojas Mancilla (u202413142@upc.edu.pe): [feat(ch5)] add s2-07-dispatch-board.png (and 16 others) to ch5 structure
 * [2026-07-04T17:51:00-05:00] - Cesar Fernando Marin Cueva (cesarmarin2802@gmail.com): [refactor(ch5)] add github-pages-website-deployment.png (and 15 others) to ch5 structure
 * [2026-07-05T14:00:00-05:00] - Diego Sebastian Yucra Sandoval (diego64g284@gmail.com): [docs(ch5)] remove obsolete assets and update ch5 files
+* [2026-07-05T15:17:00-05:00] - Cesar Fernando Marin Cueva (cesarmarin2802@gmail.com): [refactor(ch5)] add design-level-step-5-command-submit-purchase-request.png (and 17 others) to ch5 structure
