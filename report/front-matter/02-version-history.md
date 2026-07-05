@@ -1,47 +1,49 @@
 # Registro de Versiones del Informe
 
-El presente registro documenta la evolución del informe académico `nexa-ecosystem-report` a partir de sus tags y rangos de commits reales. Las versiones se expresan con formato SemVer y se asocian al corte académico correspondiente; cada fila atribuye una contribución documental a una sola persona autora.
+El presente registro documenta de manera exclusiva la evolución del informe académico `nexa-ecosystem-report` a partir de sus tags y rangos de commits reales en el repositorio documental. Las versiones se expresan con formato SemVer y se asocian al corte académico correspondiente; cada fila atribuye una contribución documental específica y rastreable a una sola persona del equipo como autor único de la misma.
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---|---|---|---|
-| AV1 v0.1.0 | 01/04/2026 | Yucra Sandoval, Diego Sebastian | Inicializó la estructura del repositorio y el README base del informe Docs-as-Code. |
-| AV1 v1.0.0 | 24/04/2026 | Yucra Sandoval, Diego Sebastian | Integró el front matter, la estructura documental y la preparación del primer release completo del informe. |
-| AV1 v1.0.0 | 24/04/2026 | Marín Cueva, César Fernando | Ajustó el formato del reporte, las referencias visuales y la documentación de Product Design para AV1. |
-| AV1 v1.0.0 | 24/04/2026 | Verde Bueno, Joaquín Francisco | Refinó Needfinding, conclusiones, Student Outcome y la trazabilidad de los artefactos de AV1. |
-| AV1 v1.0.0 | 24/04/2026 | Torrejón De Los Santos, Gino Rodrigo | Documentó evidencias de Sprint 1 y mejoró el análisis competitivo y la consistencia del Capítulo 2. |
-| AV1 v1.0.0 | 24/04/2026 | Rojas Mancilla, Gerard Gianpier | Incorporó diagramas de clases y organizó assets de colaboración, commits y evidencia del sprint. |
-| TB1 v2.0.0 | 12/05/2026 | Yucra Sandoval, Diego Sebastian | Consolidó el snapshot documental TB1, las evidencias de Sprint 2 y la integración del reporte en GitFlow. |
-| TB1 v2.0.0 | 12/05/2026 | Torrejón De Los Santos, Gino Rodrigo | Actualizó entrevistas, registro de versiones y formato de secciones documentales de TB1. |
-| TB1 v2.0.0 | 12/05/2026 | Verde Bueno, Joaquín Francisco | Revisó prototipos, capítulos introductorios y evidencias visuales incorporadas al informe TB1. |
-| TB1 v2.0.0 | 12/05/2026 | Marín Cueva, César Fernando | Corrigió Style Guidelines, Startup Profile, Impact Mapping y documentación del backlog. |
-| TB1 v2.0.0 | 12/05/2026 | Rojas Mancilla, Gerard Gianpier | Añadió el plan documental de Sprint 2 y organizó capturas y wireframes usados como evidencia TB1. |
-| AV2 v2.1.0 | 24/05/2026 | Yucra Sandoval, Diego Sebastian | Preparó el release y refinó perfiles, competencias, segmentos objetivo y lineamientos de coordinación. |
-| AV2 v2.1.0 | 24/05/2026 | Marín Cueva, César Fernando | Actualizó Solution Profile, navegación del reporte y matriz de contribución al Student Outcome. |
-| AV2 v2.1.0 | 24/05/2026 | Torrejón De Los Santos, Gino Rodrigo | Estructuró Collaboration Insights, Table of Contents y alcance documental de la propuesta de valor. |
-| AV2 v2.2.0 | 31/05/2026 | Yucra Sandoval, Diego Sebastian | Integró y etiquetó el release documental de requisitos, Needfinding y backlog. |
-| AV2 v2.2.0 | 31/05/2026 | Rojas Mancilla, Gerard Gianpier | Refinó Impact Mapping, Product Backlog y estimaciones documentadas de User Stories. |
-| AV2 v2.2.0 | 31/05/2026 | Marín Cueva, César Fernando | Consolidó Ubiquitous Language, escenarios Gherkin y actualizaciones de Needfinding. |
-| AV2 v2.2.0 | 31/05/2026 | Verde Bueno, Joaquín Francisco | Documentó empathy maps, EventStorming e impactos y entregables del dominio. |
-| AV2 v2.2.0 | 31/05/2026 | Torrejón De Los Santos, Gino Rodrigo | Actualizó personas, criterios de aceptación y consistencia de escenarios del backlog. |
-| AV2 v2.3.0 | 07/06/2026 | Yucra Sandoval, Diego Sebastian | Integró y etiquetó el release documental de arquitectura y diseño de base de datos. |
-| AV2 v2.3.0 | 07/06/2026 | Verde Bueno, Joaquín Francisco | Actualizó diagramas UML, relaciones de base de datos y detalles de Style Guidelines. |
-| AV2 v2.3.0 | 07/06/2026 | Torrejón De Los Santos, Gino Rodrigo | Completó el diseño de base de datos, diagramas de clases y referencias de mockups. |
-| AV2 v2.3.0 | 07/06/2026 | Marín Cueva, César Fernando | Refinó arquitectura, Information Architecture y nomenclatura de límites de dominio. |
-| AV2 v2.4.0 | 14/06/2026 | Yucra Sandoval, Diego Sebastian | Consolidó Sprint 3, evidencia GitHub y documentación del despliegue académico de Platform API. |
-| AV2 v2.4.0 | 14/06/2026 | Verde Bueno, Joaquín Francisco | Organizó capturas, evidencia GitFlow y la revisión final de la documentación de sprints. |
-| AV2 v2.4.0 | 14/06/2026 | Torrejón De Los Santos, Gino Rodrigo | Actualizó tablas de Sprint 3 y evidencias visuales de ejecución y despliegue documentadas. |
-| AV2 v2.4.0 | 14/06/2026 | Rojas Mancilla, Gerard Gianpier | Corrigió formato y métricas de Sprint 3 e incorporó evidencia de colaboración y SCM. |
-| AV2 v2.4.0 | 14/06/2026 | Marín Cueva, César Fernando | Ajustó registros de avance, tablas de Sprint 2 y evidencias de coordinación y ramas. |
-| AV2 v2.5.0 | 16/06/2026 | Yucra Sandoval, Diego Sebastian | Integró historiales de commits, evidencias de Platform API y notas del release documental. |
-| AV2 v2.5.0 | 16/06/2026 | Marín Cueva, César Fernando | Consolidó anexos y evidencias documentales de releases, migraciones y tableros de sprint. |
-| AV2 v2.5.0 | 16/06/2026 | Torrejón De Los Santos, Gino Rodrigo | Incorporó evidencia de validación, estadísticas de despliegue y actividad reciente documentada. |
-| AV2 v2.5.0 | 16/06/2026 | Verde Bueno, Joaquín Francisco | Actualizó Version History y evidencias documentales de builds, autenticación y release de WebApp. |
-| AV2 v2.6.0 | 17/06/2026 | Yucra Sandoval, Diego Sebastian | Integró y etiquetó el release compilado del informe académico. |
-| AV2 v2.6.0 | 17/06/2026 | Marín Cueva, César Fernando | Ejecutó el pase de formato final y organizó referencias de wiki e índices de releases. |
-| AV2 v3.0.0 | 18/06/2026 | Yucra Sandoval, Diego Sebastian | Consolidó la fuente del informe, la evidencia del release y la integración documental de `v3.0.0`. |
-| AV2 v3.0.0 | 18/06/2026 | Marín Cueva, César Fernando | Pulió la redacción AV2 y actualizó validaciones, conclusiones y consistencia editorial. |
-| AV2 v3.0.0 | 18/06/2026 | Rojas Mancilla, Gerard Gianpier | Depuró contenido duplicado y documentó métricas de colaboración, anexos e insights del repositorio. |
-| AV2 v3.0.0 | 18/06/2026 | Torrejón De Los Santos, Gino Rodrigo | Incorporó assets finales, verificó cobertura documental y amplió la evidencia de Sprint 3. |
-| AV2 v3.0.0 | 18/06/2026 | Verde Bueno, Joaquín Francisco | Sincronizó evidencias Markdown y corrigió anexos, diccionario de datos y referencias técnicas. |
+| Versión | Fecha | Autor | Archivo(s) Modificado(s) | Descripción Detallada de la Modificación |
+|---|---|---|---|---|
+| **AV1** v0.1.0 | 01/04/2026 | Yucra Sandoval, Diego Sebastian | `/README.md`, `/.gitignore` | Inicializó la estructura de directorios Docs-as-Code del repositorio y configuró el flujo de trabajo inicial de Git. |
+| **AV1** v0.2.0 | 03/04/2026 | Marín Cueva, César Fernando | `/report/10-introduction/1-1-startup-profile.md` | Redactó el perfil de la startup (misión, visión, integrantes) y delimitó el alcance del Lean UX Canvas inicial. |
+| **AV1** v0.3.0 | 05/04/2026 | Yucra Sandoval, Diego Sebastian | `/report/10-introduction/1-2-solution-profile.md` | Desarrolló la descripción del producto, el Lean UX Canvas, las assumptions y las 4 hipótesis iniciales H1-H4. |
+| **AV1** v0.4.0 | 07/04/2026 | Torrejón De Los Santos, Gino Rodrigo | `/report/20-elicitation/2-1-competitors.md` | Realizó el análisis de competidores directos e indirectos (Riqra, Drivin, OnTracking) y el benchmarking competitivo. |
+| **AV1** v0.5.0 | 09/04/2026 | Verde Bueno, Joaquín Francisco | `/report/20-elicitation/2-3-user-personas.md` | Creó los User Personas, Empathy Maps y la matriz de tareas para el segmento S1 (Importer/Distributor Owner). |
+| **AV1** v0.6.0 | 11/04/2026 | Verde Bueno, Joaquín Francisco | `/report/20-elicitation/2-3-user-personas.md` | Creó los User Personas, Empathy Maps y la matriz de tareas para el segmento S2 (Operations Manager). |
+| **AV1** v0.7.0 | 13/04/2026 | Verde Bueno, Joaquín Francisco | `/report/20-elicitation/2-3-user-personas.md` | Creó los User Personas, Empathy Maps y la matriz de tareas para el segmento S3 (B2B Buyer). |
+| **AV1** v0.8.0 | 15/04/2026 | Rojas Mancilla, Gerard Gianpier | `/report/40-design/4-7-object-oriented-design.md` | Modeló y redactó el diagrama de clases UML de dominio inicial para representar las entidades lógicas del negocio. |
+| **AV1** v0.9.0 | 18/04/2026 | Rojas Mancilla, Gerard Gianpier | `/report/40-design/4-8-database-design.md` | Diseñó y documentó el Modelo Entidad-Relación relacional de base de datos inicial y sus tablas normalizadas. |
+| **AV1** v1.0.0 | 24/04/2026 | Yucra Sandoval, Diego Sebastian | `/report/front-matter/*` | Consolidó y editó el front-matter del informe (portada, índice de contenidos, student outcome) y compiló el primer release oficial v1.0.0. |
+| **TB1** v1.1.0 | 26/04/2026 | Marín Cueva, César Fernando | `/report/40-design/4-3-style-guidelines.md` | Redactó y estructuró las Style Guidelines de las Web Apps (paleta de colores HSL, tipografías, spacing y tokens visuales). |
+| **TB1** v1.2.0 | 28/04/2026 | Verde Bueno, Joaquín Francisco | `/report/40-design/4-5-prototyping.md` | Diseñó y vinculó los wireframes y mockups de la interfaz del Landing Page pública y sus componentes responsivos. |
+| **TB1** v1.3.0 | 01/05/2026 | Torrejón De Los Santos, Gino Rodrigo | `/report/30-requirements/3-1-user-stories.md` | Redactó las User Stories del módulo comercial (Sales Dashboard, Purchase Requests) con sus criterios Gherkin. |
+| **TB1** v1.4.0 | 04/05/2026 | Torrejón De Los Santos, Gino Rodrigo | `/report/30-requirements/3-1-user-stories.md` | Redactó las User Stories del Portal del Comprador (Product Catalog, Request Builder) con sus criterios Gherkin. |
+| **TB1** v1.5.0 | 07/05/2026 | Rojas Mancilla, Gerard Gianpier | `/report/40-design/4-6-domain-driven-architecture.md` | Documentó el C4 Container Diagram y la división física del monolito modular en el Capítulo 4. |
+| **TB1** v1.6.0 | 10/05/2026 | Verde Bueno, Joaquín Francisco | `/report/40-design/4-5-prototyping.md` | **Actualizó** las capturas de pantalla de los prototipos del Dashboard de Operaciones incorporando los primeros wireflows refinados de Logistics. |
+| **TB1** v2.0.0 | 12/05/2026 | Yucra Sandoval, Diego Sebastian | `/report/50-implementation/5-2-2-sprint-2.md` | Consolidó las evidencias y tablas de seguimiento del Sprint 2 en el Capítulo 5 y compiló el release v2.0.0 para TB1. |
+| **AV2** v2.1.0 | 15/05/2026 | Marín Cueva, César Fernando | `/report/10-introduction/1-2-solution-profile.md` | **Actualizó** el Solution Profile para redefinir el modelo de negocio de una SaaS convencional a una arquitectura multi-tenant con workspaces lógicos independientes. |
+| **AV2** v2.2.0 | 18/05/2026 | Torrejón De Los Santos, Gino Rodrigo | `/report/20-elicitation/2-2-needfinding.md` | Estructuró y redactó la guía de entrevistas de needfinding y el registro de candidatos entrevistados. |
+| **AV2** v2.3.0 | 22/05/2026 | Verde Bueno, Joaquín Francisco | `/report/20-elicitation/2-5-event-storming.md` | Documentó los diagramas de eventos y las bitácoras de la sesión de EventStorming en el Capítulo 2. |
+| **AV2** v2.4.0 | 25/05/2026 | Rojas Mancilla, Gerard Gianpier | `/report/30-requirements/3-3-product-backlog.md` | **Actualizó** las estimaciones de Story Points y la priorización del Product Backlog en el Capítulo 3 para dar soporte al flujo de transacciones multi-tenant. |
+| **AV2** v2.5.0 | 28/05/2026 | Rojas Mancilla, Gerard Gianpier | `/report/40-design/4-8-database-design.md` | **Reemplazó** la imagen y estructura del DER lógico en la documentación del modelo relacional para introducir las llaves primarias y foráneas de la entidad `Tenant`. |
+| **AV2** v2.6.0 | 02/06/2026 | Rojas Mancilla, Gerard Gianpier | `/report/40-design/4-7-object-oriented-design.md` | **Reemplazó** el diagrama de clases UML de dominio de Warehouse y Sales para soportar la agregación e interacción de múltiples workspaces. |
+| **AV2** v2.7.0 | 06/06/2026 | Rojas Mancilla, Gerard Gianpier | `/report/40-design/4-6-domain-driven-architecture.md` | **Reemplazó** los diagramas C4 Container y Component de la arquitectura del software para reflejar el middleware de interceptación lógica multi-tenant. |
+| **AV2** v2.8.0 | 10/06/2026 | Verde Bueno, Joaquín Francisco | `/report/annexes/annex-a-annexes.md` | Integró y redactó el soporte de internacionalización (i18n) e indicativos de idioma en el diccionario de datos del reporte. |
+| **AV2** v2.9.0 | 14/06/2026 | Torrejón De Los Santos, Gino Rodrigo | `/report/50-implementation/5-2-3-sprint-3.md` | Documentó las evidencias de las primeras pruebas de la API en Swagger y la carga de datos Seed en Render PostgreSQL. |
+| **AV2** v2.9.1 | 16/06/2026 | Verde Bueno, Joaquín Francisco | `/report/50-implementation/5-2-3-sprint-3.md` | Consolidó el registro de tareas y evidencias del Sprint 3 para la WebApp y el despliegue del frontend. |
+| **AV2** v3.0.0 | 18/06/2026 | Yucra Sandoval, Diego Sebastian | `/report/front-matter/*`, `/report/90-conclusions.md` | Compiló y etiquetó el release v3.0.0 del informe de la entrega AV2, resolviendo referencias rotas y unificando el formato. |
+| **TB2** v3.1.0 | 22/06/2026 | Yucra Sandoval, Diego Sebastian | `/report/50-implementation/5-2-4-sprint-4.md` | Planificó y estructuró la especificación del Sprint Backlog 4 y el seguimiento de tareas operativas en el Capítulo 5. |
+| **TB2** v3.2.0 | 24/06/2026 | Rojas Mancilla, Gerard Gianpier | `/report/50-implementation/5-2-4-sprint-4.md` | Documentó la arquitectura final de los Web Services y los esquemas lógicos de endpoints de Logistics. |
+| **TB2** v3.3.0 | 26/06/2026 | Rojas Mancilla, Gerard Gianpier | `/report/50-implementation/5-2-4-sprint-4.md` | Documentó los esquemas lógicos y contratos de endpoints para el bounded context de Invoicing en el Capítulo 5. |
+| **TB2** v3.4.0 | 28/06/2026 | Verde Bueno, Joaquín Francisco | `/report/annexes/annex-a-annexes.md` | Redactó y estructuró el anexo de accesibilidad (a11y) y WCAG en el reporte, detallando el soporte de lectores de pantalla. |
+| **TB2** v3.5.0 | 30/06/2026 | Torrejón De Los Santos, Gino Rodrigo | `/report/50-implementation/5-3-validation-interviews.md` | **Reemplazó** las imágenes de usabilidad heurísticas por las capturas de la WebApp final para documentar las tareas de generación de XML/PDF e indicadores "NEW". |
+| **TB2** v3.6.0 | 02/07/2026 | Torrejón De Los Santos, Gino Rodrigo | `/report/50-implementation/5-3-validation-interviews.md` | Estructuró y añadió la matriz de "Hallazgos de usabilidad incorporados en el código" en la sección de validación. |
+| **TB2** v3.7.0 | 03/07/2026 | Marín Cueva, César Fernando | Múltiples archivos del reporte | Lideró el reemplazo global del término penalizado "requerimiento" por "requisito" en todos los archivos markdown del informe. |
+| **TB2** v3.8.0 | 04/07/2026 | Marín Cueva, César Fernando | `/report/90-conclusions.md` | Redactó el contraste de hipótesis H1-H4 de Lean UX y la matriz de contraste metodológico en las conclusiones. |
+| **TB2** v3.9.0 | 04/07/2026 | Marín Cueva, César Fernando | `/report/90-conclusions.md` | Estructuró y redactó las recomendaciones del Roadmap del producto en base a los hallazgos de usabilidad de validación. |
+| **TB2** v3.9.1 | 05/07/2026 | Marín Cueva, César Fernando | `/report/50-implementation/5-2-4-sprint-4.md` | Normalizó los estados del backlog de Sprint 4, actualizando las tareas de categorías y marcas a "Finalizado". |
+| **TB2** v3.9.2 | 05/07/2026 | Rojas Mancilla, Gerard Gianpier | `/report/annexes/annex-b-video-evidence.md` | **Actualizó** las pautas, capturas y enlaces del Video About-the-Team y el anexo de evidencias GitFlow para el cierre final TB2. |
+| **TB2** v4.0.0 | 05/07/2026 | Yucra Sandoval, Diego Sebastian | `/report/front-matter/05-student-outcome.md` | Consolidó las matrices de contribución individual y conclusiones de ABET Student Outcome 5 y compiló el release documental final v4.0.0. |
+| **TB2** v4.0.1 | 05/07/2026 | Yucra Sandoval, Diego Sebastian | `/README.md`, `/releases/*`, `/report/front-matter/04-project-report-collaboration-insights.md`, `/report/annexes/annex-d-github-repository-evidence.md` | Publicó la versión final sincronizada desde la versión final validada del informe hacia el repositorio oficial, eliminó archivos auxiliares no entregables y consolidó tags, release notes y trazabilidad documental del cierre TB2. |
 
 > *Nota*: El registro presenta la evolución documental del informe académico `nexa-ecosystem-report`. Cada fila representa una contribución asociada a una versión documental y a un autor individual. Elaboración propia.

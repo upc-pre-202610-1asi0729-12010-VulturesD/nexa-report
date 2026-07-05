@@ -263,7 +263,7 @@ Este segmento utiliza herramientas cotidianas y demanda soluciones que garantice
 | Control centralizado de usuarios. | Debe contar con una vista administrativa para invitar, editar o revocar accesos. |
 | Necesidad de configuración flexible. | El sistema debe permitir parametrizar límites crediticios y datos de facturación de la distribuidora. |
 
-> *Nota:* Relaciona los requerimientos tecnológicos logísticos y administrativos con el diseño del workspace en Nexa. Elaboración propia.
+> *Nota:* Relaciona los requisitos tecnológicos logísticos y administrativos con el diseño del workspace en Nexa. Elaboración propia.
 
 ##### Plano de valor esperado de S2 — Operations / Account Owner
 

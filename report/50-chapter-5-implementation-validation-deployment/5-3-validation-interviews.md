@@ -1,6 +1,6 @@
 ## 5.3. Validation Interviews
 
-Las Validation Interviews de TB2 tienen como propósito comprobar si los participantes de los segmentos formales de Nexa comprenden la propuesta de valor, encuentran las funciones relevantes y pueden recorrer las tareas principales sin asistencia innecesaria. El diseño considera **S1 — Commercial Coordination**, **S2 — Operations / Account Owner** y **S3 — B2B Buyer Portal**.
+Las Validation Interviews de TB2 tienen como propósito comprobar si los participantes de los segmentos formales de Nexa comprenden la propuesta de valor, encuentran las funciones relevantes y pueden recorrer las tareas principales sin asistencia innecesaria. El diseño considera **Segmento 1 — Commercial Coordination**, **Segmento 2 — Operations / Account Owner** y **Segmento 3 — B2B Buyer Portal**.
 
 Cada sesión combina la Landing Page con las vistas de WebApp pertinentes para el segmento. La observación se organiza desde tres dimensiones: **Usability**, **Information Architecture** e **Inclusive Design**.
 
@@ -12,7 +12,7 @@ Los resultados solo se incorporarán cuando exista evidencia real de la sesión:
 
 1. **Presentación.** Presentar al equipo y explicar que se evalúa el producto, no el desempeño del participante.
 2. **Consentimiento.** Solicitar autorización expresa para grabar pantalla, voz e imagen y para usar la evidencia con fines académicos.
-3. **Datos del participante.** Registrar nombres y apellidos, edad, distrito, actividad relacionada y segmento S1, S2 o S3.
+3. **Datos del participante.** Registrar nombres y apellidos, edad, distrito, actividad relacionada y segmento 1, 2 o 3.
 4. **Contexto neutral.** Describir Nexa brevemente sin indicar dónde están los controles ni adelantar la respuesta esperada.
 5. **Pensar en voz alta.** Pedir al participante que verbalice qué espera, qué entiende, qué busca y qué le genera dudas.
 6. **Ejecución de tareas.** Leer una tarea a la vez. Evitar guiar; si se brinda ayuda, registrar qué ayuda fue necesaria y en qué timing.
@@ -44,7 +44,7 @@ Las heurísticas de Nielsen complementan estas dimensiones:
 | 9 | Reconocer, diagnosticar y recuperarse de errores | Observar si los mensajes explican qué ocurrió y cómo continuar. |
 | 10 | Ayuda y documentación | Identificar cuándo el participante necesita orientación adicional. |
 
-#### Diseño de entrevista S1: Commercial Coordination
+#### Diseño de entrevista Segmento 1: Commercial Coordination
 
 **Objetivo de la sesión.** Validar si una persona vinculada a coordinación comercial comprende la propuesta de Nexa y puede reconocer el recorrido desde una solicitud B2B hasta su revisión, formalización y consulta documental.
 
@@ -92,7 +92,7 @@ Las heurísticas de Nielsen complementan estas dimensiones:
 
 **Riesgos de sobrepromesa.** No afirmar validación automática externa de RUC o crédito, envío integrado de correo, disponibilidad garantizada, documentos tributarios oficiales ni integraciones externas no comprobadas.
 
-#### Diseño de entrevista S2: Operations / Account Owner
+#### Diseño de entrevista Segmento 2: Operations / Account Owner
 
 S2 es un único segmento formal. Para cubrir responsabilidades distintas, cada participante seguirá la variante más cercana a su experiencia: **S2-A — Account Owner / Tenant Management** o **S2-B — Logistics / Operations**. Las variantes no crean un cuarto segmento ni aumentan la meta de participantes: el total requerido sigue siendo de 3 a 5 entrevistas para S2.
 
@@ -147,7 +147,7 @@ Estas pantallas se evalúan principalmente por comprensión, visibilidad y arqui
 
 **Riesgos de sobrepromesa de S2.** No afirmar persistencia administrativa completa, suscripciones o cobros ejecutados, automatización FEFO total, telemetría automática, ubicación GPS, firma biométrica, carga real de evidencia ni documentos tributarios oficiales. Los registros de temperatura, incidencias y POD se presentan según lo visible y previamente probado.
 
-#### Diseño de entrevista S3: B2B Buyer Portal
+#### Diseño de entrevista Segmento 3: B2B Buyer Portal
 
 **Objetivo de la sesión.** Validar si un comprador comprende el catálogo, puede preparar una solicitud, distingue solicitud de orden y encuentra el seguimiento, documentos y datos administrativos disponibles.
 
@@ -202,7 +202,7 @@ Estas pantallas se evalúan principalmente por comprensión, visibilidad y arqui
 
 ### 5.3.2. Registro de Entrevistas
 
-Para TB2 se deben realizar y documentar entre 3 y 5 entrevistas por cada segmento formal: S1, S2 y S3. Las variantes S2-A y S2-B se distribuyen dentro del total de S2 según el perfil de los participantes. No se crearán registros hasta contar con la sesión y su evidencia.
+Para TB2 se deben realizar y documentar entre 3 y 5 entrevistas por cada segmento formal: Segmento 1, Segmento 2 y Segmento 3. Las variantes S2-A y S2-B se distribuyen dentro del total de S2 según el perfil de los participantes. No se crearán registros hasta contar con la sesión y su evidencia.
 
 #### Antecedente de validación AV2 conservado
 
@@ -210,7 +210,7 @@ La entrevista de Alonso Alcántara se conserva como antecedente S3. No se contab
 
 | Código | Nombres y apellidos | Edad | Distrito | Segmento | Screenshot del video | URL Microsoft Stream | Timing de inicio | Duración | Fecha | Resumen verificable | Hallazgos vinculados |
 |---|---|---:|---|---|---|---|---|---|---|---|---|
-| VI-S3-01-AV2 | Alonso Alcántara Cerdán | 19 | San Isidro | S3 | ![Alonso](../assets/images/chapter-5/interviews/alonso-alcantara.png) | https://cutt.ly/Lt5fHbn4 | 0:00 | 3:43 | No registrada en la evidencia actual | Se mostró la aplicación a un hijo de un importador en el distrito de San Isidro. | Dificultad para identificar un retorno directo al catálogo durante el trámite de solicitud sin perder el avance; antecedente a revalidar en TB2. |
+| VI-S3-01-AV2 | Alonso Alcántara Cerdán | 19 | San Isidro | 3 | ![Alonso](../assets/images/chapter-5/interviews/alonso-alcantara.png) | https://cutt.ly/Lt5fHbn4 | 0:00 | 3:43 | No registrada en la evidencia actual | Se mostró la aplicación a un hijo de un importador en el distrito de San Isidro. | Dificultad para identificar un retorno directo al catálogo durante el trámite de solicitud sin perder el avance; antecedente a revalidar en TB2. |
 
 > *Nota:* La captura y el enlace se mantienen como evidencia AV2. Antes del cierre TB2 debe verificarse que la URL continúe accesible y registrarse el timing exacto del hallazgo si puede recuperarse del video.
 
@@ -219,27 +219,13 @@ Se realizaron entrevistas con usuarios de los segmentos definidos, documentando 
 
 | Código | Nombres y apellidos | Edad | Distrito | Segmento | Screenshot del video| URL Microsoft Stream | Timing de inicio | Duración | Fecha | Resumen Verificable | Hallazgos Vinculados |
 |:---|:---|:---:|:---|:---:|:---:|:---|:---:|:---:|:---:|:---|:---|
-| VI-S1-01 | Jessica Sandoval | 38 | San Isidro | S1 | ![Img](../assets/images/chapter-5/interviews/Entrevista1.png) | [Link](URL_AQUÍ) | 0:00 | 21:59 | 03/07/26 | Se evaluó el flujo de facturación y gestión de órdenes con la Jefa de Ventas y Logística, quien realizó pruebas de navegación administrativa. | El sistema no permite generar ni descargar comprobantes en formatos estándar (XML/PDF), ni realizar búsquedas rápidas mediante filtros. |
-| VI-S3-01 | Alonso Alcántara | 19 | San Isidro | S3 | ![Img](../assets/images/chapter-5/interviews/Entrevista2.png) | [Link](https://cutt.ly/Lt5fHbn) | 21:59 | 11:37 | 05/07/26 | Se mostró la aplicación a un hijo de un importador (Buyer) para validar el flujo de solicitud y navegación por el portal B2B.| Dificultad para identificar un retorno directo al catálogo durante el trámite de solicitud sin perder el avance; antecedente a revalidar en TB2. |
-| VI-S2-01 | Enzo Pardo | 23 | Barranco | S2 | ![Img](../assets/images/chapter-5/interviews/Entrevista3.png) | [Link](URL_AQUÍ) | 33:56 | 19:15 | 04/07/26 | Se evaluó el dashboard de órdenes con el Owner de Operaciones, observando su interacción con el listado de nuevos pedidos. | Ausencia de un distintivo visual para órdenes nuevas y falta de herramientas de filtrado ágil en los listados. |
-| VI-S3-02 | Juan S. Artiaga | 20 | San Isidro | S3 | ![Img](../assets/images/chapter-5/interviews/Entrevista4.png) | [Link](URL_AQUÍ) | 53:11 | 16:30 | 02/07/26 | Se analizó el flujo de facturación (billing) con el usuario, quien exploró las vistas de estado de cuenta y consulta de créditos. | Inexistencia de un indicador visual para el crédito disponible, obligando al usuario a realizar cálculos manuales. |
+| VI-S1-01 | Enzo Pardo | 23 | Barranco | 1 | ![Img](../assets/images/chapter-5/interviews/Entrevista3.png) | https://cutt.ly/2t6442k8 | 33:56 | 19:15 | 04/07/26 | Evaluación del dashboard de órdenes y herramientas administrativas con el Coordinador Comercial. | El sistema no permite generar ni descargar comprobantes (XML/PDF) y carece de filtros rápidos. |
+| VI-S2-01 | Jessica Sandoval | 38 | San Isidro | 2 | ![Img](../assets/images/chapter-5/interviews/Entrevista1.png) | https://cutt.ly/2t6442k8 | 0:00 | 21:59 | 03/07/26 | Evaluación de la gestión operativa de órdenes y facturación con la Jefa de Ventas y Logística. | Dificultad para gestionar eficientemente el listado de órdenes debido a la falta de herramientas de búsqueda. |
+| VI-S2-02 | Jose Perez | 21 | Miraflores | 2 | ![Img](../assets/images/chapter-5/interviews/Entrevista5.png) | https://cutt.ly/2t6442k8 | 1:09:41 | 24:19 | 05/07/26 | Sesión de validación del módulo de operaciones; flujo completado exitosamente. | Sesión de navegación exitosa; no se reportaron problemas críticos de usabilidad. |
+| VI-S3-01 | Alonso Alcántara | 19 | San Isidro | 3 | ![Img](../assets/images/chapter-5/interviews/Entrevista2.png) | https://cutt.ly/2t6442k8 | 21:59 | 11:37 | 05/07/26 | Validación del flujo de solicitud y navegación por el portal B2B para el comprador. | Las órdenes nuevas no cuentan con un distintivo visual ("New") que facilite su identificación rápida. |
+| VI-S3-02 | Juan S. Artiaga | 20 | San Isidro | 3 | ![Img](../assets/images/chapter-5/interviews/Entrevista4.png) | https://cutt.ly/2t6442k8 | 53:11 | 16:30 | 02/07/26 | Análisis del flujo de facturación y consulta de estados de cuenta con el usuario. | Falta de una vista informativa sobre el crédito disponible en la sección de facturación (billing). |
 
 *Nota: Se han verificado los consentimientos de grabación para cada participante.*
-
-
-#### Campos que deben registrarse para cada entrevista TB2
-
-- [ ] Código único relacionado con S1, S2 o S3.
-- [ ] Nombres y apellidos.
-- [ ] Edad y distrito.
-- [ ] Segmento y, para S2, variante aplicada.
-- [ ] Screenshot de la sesión con ruta incorporada al reporte.
-- [ ] URL de Microsoft Stream accesible.
-- [ ] Timing de inicio y timings de hallazgos relevantes.
-- [ ] Duración y fecha de la entrevista.
-- [ ] Resumen basado en conductas y comentarios observados.
-- [ ] Hallazgos vinculados con dimensión, evidencia y tarea.
-- [ ] Consentimiento de grabación registrado por el equipo.
 
 ### 5.3.3. Evaluaciones según heurísticas
 
@@ -251,7 +237,7 @@ Se realizaron entrevistas con usuarios de los segmentos definidos, documentando 
 * **SECCIÓN:** 12242
 * **PROFESORES:** Angel Augusto Velasquez Nuñez
 * **AUDITOR:** King
-* **CLIENTE(S):** Juan Sebastian, Jessica Sandobal, Jose Perez, Enzo Pardo
+* **CLIENTE(S):** Juan Sebastian Artiaga, Jessica Sandoval, Enzo Pardo, Alonso Alcántara
 
 ---
 
@@ -286,7 +272,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 **Heurística violada:** Usabilidad - Relación entre el sistema y el mundo real
 
 **Problema:**
-Actualmente, el sistema no permite la generación ni exportación de documentos fundamentales para los usuarios, como las guías y facturas en formatos estándar (XML y PDF). Esto genera frustración y viola esta heurística, ya que la aplicación no está utilizando los conceptos y convenciones que resultan familiares para el usuario en su día a día administrativo y contable. 
+Actualmente, el sistema no permite la generación ni exportación de documentos fundamentales para los usuarios, como las guías y facturas en formatos estándar (XML y PDF). Esto genera frustración y viola esta heurística, ya que la aplicación no está utilizando los conceptos y convenciones que resultan familiares para el usuario en su día a día administrativo y contable.
 
 ![Figura 1 - Vista de facturas sin opción de descarga XML/PDF](../assets/images/chapter-5/interviews/Fig1.png)
 
@@ -299,7 +285,7 @@ Implementar botones de acción claros en la vista de detalle de cada guía y fac
 **Heurística violada:** Usabilidad - Visibilidad del estado del sistema
 
 **Problema:**
-Cuando se genera una orden nueva, la tarjeta (card) correspondiente que aparece en el listado no posee ningún anuncio o etiqueta que la destaque del resto. Al no informar al usuario sobre lo que está ocurriendo (el ingreso de un nuevo registro) de manera visible y rápida, se incrementa la carga cognitiva, obligándolo a leer fechas y detalles manualmente. 
+Cuando se genera una orden nueva, la tarjeta (card) correspondiente que aparece en el listado no posee ningún anuncio o etiqueta que la destaque del resto. Al no informar al usuario sobre lo que está ocurriendo (el ingreso de un nuevo registro) de manera visible y rápida, se incrementa la carga cognitiva, obligándolo a leer fechas y detalles manualmente.
 
 ![Figura 2 - Listado de cards de órdenes sin etiqueta New](../assets/images/chapter-5/interviews/Fig2.png)
 
@@ -312,7 +298,7 @@ Incorporar un componente visual tipo "badge" o etiqueta con el texto "NEW" o "NU
 **Heurística violada:** Usabilidad - Reconocer antes que recordar / Visibilidad del estado del sistema
 
 **Problema:**
-Durante el análisis de las entrevistas a Juan Sebastian, Jessica Sandobal y Jose Perez, los usuarios indicaron que en la sección de facturación (billing) el sistema no les muestra cuánto crédito tienen. Esto obliga al usuario a tratar de recordar o calcular su saldo, sobrecargando su memoria y dificultando la toma de decisiones al momento de usar sus créditos. 
+Durante el análisis de las entrevistas a Juan Sebastian Artiaga y Jessica Sandoval, los usuarios indicaron que en la sección de facturación (billing) el sistema no les muestra cuánto crédito tienen. Esto obliga al usuario a tratar de recordar o calcular su saldo, sobrecargando su memoria y dificultando la toma de decisiones al momento de usar sus créditos.
 
 ![Figura 3 - Sección de billing sin saldo visible](../assets/images/chapter-5/interviews/Fig3.png)
 
@@ -325,11 +311,27 @@ Hacer visible esta información clave diseñando e integrando un panel o indicad
 **Heurística violada:** Usabilidad - Flexibilidad y eficiencia en el uso
 
 **Problema:**
-De acuerdo con las entrevistas (como la de Enzo Pardo), el sistema carece de opciones de filtros rápidos en las vistas de órdenes de compra y generación de documentos. La falta de estos "atajos" obliga a los usuarios a navegar y buscar registros de manera manual y extensa, lo cual ralentiza su flujo de trabajo y hace que el uso de la aplicación sea ineficiente, especialmente para usuarios que manejan un alto volumen de información. 
+De acuerdo con las entrevistas (como la de Enzo Pardo), el sistema carece de opciones de filtros rápidos en las vistas de órdenes de compra y generación de documentos. La falta de estos "atajos" obliga a los usuarios a navegar y buscar registros de manera manual y extensa, lo cual ralentiza su flujo de trabajo y hace que el uso de la aplicación sea ineficiente, especialmente para usuarios que manejan un alto volumen de información.
 
 ![Figura 4 - Sección sin opciones de filtrado rápido](../assets/images/chapter-5/interviews/Fig4.png)
 
 **Recomendación:**
 Implementar una barra de herramientas con filtros rápidos y avanzados (por ejemplo: búsqueda por fecha, estado de la orden, nombre del cliente, etc.) en la parte superior de los listados. Esto permitirá a los usuarios, tanto básicos como expertos, acceder a la información que necesitan de manera ágil y directa.
 
+---
 
+### 5.3.4. Hallazgos de validación incorporados en la versión final
+
+El equipo King adoptó un enfoque de desarrollo ágil basado en la mejora continua. A partir de los hallazgos de usabilidad y de diseño recopilados durante las evaluaciones heurísticas y las entrevistas de validación con los usuarios finales, se implementaron ajustes directos en el código de la Web Application y en el comportamiento de la base de datos para la entrega final TB2.
+
+A continuación, se documenta la matriz de hallazgos UX incorporados físicamente en el producto:
+
+| Hallazgo de validación | Segmento | Severidad | Mejora aplicada | Evidencia en la solución | Estado |
+| :--- | :---: | :---: | :--- | :--- | :--- |
+| **Carrito no persistente al navegar:** El comprador perdía los productos seleccionados en el constructor al retornar al catálogo para buscar nuevos ítems. | S3 | 3 | Se implementó la persistencia del carrito de compras en el Local Storage a través de Pinia Store. | [cart.store.js](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp/blob/main/src/app/application/stores/cart.store.js) | **Implementado en versión final** |
+| **Falta de distintivo para órdenes nuevas:** Dificultad para identificar a primera vista las solicitudes recién recibidas en la bandeja operativa, obligando a leer fechas manualmente. | S2 | 2 | Se añadió una etiqueta visual destacada con el texto `NEW` de color verde en las tarjetas de órdenes entrantes. | [catalog-view.vue](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp/blob/main/src/catalog-management/presentation/product-catalog/views/catalog-view.vue) | **Implementado en versión final** |
+| **Ausencia de filtros de búsqueda:** Inexistencia de herramientas de búsqueda rápida en los listados extensos de órdenes, clientes y documentos comerciales. | S1 / S2 | 2 | Se agregaron filtros computados reactivos en Vue para filtrado inmediato por nombre de cliente, SKU y categoría. | [catalog-view.vue](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp/blob/main/src/catalog-management/presentation/product-catalog/views/catalog-view.vue) | **Implementado en versión final** |
+| **Crédito disponible invisible:** El comprador B2B no visualizaba con claridad su saldo de crédito disponible antes de armar su solicitud de compra. | S3 | 3 | Se diseñó e integró un visor dinámico con el saldo crediticio autorizado y método de pago referencial del cliente en la sección de Billing. | [data.store.js](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp/blob/main/src/app/application/stores/data.store.js) | **Implementado en versión final** |
+| **Descarga de XML/PDF inactiva:** Los usuarios no podían generar ni descargar archivos XML y PDF de sus comprobantes comerciales y guías logísticas. | S1 | 3 | Se habilitaron botones con triggers de descarga de representaciones impresas (PDF) y archivos de intercambio (XML) referenciales. | [BusinessDocumentsApi.js](https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp/blob/main/src/invoicing/infrastructure/business-documents/business-documents-api.js) | **Implementado en versión final** |
+
+Esta matriz demuestra la transición real desde el UX Research de validación hacia la implementación física en la entrega TB2, sustentando el cumplimiento del criterio de Mejora Continua y Ciclo de Vida del producto.

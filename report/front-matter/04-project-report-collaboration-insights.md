@@ -15,7 +15,7 @@ Esta sección documenta únicamente la colaboración desarrollada sobre el infor
 
 ### Evidencia documental por entrega
 
-La evidencia se organiza por las entregas Sprint 1 / AV1, Sprint 2 / TB1 y Sprint 3 / AV2. Cada bloque recupera únicamente el historial del repositorio `nexa-ecosystem-report` registrado en los documentos históricos de los sprints.
+La evidencia se organiza por las entregas Sprint 1 / AV1, Sprint 2 / TB1, Sprint 3 / AV2 y Sprint 4 / TB2. Cada bloque recupera únicamente el historial del repositorio `nexa-ecosystem-report` registrado en los documentos históricos de los sprints.
 
 #### Sprint 1 / AV1
 
@@ -126,6 +126,63 @@ Durante Sprint 3 se consolidó la actualización documental AV2 mediante ajustes
 
 > *Nota*: La captura muestra GitHub Insights del repositorio `nexa-ecosystem-report` como evidencia de colaboración documental AV2. Elaboración propia.
 
+#### Sprint 4 / TB2
+
+Durante Sprint 4 / TB2, el repositorio documental consolidó el cierre técnico y académico del informe mediante la actualización de capítulos, evidencias finales, anexos, validaciones, conclusiones y assets, junto con la preparación del cierre documental TB2.
+
+*Commits documentales del Project Report durante Sprint 4 / TB2.*
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `7b1fb61` | `Merge branch 'develop'` | | 2026-07-05 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `6f88d44` | `Merge branch 'ch5-annexes' into develop` | | 2026-07-05 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `3a7b7ff` | `refactor(ch5): add sprint-2-board-jira.png (and 14 others) to ch5 structure` | | 2026-07-05 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `0d30465` | `feat(ch5): add wireframe-dashboard-logistica.jpg (and 17 others) to ch5 structure` | | 2026-07-05 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `a0096d8` | `refactor(ch5): add design-level-step-5-command-submit-purchase-request.png (and 17 others) to ch5 structure` | | 2026-07-05 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `d510b72` | `Merge branch 'ch5-annexes' into develop` | | 2026-07-05 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `e50df46` | `docs(ch5): remove obsolete assets and update ch5 files` | | 2026-07-05 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `3b2acea` | `Merge branch 'ch5-annexes' into develop` | | 2026-07-04 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `3b71961` | `refactor(ch5): add github-pages-website-deployment.png (and 15 others) to ch5 structure` | | 2026-07-04 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `c588168` | `feat(ch5): add s2-07-dispatch-board.png (and 16 others) to ch5 structure` | | 2026-07-04 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `d2f1a9f` | `refactor(ch5): add c4-container-diagram.svg (and 16 others) to ch5 structure` | | 2026-07-04 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `a9f4521` | `docs(ch5): remove obsolete assets and update ch5 files` | | 2026-07-04 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `1db8fc3` | `Merge branch 'ch5-annexes' into develop` | | 2026-07-03 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `4f6b4b5` | `feat(ch5): add wireframe-detalle-cliente.jpg (and 17 others) to ch5 structure` | | 2026-07-03 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `f65fbee` | `refactor(ch5): add design-level-step-10-context-warehouse.png (and 17 others) to ch5 structure` | | 2026-07-03 |
+| `upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report` | `main` | `6f95c08` | `docs(ch5): remove obsolete assets and update ch5 files` | | 2026-07-02 |
+
+> *Nota*: La tabla resume commits representativos del repositorio `nexa-ecosystem-report` asociados al cierre documental TB2. Elaboración propia.
+
+*Commits recientes del Project Report durante TB2.*
+
+![Commits recientes del Project Report durante TB2](../assets/images/front-matter/collaboration/report-commits/nexa-ecosystem-report-commits-tb2.png)
+
+> *Nota*: La captura muestra commits recientes del repositorio `nexa-ecosystem-report` asociados a la actualización documental TB2. Elaboración propia.
+
+*Branches del Project Report durante TB2.*
+
+![Branches del Project Report durante TB2](../assets/images/front-matter/collaboration/report-branches/nexa-ecosystem-report-branches-tb2.png)
+
+> *Nota*: La captura muestra la rama principal del repositorio `nexa-ecosystem-report` utilizada para consolidar el cierre documental TB2. Elaboración propia.
+
+*GitHub Insights del Project Report durante TB2.*
+
+![GitHub Insights del Project Report durante TB2](../assets/images/front-matter/collaboration/github-insights/nexa-ecosystem-report-insights-pulse-tb2.png)
+
+> *Nota*: La captura muestra GitHub Insights/Pulse del repositorio `nexa-ecosystem-report` como evidencia de colaboración documental durante TB2. Elaboración propia.
+
+*Tags documentales del Project Report durante TB2.*
+
+![Tags documentales del Project Report durante TB2](../assets/images/front-matter/collaboration/report-releases/nexa-ecosystem-report-tags-tb2.png)
+
+> *Nota*: La captura muestra los tags documentales del repositorio `nexa-ecosystem-report`, incluyendo `v4.0.0` como referencia de cierre documental TB2. La publicación oficial sincronizada queda registrada como patch `v4.0.1` del repositorio `nexa-ecosystem-report`. Elaboración propia.
+
+*Release documental del Project Report para TB2.*
+
+**Release documental oficial v4.0.1:** https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report/releases/tag/v4.0.1
+
+> *Nota*: La captura muestra el release documental `nexa-ecosystem-report v4.0.0`, usado como evidencia base del cierre TB2 del informe académico. La versión `v4.0.1` documenta la sincronización final del repositorio oficial, la limpieza de archivos auxiliares y la publicación de release notes por tag. Elaboración propia.
+
 ### Síntesis de colaboración documental
 
 *Síntesis de colaboración documental por entrega.*
@@ -135,5 +192,6 @@ Durante Sprint 3 se consolidó la actualización documental AV2 mediante ajustes
 | Sprint 1 / AV1 | Base Docs-as-Code, estructura inicial, capítulos de discovery y diseño inicial. | Commits AV1 de `nexa-ecosystem-report`. |
 | Sprint 2 / TB1 | Actualización del informe, UX/UI, backlog, evidencias y documentación TB1. | Commits TB1 de `nexa-ecosystem-report`. |
 | Sprint 3 / AV2 | Integración de documentación técnica, mockups, Sprint 3 y cierre documental AV2. | Commits AV2 y release documental `v3.0.0` del Project Report. |
+| Sprint 4 / TB2 | Consolidación documental del cierre técnico TB2, actualización de evidencias finales, anexos, validaciones, conclusiones, assets del reporte y publicación oficial final. | Commits TB2, GitHub Insights/Pulse, branches/tags, tag documental `v4.0.0` y patch oficial `v4.0.1` del Project Report. |
 
 > *Nota*: La tabla resume la evolución documental del informe académico. La evidencia de producto se mantiene en las secciones de sprint correspondientes. Elaboración propia.

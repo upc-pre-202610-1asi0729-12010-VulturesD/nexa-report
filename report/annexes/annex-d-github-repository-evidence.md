@@ -13,9 +13,9 @@
 
 | Artefacto | Enlace |
 |---|---|
-| `nexa-website v3.0.0` | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-website/releases/tag/v3.0.0:** 
-| `nexa-webapp v2.0.0` | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp/releases/tag/v2.0.0:** 
-| `nexa-platform v1.0.0` | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-platform/releases/tag/v1.0.0:** 
+| `nexa-website v3.0.0` | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-website/releases/tag/v3.0.0:**
+| `nexa-webapp v2.0.0` | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp/releases/tag/v2.0.0:**
+| `nexa-platform v1.0.0` | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-platform/releases/tag/v1.0.0:**
 | `nexa-ecosystem-report v3.0.0` | **https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report/releases/tag/v3.0.0:** último release documental del reporte AV2. |
 
 > *Nota*: `nexa-ecosystem-report v3.0.0` consolida el último release documental AV2 del informe académico. Los repositorios `nexa-website`, `nexa-platform` y `nexa-webapp` respaldan el ecosistema implementado. Elaboración propia.
@@ -50,8 +50,9 @@
 | `nexa-website v4.0.1` | https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-website/releases/tag/v4.0.1 | <img src="../assets/images/chapter-5/sprint-evidence/releases/nexa-website-v4-0-1-release.png" alt="GitHub Release nexa-website v4.0.1" width="320"> |
 | `nexa-webapp v3.0.1` | https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-webapp/releases/tag/v3.0.1 | <img src="../assets/images/chapter-5/sprint-evidence/releases/nexa-webapp-v3-0-1-release.png" alt="GitHub Release nexa-webapp v3.0.1" width="320"> |
 | `nexa-platform v2.0.1` | https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-platform/releases/tag/v2.0.1 | <img src="../assets/images/chapter-5/sprint-evidence/releases/nexa-platform-v2-0-1-release.png" alt="GitHub Release nexa-platform v2.0.1" width="320"> |
+| `nexa-ecosystem-report v4.0.1` | https://github.com/upc-pre-202610-1asi0730-12242-king/nexa-ecosystem-report/releases/tag/v4.0.1 | Release documental final del reporte oficial, sincronizado desde la versión final validada, con release notes por tag y limpieza de archivos auxiliares. |
 
-> *Nota*: Los releases TB2 identifican de forma independiente la versión final del Website, la Web Application y la Platform API. Las notas y artefactos fuente quedan asociados a sus tags SemVer correspondientes. Elaboración propia.
+> *Nota*: Los releases TB2 identifican de forma independiente la versión final del Website, la Web Application, la Platform API y el Project Report oficial. Las notas y artefactos fuente quedan asociados a sus tags SemVer correspondientes. Elaboración propia.
 
 ## D.5. Evidencia de coordinación grupal
 
