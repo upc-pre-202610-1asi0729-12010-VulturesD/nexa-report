@@ -1,48 +1,197 @@
-# Project Report Collaboration Insights
+## Project Report Collaboration Insights
 
-El trabajo colaborativo de Nexa se organiza en cuatro repositorios oficiales. La evidencia enlazada y las capturas siguientes corresponden a la organización, el NRC y el producto Open Source actuales.
+Esta sección documenta únicamente la colaboración desarrollada sobre el informe académico `nexa-report`, mantenido en Markdown bajo un enfoque Docs-as-Code. La evolución documental se sustenta mediante commits, ramas, releases e indicadores del repositorio del Project Report; la evidencia de implementación del producto se mantiene separada en los sprints correspondientes.
 
-| Repositorio | Propósito | Rama entregable | Release auditada |
-|---|---|---|---|
-| [nexa-report](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report) | Reporte Docs-as-Code | `main` | `v3.0.0` |
-| [nexa-website](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website) | Landing Page | `main` | `v3.0.0` |
-| [nexa-webapp](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp) | Angular Web Application | `main` | `v2.0.1` |
-| [nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform) | Spring Boot Platform API | `main` | `v1.0.2` |
+### Repositorio documental del Project Report
 
-## Public review environments
+*Recursos GitHub asociados al repositorio documental.*
 
-| Artefacto | URL |
-|---|---|
-| Website | https://upc-pre-202610-1asi0729-12010-vulturesd.github.io/nexa-website/ |
-| WebApp | https://nexa-webapp-fv2v.onrender.com/login |
-| Platform health | https://nexa-platform.onrender.com/actuator/health |
-| Platform users | https://nexa-platform.onrender.com/api/v1/users |
+| Recurso | URL | Propósito |
+|---|---|---|
+| Organización GitHub del equipo KING | https://github.com/upc-pre-202610-1asi0729-12010-VulturesD | Agrupar los repositorios oficiales del proyecto Nexa. |
+| Repositorio del Project Report | https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report | Mantener el informe académico en formato Markdown bajo enfoque Docs-as-Code. |
 
-## Collaboration model
+> *Nota*: La tabla identifica los recursos de GitHub utilizados para organizar y versionar el informe académico. Elaboración propia.
 
-El equipo utiliza issues, ramas de trabajo, pull requests, Conventional Commits y releases independientes. La trazabilidad se verifica en las vistas públicas de commits, pull requests, Actions y releases de cada repositorio. Las evidencias históricas AV1, TB1 y AV2 permanecen en el registro de versiones; la entrega Open Source se sustenta con el estado actual de `main`.
+### Evidencia documental por entrega
 
-La analítica pública de `nexa-report`, consultada el 19 de junio de 2026, identifica participación de los cinco integrantes:
+La evidencia se organiza por las entregas Sprint 1 / AV1, Sprint 2 / TB1, Sprint 3 / AV2 y Sprint 4 / TB2. Cada bloque recupera únicamente el historial del repositorio `nexa-report` registrado en los documentos históricos de los sprints.
 
-| Cuenta GitHub | Commits sin merges mostrados por Insights |
-|---|---:|
-| `Cmarin2802` | 97 |
-| `R0obxdnt-bit` | 94 |
-| `DiegoS284` | 90 |
-| `JoaquinVerde115` | 88 |
-| `GerardRojasMancilla` | 48 |
+#### Sprint 1 / AV1
 
-![GitHub Insights de contribuidores de nexa-report](../assets/images/front-matter/collaboration/nexa-report-contributors-av2.png)
+Durante Sprint 1 se estableció la base Docs-as-Code del Project Report, incluyendo su estructura inicial, front matter, discovery, requisitos, diseño y primeras evidencias académicas.
 
-La vista de commits de `main` permite relacionar la participación con cambios concretos de documentación, evidencias, validación, anexos, arquitectura y releases.
+*Commits documentales del Project Report durante Sprint 1 / AV1.*
 
-![Historial de commits de main en nexa-report](../assets/images/front-matter/collaboration/nexa-report-commits-main-av2.png)
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `448be89` | `chore(repo): initialize repository structure and base readme` | | 2026-04-01 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `bb5a55c` | `docs(front-matter): add cover page` | | 2026-04-01 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `3caaf0f` | `docs(front-matter): add version history table` | | 2026-04-02 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `f2769d1` | `docs(front-matter): add table of contents` | | 2026-04-02 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `ed1bce5` | `docs(front-matter): add student outcome section` | | 2026-04-03 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `9f586da` | `docs(ch1): add startup profile with team background and mission` | | 2026-04-03 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `f702fd6` | `docs(ch1): add solution profile and lean ux hypothesis` | | 2026-04-04 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `413a4d5` | `docs(ch1): add target segments S1, S2 and S3` | | 2026-04-04 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `da2b836` | `docs(ch2): add competitive analysis of Riqra, Drivin and OnTracking` | | 2026-04-04 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `2ac622f` | `docs(ch2): add interview guide and candidate registry` | | 2026-04-05 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `4895fb2` | `docs(ch2): add needfinding with user personas and journey maps` | | 2026-04-05 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `918a120` | `docs(ch2): add big picture event storming session notes` | | 2026-04-06 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `4bf08b9` | `docs(ch2): add ubiquitous language glossary` | | 2026-04-06 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `019c262` | `docs(ch3): add user stories for S1, S2 and S3 with acceptance criteria` | | 2026-04-07 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `fa13f29` | `docs(ch3): add impact mapping for distributor and buyer goals` | | 2026-04-07 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `c550e3a` | `docs(ch3): add product backlog with epics and story points` | | 2026-04-07 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `30b753d` | `docs(ch4): add style guidelines with colors, typography and spacing tokens` | | 2026-04-08 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `34cdf83` | `docs(ch4): add information architecture and navigation systems` | | 2026-04-08 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `cc6c075` | `docs(ch4): add landing page wireframes and mockups` | | 2026-04-09 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `211a045` | `docs(ch4): add domain-driven architecture with C4 context and container diagrams` | | 2026-04-10 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `db4805b` | `docs(ch4): add object-oriented design and class diagrams` | | 2026-04-10 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `33c85a8` | `docs(ch4): add database design and entity-relationship model` | | 2026-04-11 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `f1fd2f9` | `docs(ch5): add software configuration management and tooling` | | 2026-04-11 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `2298c02` | `docs(ch5): tighten sprint evidence` | | 2026-04-22 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `08c48ee` | `docs(ch5): update sprint review evidence blocks and replace jira screenshots` | | 2026-04-23 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `324370e` | `docs(jira): document sprint 1 backlog evidence` | | 2026-04-24 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `5f5b19f` | `docs(ch5): expand development evidence table with real commits from all four repositories` | | 2026-04-24 |
 
-## Quality gates
+> *Nota*: La tabla resume commits del repositorio `nexa-report` asociados a la base documental AV1 del informe académico. Elaboración propia.
 
-- Website: parsing HTML, sintaxis JavaScript, enlaces internos y GitHub Pages.
-- WebApp: `npm ci`, `npm run build` y auditoría de dependencias productivas.
-- Platform: `./mvnw test` y `./mvnw package`.
-- Report: Markdown lint, rutas de imágenes, enlaces y consistencia entre capítulos.
+#### Sprint 2 / TB1
 
-No se utilizan capturas de otras organizaciones, cursos o implementaciones como evidencia de colaboración Open Source.
+Durante Sprint 2 se actualizó el informe TB1 con evidencias, referencias de diseño, backlog, anexos y preparación del snapshot documental de la entrega.
+
+*Commits documentales del Project Report durante Sprint 2 / TB1.*
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `34e30a0` | `docs(ch5): add sprint 2 implementation, deployment and collaboration evidence` | | 2026-05-02 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `72cf226` | `docs(ch4): reference web application screenshots in design evidence` | | 2026-05-02 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `870bc73` | `docs(backlog): mirror sprint 2 jira plan and tb2 future backlog` | | 2026-05-02 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `5aea404` | `docs(jira): add sprint 2 issue import plan annex` | | 2026-05-02 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `43ea1a3` | `docs(report): finalize sprint 2 evidence references` | | 2026-05-02 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `07f6191` | `docs(report): integrate final tb1 requirements sections` | | 2026-05-03 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `fbda62a` | `docs(chapter-5): add sprint 2 development evidence tables per repository` | | 2026-05-11 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `e44028e` | `docs(report): revise web app prototyping images and notes` | | 2026-05-12 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `4eb34fe` | `docs(report): update repository commit evidence` | | 2026-05-12 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `e661faa` | `chore(gitflow): merge chapter-5 updates into develop for v2` | | 2026-05-12 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `10bf1bb` | `chore(release): finalize report v2 source snapshot` | | 2026-05-12 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `777c3ba` | `chore(release): merge report v2 to main` | | 2026-05-12 |
+
+> *Nota*: La tabla resume commits del repositorio `nexa-report` asociados a la actualización documental TB1 del informe académico. Elaboración propia.
+
+*Commits del Project Report durante TB1.*
+
+![Commits del Project Report durante TB1](../assets/images/chapter-5/sprint-evidence/commit-evidence/report-commits-tb1.png)
+
+> *Nota*: La captura muestra commits del repositorio `nexa-report` asociados a la actualización documental TB1. Elaboración propia.
+
+#### Sprint 3 / AV2
+
+Durante Sprint 3 se consolidó la actualización documental AV2 mediante ajustes de capítulos, mockups, evidencias del sprint y alineación del alcance académico del informe.
+
+*Commits documentales del Project Report durante Sprint 3 / AV2.*
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `feature/ch3` | `b3ed14b` | `docs(impact-mapping): refine names and remove unnecessary content` | | 2026-06-03 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `7fec7ca` | `docs(assets): add updated landing page mockups` | | 2026-06-03 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `1fac304` | `docs(landing-page): update mockup images in report` | | 2026-06-03 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `feature/ch4` | `0537d19` | `docs(mockups): replace segment mockup images` | | 2026-06-06 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `e83deb7` | `docs(ch5): update implementation section for sprint 3 backend foundation` | | 2026-06-06 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `6aa80f5` | `docs(ch5): add sprint 3 backend foundation report` | | 2026-06-06 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `feature/ch5` | `6035681` | `docs(ch5): align sprint 3 with AV2 web services scope` | | 2026-06-07 |
+
+> *Nota*: La tabla resume commits del repositorio `nexa-report` asociados a la actualización documental AV2 del informe académico. Elaboración propia.
+
+*Release documental del Project Report para AV2.*
+
+![Release documental del Project Report para AV2](../assets/images/front-matter/collaboration/report-releases/nexa-report-v3-0-0-release.png)
+
+> *Nota*: La captura muestra el release documental `nexa-report v3.0.0`, usado como evidencia de cierre AV2 del informe académico. Elaboración propia.
+
+*Commits recientes del Project Report durante AV2.*
+
+![Commits recientes del Project Report durante AV2](../assets/images/front-matter/collaboration/report-commits/nexa-report-commits-av2-recent.png)
+
+> *Nota*: La captura muestra commits recientes del repositorio `nexa-report` asociados a la consolidación documental AV2. Elaboración propia.
+
+*Branches del Project Report durante AV2.*
+
+![Branches del Project Report durante AV2](../assets/images/front-matter/collaboration/report-branches/nexa-report-branches.png)
+
+> *Nota*: La captura muestra las ramas del repositorio `nexa-report` usadas para organizar el flujo documental. Elaboración propia.
+
+*GitHub Insights del Project Report durante AV2.*
+
+![GitHub Insights del Project Report durante AV2](../assets/images/front-matter/collaboration/github-insights/nexa-report-insights-av2.png)
+
+> *Nota*: La captura muestra GitHub Insights del repositorio `nexa-report` como evidencia de colaboración documental AV2. Elaboración propia.
+
+#### Sprint 4 / TB2
+
+Durante Sprint 4 / TB2, el repositorio documental consolidó el cierre técnico y académico del informe mediante la actualización de capítulos, evidencias finales, anexos, validaciones, conclusiones y assets, junto con la preparación del cierre documental TB2.
+
+*Commits documentales del Project Report durante Sprint 4 / TB2.*
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `7b1fb61` | `Merge branch 'develop'` | | 2026-07-05 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `6f88d44` | `Merge branch 'ch5-annexes' into develop` | | 2026-07-05 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `3a7b7ff` | `refactor(ch5): add sprint-2-board-jira.png (and 14 others) to ch5 structure` | | 2026-07-05 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `0d30465` | `feat(ch5): add wireframe-dashboard-logistica.jpg (and 17 others) to ch5 structure` | | 2026-07-05 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `a0096d8` | `refactor(ch5): add design-level-step-5-command-submit-purchase-request.png (and 17 others) to ch5 structure` | | 2026-07-05 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `d510b72` | `Merge branch 'ch5-annexes' into develop` | | 2026-07-05 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `e50df46` | `docs(ch5): remove obsolete assets and update ch5 files` | | 2026-07-05 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `3b2acea` | `Merge branch 'ch5-annexes' into develop` | | 2026-07-04 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `3b71961` | `refactor(ch5): add github-pages-website-deployment.png (and 15 others) to ch5 structure` | | 2026-07-04 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `c588168` | `feat(ch5): add s2-07-dispatch-board.png (and 16 others) to ch5 structure` | | 2026-07-04 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `d2f1a9f` | `refactor(ch5): add c4-container-diagram.svg (and 16 others) to ch5 structure` | | 2026-07-04 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `a9f4521` | `docs(ch5): remove obsolete assets and update ch5 files` | | 2026-07-04 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `1db8fc3` | `Merge branch 'ch5-annexes' into develop` | | 2026-07-03 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `4f6b4b5` | `feat(ch5): add wireframe-detalle-cliente.jpg (and 17 others) to ch5 structure` | | 2026-07-03 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `f65fbee` | `refactor(ch5): add design-level-step-10-context-warehouse.png (and 17 others) to ch5 structure` | | 2026-07-03 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-report` | `main` | `6f95c08` | `docs(ch5): remove obsolete assets and update ch5 files` | | 2026-07-02 |
+
+> *Nota*: La tabla resume commits representativos del repositorio `nexa-report` asociados al cierre documental TB2. Elaboración propia.
+
+*Commits recientes del Project Report durante TB2.*
+
+![Commits recientes del Project Report durante TB2](../assets/images/front-matter/collaboration/report-commits/nexa-report-commits-tb2.png)
+
+> *Nota*: La captura muestra commits recientes del repositorio `nexa-report` asociados a la actualización documental TB2. Elaboración propia.
+
+*Branches del Project Report durante TB2.*
+
+![Branches del Project Report durante TB2](../assets/images/front-matter/collaboration/report-branches/nexa-report-branches-tb2.png)
+
+> *Nota*: La captura muestra la rama principal del repositorio `nexa-report` utilizada para consolidar el cierre documental TB2. Elaboración propia.
+
+*GitHub Insights del Project Report durante TB2.*
+
+![GitHub Insights del Project Report durante TB2](../assets/images/front-matter/collaboration/github-insights/nexa-report-insights-pulse-tb2.png)
+
+> *Nota*: La captura muestra GitHub Insights/Pulse del repositorio `nexa-report` como evidencia de colaboración documental durante TB2. Elaboración propia.
+
+*Tags documentales del Project Report durante TB2.*
+
+![Tags documentales del Project Report durante TB2](../assets/images/front-matter/collaboration/report-releases/nexa-report-tags-tb2.png)
+
+> *Nota*: La captura muestra los tags documentales del repositorio `nexa-report`, incluyendo `v4.0.0` como referencia de cierre documental TB2. Elaboración propia.
+
+*Release documental del Project Report para TB2.*
+
+![Release documental del Project Report para TB2](../assets/images/front-matter/collaboration/report-releases/nexa-report-v4-0-0-release.png)
+
+> *Nota*: La captura muestra el release documental `nexa-report v4.0.0`, usado como evidencia de cierre TB2 del informe académico. Elaboración propia.
+
+### Síntesis de colaboración documental
+
+*Síntesis de colaboración documental por entrega.*
+
+| Entrega | Enfoque documental | Evidencia principal |
+|---|---|---|
+| Sprint 1 / AV1 | Base Docs-as-Code, estructura inicial, capítulos de discovery y diseño inicial. | Commits AV1 de `nexa-report`. |
+| Sprint 2 / TB1 | Actualización del informe, UX/UI, backlog, evidencias y documentación TB1. | Commits TB1 de `nexa-report`. |
+| Sprint 3 / AV2 | Integración de documentación técnica, mockups, Sprint 3 y cierre documental AV2. | Commits AV2 y release documental `v3.0.0` del Project Report. |
+| Sprint 4 / TB2 | Consolidación documental del cierre técnico TB2, actualización de evidencias finales, anexos, validaciones, conclusiones y assets del reporte. | Commits TB2, GitHub Insights/Pulse, branches/tags y tag documental `v4.0.0` del Project Report. |
+
+> *Nota*: La tabla resume la evolución documental del informe académico. La evidencia de producto se mantiene en las secciones de sprint correspondientes. Elaboración propia.
