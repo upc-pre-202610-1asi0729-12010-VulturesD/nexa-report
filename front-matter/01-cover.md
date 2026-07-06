@@ -1,4 +1,4 @@
-<br>
+﻿<br>
 
 <p align="center">
   <img src="../assets/images/front-matter/cover/upc-logo.png" alt="UPC Logo" width="220"/>

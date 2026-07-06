@@ -1,4 +1,4 @@
-## 1.3. Segmentos Objetivos
+﻿## 1.3. Segmentos Objetivos
 
 La segmentación de Nexa se define a partir del flujo real de coordinación comercial y operativa en empresas importadoras o distribuidoras de productos refrigerados y congelados. Nexa se plantea como una plataforma **multi-tenant SaaS B2B** contratada por una empresa de cadena de frío, la cual habilita distintos perfiles de uso dentro de un mismo ecosistema operacional.
 

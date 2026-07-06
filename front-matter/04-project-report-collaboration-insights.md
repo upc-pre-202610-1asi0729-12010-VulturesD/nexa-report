@@ -1,4 +1,4 @@
-## Project Report Collaboration Insights
+﻿## Project Report Collaboration Insights
 
 Esta sección documenta únicamente la colaboración desarrollada sobre el informe académico `nexa-report`, mantenido en Markdown bajo un enfoque Docs-as-Code. La evolución documental se sustenta mediante commits, ramas, releases e indicadores del repositorio del Project Report; la evidencia de implementación del producto se mantiene separada en los sprints correspondientes.
 
@@ -8,7 +8,7 @@ Esta sección documenta únicamente la colaboración desarrollada sobre el infor
 
 | Recurso | URL | Propósito |
 |---|---|---|
-| Organización GitHub del equipo KING | https://github.com/upc-pre-202610-1asi0729-12010-VulturesD | Agrupar los repositorios oficiales del proyecto Nexa. |
+| Organización GitHub del equipo Vultures Devs | https://github.com/upc-pre-202610-1asi0729-12010-VulturesD | Agrupar los repositorios oficiales del proyecto Nexa. |
 | Repositorio del Project Report | https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report | Mantener el informe académico en formato Markdown bajo enfoque Docs-as-Code. |
 
 > *Nota*: La tabla identifica los recursos de GitHub utilizados para organizar y versionar el informe académico. Elaboración propia.
@@ -104,25 +104,25 @@ Durante Sprint 3 se consolidó la actualización documental AV2 mediante ajustes
 
 *Release documental del Project Report para AV2.*
 
-![Release documental del Project Report para AV2](../assets/images/front-matter/collaboration/report-releases/nexa-report-v3-0-0-release.png)
+![Release documental del Project Report para AV2](../assets/images/front-matter/collaboration/report-releases/nexa-ecosystem-report-v3-0-0-release.png)
 
 > *Nota*: La captura muestra el release documental `nexa-report v3.0.0`, usado como evidencia de cierre AV2 del informe académico. Elaboración propia.
 
 *Commits recientes del Project Report durante AV2.*
 
-![Commits recientes del Project Report durante AV2](../assets/images/front-matter/collaboration/report-commits/nexa-report-commits-av2-recent.png)
+![Commits recientes del Project Report durante AV2](../assets/images/front-matter/collaboration/report-commits/nexa-ecosystem-report-commits-av2-recent.png)
 
 > *Nota*: La captura muestra commits recientes del repositorio `nexa-report` asociados a la consolidación documental AV2. Elaboración propia.
 
 *Branches del Project Report durante AV2.*
 
-![Branches del Project Report durante AV2](../assets/images/front-matter/collaboration/report-branches/nexa-report-branches.png)
+![Branches del Project Report durante AV2](../assets/images/front-matter/collaboration/report-branches/nexa-ecosystem-report-branches.png)
 
 > *Nota*: La captura muestra las ramas del repositorio `nexa-report` usadas para organizar el flujo documental. Elaboración propia.
 
 *GitHub Insights del Project Report durante AV2.*
 
-![GitHub Insights del Project Report durante AV2](../assets/images/front-matter/collaboration/github-insights/nexa-report-insights-av2.png)
+![GitHub Insights del Project Report durante AV2](../assets/images/front-matter/collaboration/github-insights/nexa-ecosystem-report-insights-av2.png)
 
 > *Nota*: La captura muestra GitHub Insights del repositorio `nexa-report` como evidencia de colaboración documental AV2. Elaboración propia.
 
@@ -155,25 +155,25 @@ Durante Sprint 4 / TB2, el repositorio documental consolidó el cierre técnico 
 
 *Commits recientes del Project Report durante TB2.*
 
-![Commits recientes del Project Report durante TB2](../assets/images/front-matter/collaboration/report-commits/nexa-report-commits-tb2.png)
+![Commits recientes del Project Report durante TB2](../assets/images/front-matter/collaboration/report-commits/nexa-ecosystem-report-commits-tb2.png)
 
 > *Nota*: La captura muestra commits recientes del repositorio `nexa-report` asociados a la actualización documental TB2. Elaboración propia.
 
 *Branches del Project Report durante TB2.*
 
-![Branches del Project Report durante TB2](../assets/images/front-matter/collaboration/report-branches/nexa-report-branches-tb2.png)
+![Branches del Project Report durante TB2](../assets/images/front-matter/collaboration/report-branches/nexa-ecosystem-report-branches-tb2.png)
 
 > *Nota*: La captura muestra la rama principal del repositorio `nexa-report` utilizada para consolidar el cierre documental TB2. Elaboración propia.
 
 *GitHub Insights del Project Report durante TB2.*
 
-![GitHub Insights del Project Report durante TB2](../assets/images/front-matter/collaboration/github-insights/nexa-report-insights-pulse-tb2.png)
+![GitHub Insights del Project Report durante TB2](../assets/images/front-matter/collaboration/github-insights/nexa-ecosystem-report-insights-pulse-tb2.png)
 
 > *Nota*: La captura muestra GitHub Insights/Pulse del repositorio `nexa-report` como evidencia de colaboración documental durante TB2. Elaboración propia.
 
 *Tags documentales del Project Report durante TB2.*
 
-![Tags documentales del Project Report durante TB2](../assets/images/front-matter/collaboration/report-releases/nexa-report-tags-tb2.png)
+![Tags documentales del Project Report durante TB2](../assets/images/front-matter/collaboration/report-releases/nexa-ecosystem-report-tags-tb2.png)
 
 > *Nota*: La captura muestra los tags documentales del repositorio `nexa-report`, incluyendo `v4.0.1` como release documental final TB2 del repositorio `nexa-report`. Elaboración propia.
 

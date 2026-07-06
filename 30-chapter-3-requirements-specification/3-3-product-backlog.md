@@ -1,4 +1,4 @@
-## 3.3. Product Backlog
+﻿## 3.3. Product Backlog
 
 El Product Backlog de Nexa organiza las User Stories y Technical Stories definidas en la sección 3.1 según valor de negocio y dependencia funcional. La priorización comienza con la Landing Page y la captación comercial, continúa con el onboarding de la organización y luego incorpora el acceso, la administración del tenant, el flujo B2B, ventas, inventario, logística, documentos y perfiles. Las Technical Stories se ubican junto a los bloques funcionales que habilitan.
 

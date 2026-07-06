@@ -11,12 +11,12 @@ La gestión de configuración documenta el cierre técnico TB2 de Website, WebAp
 | Recurso | Tecnología o herramienta | Uso en el proyecto | Evidencia o acceso |
 |---|---|---|---|
 | Gestión ágil | Jira Software | Product Backlog, Sprint Backlog, issues y estados por sprint. | Evidencia documentada por sprint. |
-| Control de versiones | Git y GitHub | Branches, tags, releases y trazabilidad independiente por repositorio. | Repositorios oficiales de la organización KING. |
+| Control de versiones | Git y GitHub | Branches, tags, releases y trazabilidad independiente por repositorio. | Repositorios oficiales de la organización Vultures Devs. |
 | Documentación | Markdown / Docs-as-Code | Capítulos, evidencias y trazabilidad académica. | Repositorio `nexa-report`. |
 | Diseño UX/UI | Figma y FigJam | Wireframes, mockups, user flows y wireflows. | Artefactos documentados en el Capítulo 4. |
 | Landing Page | HTML5, CSS3, JavaScript | Website público multipágina. | https://cutt.ly/5yqqz5VP |
-| Web Application | Angular 21, npm, PrimeAngular, PrimeFlex, PrimeIcons, Pinia, Angular Router, Angular I18n, Axios | Experiencias autenticadas de Buyer, Sales, Logistics y Account Owner. | https://cutt.ly/1yqqxr3J |
-| Web Services | ASP.NET Core Web API, Java 21, .NET 10, Spring Boot / Hibernate, Npgsql, Swagger/OpenAPI | Servicios RESTful, seguridad, multi-tenancy y persistencia. | https://nexa-platform.onrender.com |
+| Web Application | Angular 21, Angular CLI, Angular Material, PrimeIcons, HttpClient, Angular Signals (Stores) | Experiencias autenticadas de Buyer, Sales, Logistics y Company Owner. | https://cutt.ly/1yqqxr3J |
+| Web Services | Spring Boot Web API, Java, JPA/Hibernate, PostgreSQL, Swagger/OpenAPI | Servicios RESTful, seguridad, multi-tenancy y persistencia. | https://nexa-platform-20wt.onrender.com |
 | Base de datos | PostgreSQL 16 / Render PostgreSQL | Persistencia relacional de Platform API. | Configuración protegida mediante variables de entorno. |
 | Containerización local | Docker Compose y Caddy | Coordina PostgreSQL, API, WebApp y reverse proxy para validación local. | `docker-compose.yml` y configuración local redactada. |
 | Deployment | GitHub Pages y Render | Publicación académica de Website, WebApp, API y PostgreSQL. | URLs públicas confirmadas en este capítulo. |
@@ -32,10 +32,10 @@ Cada producto se versiona de forma independiente. La trazabilidad detallada del 
 
 | Repositorio | Producto asociado | Release final defendible | Rama principal | Propósito | URL |
 |---|---|---|---|---|---|
-| `nexa-report` | Project Report / Docs-as-Code | `v4.0.1` | `main` | Informe académico, capítulos, evidencias, release notes y trazabilidad documental. | https://cutt.ly/YyqqccYa |
-| `nexa-website` | Landing Page | `v4.0.1` | `main` | Website público y acceso hacia registro o login. | https://cutt.ly/TyqqcUn4 |
-| `nexa-webapp` | Frontend Web Application | `v3.0.1` | `main` | SPA Angular para los flujos funcionales del producto. | https://cutt.ly/HyqqviBz |
-| `nexa-platform` | Web Services / Platform API | `v2.0.1` | `main` | API modular, persistencia, seguridad y documentación de servicios. | https://cutt.ly/byqqvhqJ |
+| `nexa-report` | Project Report / Docs-as-Code | `v4.0.1` | `main` | Informe académico, capítulos, evidencias, release notes y trazabilidad documental. | https://cutt.ly/HyqSpSn3 |
+| `nexa-website` | Landing Page | `v4.0.1` | `main` | Website público y acceso hacia registro o login. | https://cutt.ly/0yqSpVDV |
+| `nexa-webapp` | Frontend Web Application | `v3.0.1` | `main` | SPA Angular 21 para los flujos funcionales del producto. | https://cutt.ly/4yqSp3jo |
+| `nexa-platform` | Web Services / Platform API | `v2.0.1` | `main` | API modular, persistencia, seguridad y documentación de servicios. | https://cutt.ly/FyqSp6JR |
 
 > *Nota*: La tabla utiliza los releases finales defendibles del cierre TB2, incluyendo el reporte como artefacto Docs-as-Code versionado. Elaboración propia.
 
@@ -71,10 +71,10 @@ Los historiales detallados de commits se reservan para Development Evidence de S
 |---|---|
 | Docs-as-Code | Markdown por capítulos, rutas relativas estables, tablas legibles, captions y control de cambios mediante Git. |
 | Website | HTML semántico, CSS organizado por assets y componentes visuales, JavaScript modular, estructura multipágina y rutas compatibles con GitHub Pages. |
-| WebApp | Angular 21 con npm; componentes y vistas en PascalCase; propiedades reactivas en camelCase; PrimeAngular, PrimeFlex, PrimeIcons, Pinia, Angular Router, Angular I18n y Axios organizados por módulos. |
-| Backend | Java 21 con PascalCase para tipos y métodos, camelCase para variables locales, separación Domain/Application/Infrastructure/Interfaces y dependencias desacopladas. |
+| WebApp | Angular 21 con Angular CLI; componentes y vistas en PascalCase; propiedades reactivas en camelCase; Angular Material, PrimeIcons, Angular Router, HttpClient, y stores reactivos con Angular Signals. |
+| Backend | Java con PascalCase para tipos y métodos, camelCase para variables locales, separación Domain/Application/Infrastructure/Interfaces y dependencias desacopladas. |
 | REST | Rutas canónicas documentadas con Swagger/OpenAPI, contratos HTTP y compatibilidad revisada sin afirmar perfección absoluta. |
-| Persistencia | Spring Boot / Hibernate, Npgsql, PostgreSQL y migraciones versionadas. |
+| Persistencia | JPA/Hibernate, PostgreSQL y migraciones versionadas. |
 | Seguridad y configuración | JWT, CORS y configuración sensible mediante variables de entorno; Stripe se trata como proveedor externo configurable para pagos referenciales. |
 | Commits | Conventional Commits para `feat`, `fix`, `refactor`, `docs`, `chore` y `merge`. |
 
@@ -92,9 +92,9 @@ El despliegue académico separa Website, WebApp, Platform API y PostgreSQL. Dock
 
 | Artefacto | Plataforma | Release | URL o referencia | Alcance |
 |---|---|---|---|---|
-| Landing Page `nexa-website` | GitHub Pages | `v4.0.1` | https://cutt.ly/byqqvhqJ | Website público del entorno de revisión académica. |
-| Web Application `nexa-webapp` | Render Static Site | `v3.0.1` | https://cutt.ly/byqqvhqJ | Frontend desplegado para revisión de flujos. |
-| Web Services `nexa-platform` | Render Web Service | `v2.0.1` | https://nexa-platform.onrender.com | Platform API y documentación de servicios. |
+| Landing Page `nexa-website` | GitHub Pages | `v4.0.1` | https://cutt.ly/0yqSpVDV | Website público del entorno de revisión académica. |
+| Web Application `nexa-webapp` | Render Static Site | `v3.0.1` | https://cutt.ly/4yqSp3jo | Frontend desplegado para revisión de flujos. |
+| Web Services `nexa-platform` | Render Web Service | `v2.0.1` | https://nexa-platform-20wt.onrender.com | Platform API y documentación de servicios. |
 | PostgreSQL | Render PostgreSQL / PostgreSQL 16 | No aplica | Configuración protegida | Persistencia relacional de Platform API sin exponer host, usuario ni contraseña. |
 | Docker local | Docker Compose | No aplica | PostgreSQL, API, WebApp y Caddy | Entorno local reproducible para validación técnica. |
 | Swagger/OpenAPI | Platform API | Asociado a `v2.0.1` | Documentación ampliada en 5.2.4.6 | Consulta general de contratos RESTful. |
@@ -105,9 +105,9 @@ El despliegue académico separa Website, WebApp, Platform API y PostgreSQL. Dock
 
 | Artefacto | Repositorio visible |
 |---|---|
-| Landing Page | [https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website](https://cutt.ly/byqqvhqJ) |
-| Web Application | https://cutt.ly/HyqqviBz |
-| Platform API | https://cutt.ly/byqqvhqJ |
+| Landing Page | https://cutt.ly/0yqSpVDV |
+| Web Application | https://cutt.ly/4yqSp3jo |
+| Platform API | https://cutt.ly/FyqSp6JR |
 
 > *Nota*: La tabla conserva las URLs directas de los repositorios de producto asociados con el despliegue académico. Elaboración propia.
 
@@ -115,12 +115,12 @@ El despliegue académico separa Website, WebApp, Platform API y PostgreSQL. Dock
 
 | Variable | Uso | Tratamiento en el reporte |
 |---|---|---|
-| `CONNECTIONSTRINGS__DEFAULTCONNECTION` | Conexión PostgreSQL de Platform API. | `[REDACTED]` |
+| `SPRING_DATASOURCE_URL` | Conexión PostgreSQL de Platform API. | `[REDACTED]` |
 | `NEXA_JWT_SECRET` | Firma de tokens JWT. | `[REDACTED]` |
 | `STRIPE_SECRET_KEY` | Proveedor externo configurable para pagos referenciales. | `[REDACTED]` |
 | `CORS_ALLOWED_ORIGINS` | Orígenes permitidos para WebApp. | Valor documentable sin secretos. |
-| `VITE_NEXA_API_BASE_URL` | URL base consumida por WebApp. | https://nexa-platform.onrender.com |
-| `ASPNETCORE_ENVIRONMENT` | Selección del entorno de ejecución. | Nombre del entorno, sin credenciales. |
+| `NEXA_API_BASE_URL` | URL base consumida por WebApp. | https://nexa-platform-20wt.onrender.com |
+| `SPRING_PROFILES_ACTIVE` | Selección del entorno de ejecución. | Nombre del entorno, sin credenciales. |
 
 > *Nota*: La tabla documenta el propósito de las variables sin publicar secretos, credenciales ni cadenas de conexión. Elaboración propia.
 

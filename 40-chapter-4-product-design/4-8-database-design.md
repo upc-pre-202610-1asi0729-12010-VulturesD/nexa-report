@@ -1,6 +1,6 @@
 ## 4.8. Database Design
 
-Esta sección presenta el diseño de base de datos de Nexa, actualizado de acuerdo con los bounded contexts definidos en la arquitectura de dominio y con la estructura relacional implementada en el backend `Vultures Devs.Nexa.Platform`. El modelo de persistencia se organiza bajo un enfoque multi-tenant orientado a SaaS, donde la información operativa de cada organización se separa lógicamente mediante el identificador `tenant_id` en las tablas transaccionales y de configuración que pertenecen a cada tenant.
+Esta sección presenta el diseño de base de datos de Nexa, actualizado de acuerdo con los bounded contexts definidos en la arquitectura de dominio y con la estructura relacional implementada en el backend `VulturesD.Nexa.Platform`. El modelo de persistencia se organiza bajo un enfoque multi-tenant orientado a SaaS, donde la información operativa de cada organización se separa lógicamente mediante el identificador `tenant_id` en las tablas transaccionales y de configuración que pertenecen a cada tenant.
 
 El modelo se organiza alrededor de cinco bounded contexts principales de la plataforma: **Catalog Management**, **Sales**, **Warehouse**, **Logistics** e **Invoicing**. Además, incluye contextos y estructuras de soporte transversal para **Tenant Management**, **Identity & Access Management** y catálogos compartidos de referencia. Los read models se mantienen como estructuras derivadas de consulta para dashboards y reportes, sin tratarse como un bounded context independiente del negocio.
 

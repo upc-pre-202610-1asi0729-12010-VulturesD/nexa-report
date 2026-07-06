@@ -1,4 +1,4 @@
-# Registro de Versiones del Informe
+﻿# Registro de Versiones del Informe
 
 El presente registro documenta de manera exclusiva la evolución del informe académico `nexa-report` a partir de sus tags y rangos de commits reales en el repositorio documental. Las versiones se expresan con formato SemVer y se asocian al corte académico correspondiente; cada fila atribuye una contribución documental específica y rastreable a una sola persona del equipo como autor único de la misma.
 

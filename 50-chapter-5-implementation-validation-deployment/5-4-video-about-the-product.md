@@ -16,9 +16,9 @@ Para el segmento proveedor, el video explica que Nexa permite presentar producto
 
 | Elemento | Detalle |
 |---|---|
-| Título del video | `upc-pre-202610-1asi0729-12010-Vultures Devs-about-the-product-sprint-4` |
+| Título del video | `upc-pre-202610-1asi0729-12010-VulturesD-about-the-product-sprint-4` |
 | Plataforma de publicación | Microsoft Stream / SharePoint y YouTube |
-| URL Microsoft Stream | https://cutt.ly/qt668WnI |
+| URL Microsoft Stream | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQApRDrBhcwhSbEhmIo10MA5AbhFkXrvl4KCm_cQmS5NKL0?e=tNiTCA |
 | URL YouTube | https://youtu.be/cNdHZbD52eE?si=8bCM3ejQaW6vm6VM |
 | Duración | `3:42` |
 | Fecha de publicación | 5/06/2026 |

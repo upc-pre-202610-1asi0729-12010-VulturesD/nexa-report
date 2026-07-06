@@ -1,4 +1,4 @@
-### 5.2.1. Sprint 1
+﻿### 5.2.1. Sprint 1
 
 El Sprint 1 corresponde a la línea base AV1. El objetivo fue establecer la estructura Docs-as-Code del informe, documentar los primeros artefactos de discovery y diseño, y publicar la Landing Page como primer incremento visible del producto. La evidencia se organiza en planificación, backlog, commits, ejecución, despliegue y colaboración.
 
@@ -168,9 +168,9 @@ La evidencia de despliegue de AV1 sí existe, pero está concentrada en el frent
 | Artefacto | Estado observable en AV1 | Evidencia |
 |---|---|---|
 | Landing page pública | **Desplegada y navegable** | **GitHub Pages:** [https://upc-pre-202610-1asi0729-12010-VulturesD.github.io/nexa-website/](https://upc-pre-202610-1asi0729-12010-VulturesD.github.io/nexa-website/) |
-| Repositorio del sitio público | **Implementación visible del frontend público** | **nexa-website:** [https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-website) |
-| Web application autenticada | **Fase posterior del producto** | **nexa-webapp:** [https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp). Nombrada en diseño y backlog, no como evidencia de despliegue AV1 |
-| Backend / servicios | **Fase posterior del producto** | **nexa-platform:** [https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform). Nombrado en arquitectura y backlog, no como evidencia de despliegue AV1 |
+| Repositorio del sitio público | **Implementación visible del frontend público** | **nexa-website:** https://cutt.ly/0yqSpVDV |
+| Web application autenticada | **Fase posterior del producto** | **nexa-webapp:** https://cutt.ly/4yqSp3jo. Nombrada en diseño y backlog, no como evidencia de despliegue AV1 |
+| Backend / servicios | **Fase posterior del producto** | **nexa-platform:** https://cutt.ly/FyqSp6JR. Nombrado en arquitectura y backlog, no como evidencia de despliegue AV1 |
 
 Esta lectura permite defender el despliegue con precisión: Nexa ya tiene una capa pública activa y demostrable, pero la capa transaccional aún debe presentarse como roadmap técnico respaldado por backlog y arquitectura, no como despliegue concluido ni como parte del alcance observable de esta entrega.
 

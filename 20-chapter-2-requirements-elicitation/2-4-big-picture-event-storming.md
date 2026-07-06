@@ -164,9 +164,9 @@ Los comandos, políticas, read models, aggregates y bounded contexts se desarrol
 
 *Sesión colaborativa de modelado de EventStorming.*
 
-![Reunión de modelado EventStorming del equipo KING](../assets/images/front-matter/collaboration/team-collaboration-meeting.jpg)
+![Reunión de modelado EventStorming del equipo Vultures Devs](../assets/images/front-matter/collaboration/team-collaboration-meeting.jpg)
 
-> *Nota*: La captura documenta una sesión colaborativa del equipo KING durante la construcción del modelado. La evidencia visual final del Big Picture corresponde a Step 1, Step 2 y Step 3 incorporados en esta sección. Elaboración propia.
+> *Nota*: La captura documenta una sesión colaborativa del equipo Vultures Devs durante la construcción del modelado. La evidencia visual final del Big Picture corresponde a Step 1, Step 2 y Step 3 incorporados en esta sección. Elaboración propia.
 
 ### 2.4.7. Flujo resumido del dominio
 

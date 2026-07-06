@@ -28,17 +28,17 @@ Lucky-Xplora. (2022). *Estudio de madurez digital del canal tradicional: Bodegas
 
 Microsoft. (2021). *Multi-tenant architecture for SaaS apps*. Microsoft 365 Developer Blog. https://devblogs.microsoft.com/microsoft365dev/multi-tenant-architecture-for-saas-apps/
 
-Microsoft. (2025). *ASP.NET Core fundamentals overview*. Microsoft Learn. https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-10.0
+Pivotal. (2026). *Spring Boot features: Developer guide*. Spring.io. https://docs.spring.io/spring-boot/docs/current/reference/html/features.html
 
-Microsoft. (2025). *ASP.NET documentation*. Microsoft Learn. https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-10.0
+Pivotal. (2026). *Spring Framework documentation*. Spring.io. https://docs.spring.io/spring-framework/reference/index.html
 
-Microsoft. (2025). *Designing a DDD-oriented microservice*. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice
+Pivotal. (2026). *Spring Security architecture*. Spring.io. https://spring.io/guides/topicals/spring-security-architecture
 
-Microsoft. (2025). *Get started with ASP.NET Core*. Microsoft Learn. https://learn.microsoft.com/en-us/aspnet/core/get-started?view=aspnetcore-10.0
+VMware. (2026). *Accessing data with JPA*. Spring.io. https://spring.io/guides/gs/accessing-data-jpa
 
-Microsoft. (2025). *Implementing the microservice application layer using ASP.NET Core Web API*. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-application-layer-implementation-web-api
+VMware. (2026). *Building a RESTful Web Service*. Spring.io. https://spring.io/guides/gs/rest-service
 
-Microsoft. (2025). *Overview of ASP.NET Core*. Microsoft Learn. https://learn.microsoft.com/en-us/aspnet/core/overview?view=aspnetcore-10.0
+Oracle. (2025). *Java Platform, Standard Edition documentation*. Oracle Corporation. https://docs.oracle.com/en/java/javase/21/
 
 Microsoft. (2026). *SaaS and multitenant solution architecture*. Microsoft Learn. https://learn.microsoft.com/en-us/azure/architecture/guide/saas-multitenant-solution-architecture/
 
@@ -60,12 +60,12 @@ Tutiven, B. J. G., Martínez, A. Á., Arcentales, A. A., & Paredes, J. P. (2026)
 
 Vernon, V. (2013). *Implementing domain-driven design*. Addison-Wesley Professional. https://www.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/
 
-Angular Router. (n.d.). *Angular Router and the Composition API*. Angular Router. https://router.vuejs.org/guide/advanced/composition-api.html
+Angular. (n.d.). *Angular Signals guide*. Angular.dev. https://angular.dev/guide/signals
 
-Angular.js. (n.d.). *Examples*. Angular.js. https://vuejs.org/examples/
+Angular. (n.d.). *Angular Router documentation*. Angular.dev. https://angular.dev/guide/routing
 
-Angular.js. (n.d.). *Reactivity fundamentals*. Angular.js. https://vuejs.org/guide/essentials/reactivity-fundamentals
+Angular. (n.d.). *Angular Components overview*. Angular.dev. https://angular.dev/guide/components
 
-Angular.js. (n.d.). *Routing*. Angular.js. https://v2.vuejs.org/v2/guide/routing
+Angular. (n.d.). *HTTP client overview*. Angular.dev. https://angular.dev/guide/http
 
 Vértiz, Ú. (2011). *La cadena de frío en la industria farmacéutica: Del fabricante al paciente*. https://hdl.handle.net/20.500.12724/2575

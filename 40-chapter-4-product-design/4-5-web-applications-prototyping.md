@@ -96,10 +96,10 @@ La evidencia audiovisual se organiza en el mismo orden de lectura del documento:
 
 | Orden | Evidencia | Segmento / superficie | Archivo visual ubicado en prototyping | URL Microsoft Stream / SharePoint |
 |---|---|---|---|---|
-| 1 | WebApp Coordination demo | Segmento 1 — Commercial Coordination / Ops Portal | `upc-pre-202610-1asi0729-12010-nexa-webbapp-coordination.png` | https://cutt.ly/0t65UEXh |
-| 2 | WebApp Operations demo | Segmento 2 — Operations / Account Owner / Ops Portal | `upc-pre-202610-1asi0729-12010-nexa-webbapp-operations.png` | https://cutt.ly/mt65YMXb |
-| 3 | WebApp B2B demo | Segmento 3 — B2B Buyer Portal | `upc-pre-202610-1asi0729-12010-nexa-webbapp-b2b-demo.png` | https://cutt.ly/it65UdrH |
-| 4 | WebApp responsive demo Sprint 4 | Cobertura responsive de Web Application y Buyer Portal | `upc-pre-202610-1asi0729-12010-nexa-webbapp-responsive-demo-sprint-4.png` | https://cutt.ly/kt65InxO |
+| 1 | WebApp Coordination demo | Segmento 1 — Commercial Coordination / Ops Portal | `upc-pre-202610-1asi0729-12010-nexa-webbapp-coordination.png` | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQCEHy2xaQR7TLyECS3wJwv3AfHX-aX9jae3yuQ1BLWm4GY?e=QvKSkQ |
+| 2 | WebApp Operations demo | Segmento 2 — Operations / Account Owner / Ops Portal | `upc-pre-202610-1asi0729-12010-nexa-webbapp-operations.png` | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQBCf0-rVx8bT7D3lDrj0PO4AT58xe2bQKHWLzzkh4WCpGE?e=c5sjIW |
+| 3 | WebApp B2B demo | Segmento 3 — B2B Buyer Portal | `upc-pre-202610-1asi0729-12010-nexa-webbapp-b2b-demo.png` | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQAwmaIaY7pVSqOiwFlyGGnnAex8TE0k1bA1oTS2-cU5tXs?e=uSbrDJ |
+| 4 | WebApp responsive demo Sprint 4 | Cobertura responsive de Web Application y Buyer Portal | `upc-pre-202610-1asi0729-12010-nexa-webbapp-responsive-demo-sprint-4.png` | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQDdN7XCLzV9RI0kwcngKsIHAeszJQbzMTuk0qzH9scmfJk?e=SImVG8 |
 
 > *Nota:* La tabla resume la evidencia audiovisual actualizada del prototipo navegable de Nexa. Los enlaces deben reemplazarse por las URL finales publicadas en Microsoft Stream / SharePoint. Elaboración propia.
 
@@ -113,7 +113,7 @@ La evidencia de Coordination muestra el recorrido de la Web Application interna 
 
 > *Nota:* La captura muestra la evidencia audiovisual del recorrido de Coordination para el Segmento 1 — Commercial Coordination. Elaboración propia.
 
-**URL Microsoft Stream / SharePoint:** https://cutt.ly/0t65UEXh
+**URL Microsoft Stream / SharePoint:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQCEHy2xaQR7TLyECS3wJwv3AfHX-aX9jae3yuQ1BLWm4GY?e=QvKSkQ
 
 #### Evidencia 2 — Prototipo de Operations para Segmento 2
 
@@ -125,7 +125,7 @@ La evidencia de Operations muestra el recorrido de la Web Application interna pa
 
 > *Nota:* La captura muestra la evidencia audiovisual del recorrido de Operations para el Segmento 2 — Operations / Account Owner. Elaboración propia.
 
-**URL Microsoft Stream / SharePoint:** https://cutt.ly/mt65YMXb
+**URL Microsoft Stream / SharePoint:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQBCf0-rVx8bT7D3lDrj0PO4AT58xe2bQKHWLzzkh4WCpGE?e=c5sjIW
 
 #### Evidencia 3 — Prototipo de B2B Buyer Portal para Segmento 3
 
@@ -137,7 +137,7 @@ La evidencia de B2B Buyer Portal muestra el recorrido del comprador B2B en el au
 
 > *Nota:* La captura muestra la evidencia audiovisual del recorrido del Segmento 3 — B2B Buyer Portal. Elaboración propia.
 
-**URL Microsoft Stream / SharePoint:** https://cutt.ly/it65UdrH
+**URL Microsoft Stream / SharePoint:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQAwmaIaY7pVSqOiwFlyGGnnAex8TE0k1bA1oTS2-cU5tXs?e=uSbrDJ
 
 #### Evidencia 4 — Prototipo responsive Sprint 4
 
@@ -149,7 +149,7 @@ La evidencia responsive de Sprint 4 complementa los mockups mobile de 4.4 y perm
 
 > *Nota:* La captura muestra la evidencia audiovisual de adaptación responsive del prototipo en Sprint 4. Elaboración propia.
 
-**URL Microsoft Stream / SharePoint:** https://cutt.ly/kt65InxO
+**URL Microsoft Stream / SharePoint:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQDdN7XCLzV9RI0kwcngKsIHAeszJQbzMTuk0qzH9scmfJk?e=SImVG8
 
 ### 4.5.5. Relación entre prototipo, user flows e implementación
 

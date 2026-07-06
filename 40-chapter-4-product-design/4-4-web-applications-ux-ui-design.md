@@ -1,4 +1,4 @@
-## 4.4. Web Applications UX/UI Design
+﻿## 4.4. Web Applications UX/UI Design
 
 Esta sección documenta el diseño UX/UI de las superficies autenticadas de Nexa: la **Web Application interna u Ops Portal** para **Segmento 1 — Valeria Sánchez — Commercial Coordination** y **Segmento 2 — Roberto García — Operations / Account Owner**, y el **Buyer Portal** para el **Segmento 3 — Elena Litano — B2B Buyer Portal**. Las tres experiencias comparten el sistema visual definido en 4.1 y la arquitectura de información descrita en 4.2, pero se diferencian por densidad, navegación, nivel de detalle y responsabilidad dentro del modelo multi-tenant SaaS B2B. El tenant/workspace proporciona el contexto de operación y la navegación se filtra según el rol autorizado.
 

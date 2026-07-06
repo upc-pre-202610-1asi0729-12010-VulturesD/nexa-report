@@ -12,8 +12,8 @@ workspace "Nexa Container View" "Diagrama de Contenedores para el sistema Nexa" 
             # Contenedores Internos
             webApp = container "Web App" "Provides all business functionality to internal staff and B2B customers." "Blazor WebAssembly"
             webSite = container "Web Site" "Public-facing landing page for visitors to explore Nexa services." "HTML, CSS, JavaScript"
-            backendApi = container "Backend API" "Handles business logic and provides data via JSON/HTTPS." "Java Spring Boot REST API"
-            database = container "Database" "Stores user, product, and order information." "PostgreSQL" "Database"
+            backendApi = container "Backend API" "Handles business logic and provides data via JSON/HTTPS." "ASP.NET Core Web API"
+            database = container "Database" "Stores user, product, and order information." "MySQL" "Database"
         }
 
         # Sistemas Externos

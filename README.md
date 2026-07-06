@@ -18,7 +18,7 @@
 
 <br/>
 
-![Course](https://img.shields.io/badge/Course-1ASI0729%20Aplicaciones%20Web-0a2540?style=flat-square)
+![Course](https://img.shields.io/badge/Course-1asi0729%20Aplicaciones%20Web-0a2540?style=flat-square)
 ![Cycle](https://img.shields.io/badge/Cycle-2026--10-0a2540?style=flat-square)
 ![University](https://img.shields.io/badge/University-UPC-0a2540?style=flat-square)
 ![Team](https://img.shields.io/badge/Team-Vultures Devs-2a67d9?style=flat-square)
@@ -28,7 +28,7 @@
 
 **[Start Project Flow](https://upc-pre-202610-1asi0729-12010-VulturesD.github.io/nexa-website/)** ·
 **[Open Live WebApp](https://nexa-webapp.onrender.com/#/auth/login)** ·
-**[Open Platform Swagger](https://nexa-platform.onrender.com/swagger/index.html)** ·
+**[Open Platform Swagger](https://nexa-platform-20wt.onrender.com/swagger/index.html)** ·
 **[View Project Wiki](./wiki/Home.md)**
 
 <br/>
@@ -43,8 +43,8 @@ Start the Nexa review from the public Website and continue through the operation
 
 1. **Website:** https://upc-pre-202610-1asi0729-12010-VulturesD.github.io/nexa-website/
 2. **WebApp:** https://nexa-webapp.onrender.com/#/auth/login
-3. **Platform API:** https://nexa-platform.onrender.com
-4. **Swagger UI:** https://nexa-platform.onrender.com/swagger/index.html
+3. **Platform API:** https://nexa-platform-20wt.onrender.com
+4. **Swagger UI:** https://nexa-platform-20wt.onrender.com/swagger/index.html
 5. **Report Repository:** https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-report
 
 ---
@@ -72,11 +72,11 @@ The `nexa-report` repository centralizes the academic research, requirements eli
     <td width="50%">
       <p><a href="https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp">nexa-webapp</a></p>
       <p>Main web application for B2B buyer portal, operator workflows, and cold-chain logs.</p>
-      <p><a href="https://nexa-webapp.onrender.com/#/auth/login">Open Live WebApp</a></p>
+      <p><a href="https://nexa-webapp-fv2v.onrender.com/login">Open Live WebApp</a></p>
       <p>
-        <img alt="Angular 21" src="https://img.shields.io/badge/Angular%203-35495E?style=flat-square&logo=vue.js&logoColor=4FC08D" />
-        <img alt="npm" src="https://img.shields.io/badge/npm-0F172A?style=flat-square&logo=vite&logoColor=FFD62E" />
-        <img alt="PrimeAngular" src="https://img.shields.io/badge/PrimeAngular-0EA5E9?style=flat-square" />
+        <img alt="Angular 21" src="https://img.shields.io/badge/Angular%2021-DD0031?style=flat-square&logo=angular&logoColor=white" />
+        <img alt="npm" src="https://img.shields.io/badge/npm-0F172A?style=flat-square&logo=npm&logoColor=FFD62E" />
+        <img alt="Angular Material" src="https://img.shields.io/badge/Angular Material-0EA5E9?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -84,11 +84,11 @@ The `nexa-report` repository centralizes the academic research, requirements eli
     <td width="50%">
       <p><a href="https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform">nexa-platform</a></p>
       <p>Backend platform and API service layer for domain, persistence, security, and deployment concerns.</p>
-      <p><a href="https://nexa-platform.onrender.com/swagger/index.html">Open Swagger UI</a></p>
+      <p><a href="https://nexa-platform.onrender.com/swagger-ui/index.html">Open Swagger UI</a></p>
       <p>
         <img alt="Platform" src="https://img.shields.io/badge/Platform-backend%20workspace-512BD4?style=flat-square" />
         <img alt="API" src="https://img.shields.io/badge/API-domain%20services-0EA5E9?style=flat-square" />
-        <img alt="Spring Boot / Hibernate" src="https://img.shields.io/badge/EF%20Core-PostgreSQL-512BD4?style=flat-square" />
+        <img alt="Spring Boot / Hibernate" src="https://img.shields.io/badge/Spring%20Boot-PostgreSQL-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
       </p>
     </td>
     <td width="50%">

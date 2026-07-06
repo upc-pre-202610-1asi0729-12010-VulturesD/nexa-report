@@ -1,13 +1,13 @@
-# Annex D: GitHub Repository Evidence
+﻿# Annex D: GitHub Repository Evidence
 
 ## D.1. Enlaces maestros de repositorios
 
 | Herramienta / Artefacto | Enlace |
 |---|---|
-| Repositorio GitHub (Reporte) | **upc-pre-202610-1asi0729-12010-VulturesD/nexa-report:** https://cutt.ly/YyqqccYa |
-| Repositorio GitHub (Website) | **upc-pre-202610-1asi0729-12010-VulturesD/nexa-website:** https://cutt.ly/byqqvhqJ |
-| Repositorio GitHub (Web Application) | **upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp:** https://cutt.ly/HyqqviBz |
-| Repositorio GitHub (Web Services / Backend) | **upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform:** https://cutt.ly/TyqqcUn4 |
+| Repositorio GitHub (Reporte) | **upc-pre-202610-1asi0729-12010-VulturesD/nexa-report:** https://cutt.ly/HyqSpSn3 |
+| Repositorio GitHub (Website) | **upc-pre-202610-1asi0729-12010-VulturesD/nexa-website:** https://cutt.ly/0yqSpVDV |
+| Repositorio GitHub (Web Application) | **upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp:** https://cutt.ly/4yqSp3jo |
+| Repositorio GitHub (Web Services / Backend) | **upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform:** https://cutt.ly/FyqSp6JR |
 
 ## D.2. Releases auditados para AV2
 
@@ -30,16 +30,16 @@
 | GitHub Insights AV2 `nexa-report` | Evidencia principal de colaboración del repositorio del informe. | <img src="../assets/images/front-matter/collaboration/github-insights/nexa-report-insights-av2.png" alt="GitHub Insights AV2 nexa-report" width="320"> |
 | GitHub Release `nexa-website v3.0.0` | Release de cierre AV2 disponible para revisión. | <img src="../assets/images/chapter-5/sprint-evidence/releases/nexa-website-v3-0-0-release.png" alt="GitHub Release nexa-website v3.0.0" width="320"> |
 | Branches `nexa-website` | Evidencia de ramas de Landing Page. | <img src="../assets/images/chapter-5/sprint-evidence/gitflow/nexa-website-branches.png" alt="Branches nexa-website" width="320"> |
-| Commits recientes AV2 `nexa-website` | URL commits: https://cutt.ly/eyqqQb4L | <img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-recent.png" alt="Commits recientes AV2 nexa-website" width="320"> |
-| Commits históricos de cierre AV2 `nexa-website` | URL commits: https://cutt.ly/ZyqqQLO9 | <img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-history.png" alt="Commits históricos de cierre AV2 nexa-website" width="320"> |
+| Commits recientes AV2 `nexa-website` | URL commits: https://cutt.ly/ByqSvpGX | <img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-recent.png" alt="Commits recientes AV2 nexa-website" width="320"> |
+| Commits históricos de cierre AV2 `nexa-website` | URL commits: https://cutt.ly/ByqSvpGX | <img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-website-commits-av2-history.png" alt="Commits históricos de cierre AV2 nexa-website" width="320"> |
 | GitHub Insights AV2 `nexa-website` | Evidencia complementaria del ecosistema AV2. | <img src="../assets/images/front-matter/collaboration/github-insights/nexa-website-insights-av2.png" alt="GitHub Insights AV2 nexa-website" width="320"> |
 | GitHub Release `nexa-platform v1.0.0` | Release de cierre AV2 disponible para revisión. | <img src="../assets/images/chapter-5/sprint-evidence/releases/nexa-platform-v1-0-0-release.png" alt="GitHub Release nexa-platform v1.0.0" width="320"> |
 | Branches `nexa-platform` | Evidencia de ramas de Web Services. | <img src="../assets/images/chapter-5/sprint-evidence/gitflow/nexa-platform-branches.png" alt="Branches nexa-platform" width="320"> |
-| Commits recientes AV2 `nexa-platform` | URL commits: https://cutt.ly/OyqqWrBC | <img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-recent.png" alt="Commits recientes AV2 nexa-platform" width="320"> |
-| Commits por bounded context `nexa-platform` | URL commits: https://cutt.ly/8yqqWxFA | <img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-contexts.png" alt="Commits por bounded context nexa-platform" width="320"> |
+| Commits recientes AV2 `nexa-platform` | URL commits: https://cutt.ly/tyqSbzw3 | <img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-recent.png" alt="Commits recientes AV2 nexa-platform" width="320"> |
+| Commits por bounded context `nexa-platform` | URL commits: https://cutt.ly/tyqSbzw3 | <img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-platform-commits-av2-contexts.png" alt="Commits por bounded context nexa-platform" width="320"> |
 | GitHub Insights AV2 `nexa-platform` | Evidencia complementaria del ecosistema AV2. | <img src="../assets/images/front-matter/collaboration/github-insights/nexa-platform-insights-av2.png" alt="GitHub Insights AV2 nexa-platform" width="320"> |
 | GitHub Release `nexa-webapp v2.0.0` | Release de cierre AV2 disponible para revisión de Web Application. | <img src="../assets/images/chapter-5/sprint-evidence/releases/nexa-webapp-v2-0-0-release.png" alt="GitHub Release nexa-webapp v2.0.0" width="320"> |
-| Commits finales `nexa-webapp` | URL commits: https://cutt.ly/cyqqWHu2 | <img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-1.png" alt="Commits finales nexa-webapp parte 1" width="320"><br><img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-2.png" alt="Commits finales nexa-webapp parte 2" width="320"> |
+| Commits finales `nexa-webapp` | URL commits: https://cutt.ly/2yqSbCkx | <img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-1.png" alt="Commits finales nexa-webapp parte 1" width="320"><br><img src="../assets/images/chapter-5/sprint-evidence/collaboration/nexa-webapp-commits-av2-recent-2.png" alt="Commits finales nexa-webapp parte 2" width="320"> |
 | Branches `nexa-webapp` | Evidencia de ramas `main` y `develop` de Web Application. | <img src="../assets/images/chapter-5/sprint-evidence/gitflow/nexa-webapp-branches.png" alt="Branches nexa-webapp" width="320"> |
 | Insights `nexa-webapp` | Evidencia complementaria del ecosistema AV2. | <img src="../assets/images/front-matter/collaboration/github-insights/nexa-webapp-insights-av2.png" alt="GitHub Insights AV2 nexa-webapp" width="320"> |
 
@@ -81,19 +81,19 @@ Este anexo respalda las secciones de colaboración del informe. A continuación,
 
 ![Evidencia de coordinación grupal Sprint 1](../assets/images/front-matter/collaboration/sprint-collaboration-evidence.jpg)
 
-> *Nota*: Trabajo colaborativo del equipo KING durante Sprint 1. Elaboración propia.
+> *Nota*: Trabajo colaborativo del equipo Vultures Devs durante Sprint 1. Elaboración propia.
 
 *Reunión de coordinación del equipo durante Sprint 1.*
 
-![Reunión de coordinación del equipo KING](../assets/images/front-matter/collaboration/team-collaboration-meeting.jpg)
+![Reunión de coordinación del equipo Vultures Devs](../assets/images/front-matter/collaboration/team-collaboration-meeting.jpg)
 
-> *Nota*: Reunión de coordinación del equipo KING durante Sprint 1. Elaboración propia.
+> *Nota*: Reunión de coordinación del equipo Vultures Devs durante Sprint 1. Elaboración propia.
 
 *Práctica de exposición AV1.*
 
 ![Práctica de exposición AV1](../assets/images/front-matter/collaboration/presentation-practice-evidence.png)
 
-> *Nota*: Práctica de exposición del equipo KING para la sustentación AV1. Elaboración propia.
+> *Nota*: Práctica de exposición del equipo Vultures Devs para la sustentación AV1. Elaboración propia.
 
 ### Sprint 2
 
@@ -101,13 +101,13 @@ Este anexo respalda las secciones de colaboración del informe. A continuación,
 
 ![Evidencia de coordinación grupal Sprint 2](../assets/images/front-matter/collaboration/team-collaboration-metting-2.png)
 
-> *Nota*: Reunión de coordinación del equipo KING durante Sprint 2. Elaboración propia.
+> *Nota*: Reunión de coordinación del equipo Vultures Devs durante Sprint 2. Elaboración propia.
 
 *Práctica de exposición TB1.*
 
 ![Práctica de exposición TB1](../assets/images/front-matter/collaboration/tb1-presentation-evidence.jpeg)
 
-> *Nota*: Exposición del equipo KING para la sustentación TB1. Elaboración propia.
+> *Nota*: Exposición del equipo Vultures Devs para la sustentación TB1. Elaboración propia.
 
 
 ### Sprint 3
@@ -116,19 +116,19 @@ Este anexo respalda las secciones de colaboración del informe. A continuación,
 
 ![Evidencia de coordinación grupal Sprint 3](../assets/images/front-matter/collaboration/sprint-3-collaboration-meeting.jpeg)
 
-> *Nota*: Trabajo colaborativo del equipo KING durante Sprint 3. Elaboración propia.
+> *Nota*: Trabajo colaborativo del equipo Vultures Devs durante Sprint 3. Elaboración propia.
 
 *Colaboración del equipo durante Sprint 3.*
 
 ![Colaboración del equipo durante Sprint 3](../assets/images/front-matter/collaboration/team-collaboration-meeting-3.jpeg)
 
-> *Nota*: Trabajo colaborativo del equipo KING durante Sprint 3. Elaboración propia.
+> *Nota*: Trabajo colaborativo del equipo Vultures Devs durante Sprint 3. Elaboración propia.
 
 *Práctica de exposición AV2.*
 
 ![Práctica de exposición AV2](../assets/images/front-matter/collaboration/sprint-3-expo-av2.png)
 
-> *Nota*: Práctica de exposición y preparación de la sustentación AV2 del equipo KING. Elaboración propia.
+> *Nota*: Práctica de exposición y preparación de la sustentación AV2 del equipo Vultures Devs. Elaboración propia.
 
 ### Sprint 4
 
@@ -136,5 +136,5 @@ Este anexo respalda las secciones de colaboración del informe. A continuación,
 
 ![Práctica de exposición TB2](../assets/images/front-matter/collaboration/sprint-4-expo-tb2.png)
 
-> *Nota*: Práctica de exposición y preparación de la sustentación TB2 del equipo KING. Elaboración propia.
+> *Nota*: Práctica de exposición y preparación de la sustentación TB2 del equipo Vultures Devs. Elaboración propia.
 

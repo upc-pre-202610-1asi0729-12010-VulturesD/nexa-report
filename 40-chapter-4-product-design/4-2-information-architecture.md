@@ -1,4 +1,4 @@
-## 4.2. Information Architecture
+﻿## 4.2. Information Architecture
 
 La arquitectura de información de Nexa organiza el contenido y los flujos de interacción alrededor de tres superficies complementarias: la **Landing Page pública**, la **Web Application interna u Ops Portal** y el **Buyer Portal**. Esta organización responde al modelo SaaS B2B del producto y mantiene una continuidad clara entre descubrimiento, registro, operación interna y autoservicio del comprador.
 
@@ -176,21 +176,21 @@ La metadata distingue el Website indexable de la WebApp autenticada. Las página
 
 | Página | Title | Meta description | Keywords | Author |
 |---|---|---|---|---|
-| Home | Nexa — Tu operacion de charcuteria y lacteos, por fin visible | Un solo lugar para gestionar pedidos, inventario, temperatura y entregas. | Nexa, cold chain, pedidos B2B | Nexa / Team Vultures Devs |
-| Platform | Nexa — What the Platform Does | Sistema para catálogo, inventario, órdenes, temperatura y entrega. | plataforma, inventario, órdenes | Nexa / Team Vultures Devs |
-| Buyer Portal | Nexa — Buyer Portal para tus clientes B2B | Portal para consultar catálogo, enviar solicitudes y seguir despachos. | Buyer Portal, catálogo, solicitudes | Nexa / Team Vultures Devs |
-| Solutions Hub | Nexa Solutions — Built for the Nodes That Matter Most | Soluciones para importadores, distribuidores y operadores de frío. | soluciones, distribución, cold chain | Nexa / Team Vultures Devs |
-| Importers & Wholesalers | Nexa Solutions — Importers & Wholesalers | Capacidades para importación, integridad térmica e inventario mayorista. | importadores, mayoristas, inventario | Nexa / Team Vultures Devs |
-| Distributors | Nexa Solutions — Charcuterie & Dairy Distribution | Distribución con FEFO, despacho y portal B2B. | distribuidores, FEFO, despacho | Nexa / Team Vultures Devs |
-| Cold Storage Operators | Nexa Solutions — Cold Storage Operators | Operación de cámaras frías y capacidades claramente identificadas. | cámaras frías, cold storage, operación | Nexa / Team Vultures Devs |
-| Company | Nexa — Who We Are | Equipo y contexto del proyecto Nexa. | Nexa, empresa, equipo | Nexa / Team Vultures Devs |
-| Pricing | Nexa - Pricing | Planes y capacidades visibles de Nexa. | pricing, planes, capacidades | Nexa / Team Vultures Devs |
-| FAQ | Nexa FAQ — Everything You Need to Know Before You Decide | Respuestas sobre implementación, seguridad, integraciones y precios. | FAQ, seguridad, precios | Nexa / Team Vultures Devs |
-| About the Product | Nexa - About the Product | Alcance y propuesta del producto para operaciones B2B refrigeradas. | producto, SaaS B2B, cold chain | Nexa / Team Vultures Devs |
-| About the Team | Nexa - About the Team | Equipo que desarrolla la propuesta de Nexa. | equipo, Team Vultures Devs, Nexa | Nexa / Team Vultures Devs |
-| Terms | Nexa - Terms & Conditions | Condiciones de uso y alcance académico de Nexa. | términos, condiciones, uso | Nexa / Team Vultures Devs |
-| Privacy | Nexa - Privacy & Policy | Política de privacidad y tratamiento de datos de la experiencia. | privacidad, datos, política | Nexa / Team Vultures Devs |
-| Cookies | Nexa - Cookies | Aviso sobre estado local y preferencias de interfaz. | cookies, preferencias, navegador | Nexa / Team Vultures Devs |
+| Home | Nexa — Tu operacion de charcuteria y lacteos, por fin visible | Un solo lugar para gestionar pedidos, inventario, temperatura y entregas. | Nexa, cold chain, pedidos B2B | Nexa / Vultures Devs |
+| Platform | Nexa — What the Platform Does | Sistema para catálogo, inventario, órdenes, temperatura y entrega. | plataforma, inventario, órdenes | Nexa / Vultures Devs |
+| Buyer Portal | Nexa — Buyer Portal para tus clientes B2B | Portal para consultar catálogo, enviar solicitudes y seguir despachos. | Buyer Portal, catálogo, solicitudes | Nexa / Vultures Devs |
+| Solutions Hub | Nexa Solutions — Built for the Nodes That Matter Most | Soluciones para importadores, distribuidores y operadores de frío. | soluciones, distribución, cold chain | Nexa / Vultures Devs |
+| Importers & Wholesalers | Nexa Solutions — Importers & Wholesalers | Capacidades para importación, integridad térmica e inventario mayorista. | importadores, mayoristas, inventario | Nexa / Vultures Devs |
+| Distributors | Nexa Solutions — Charcuterie & Dairy Distribution | Distribución con FEFO, despacho y portal B2B. | distribuidores, FEFO, despacho | Nexa / Vultures Devs |
+| Cold Storage Operators | Nexa Solutions — Cold Storage Operators | Operación de cámaras frías y capacidades claramente identificadas. | cámaras frías, cold storage, operación | Nexa / Vultures Devs |
+| Company | Nexa — Who We Are | Equipo y contexto del proyecto Nexa. | Nexa, empresa, equipo | Nexa / Vultures Devs |
+| Pricing | Nexa - Pricing | Planes y capacidades visibles de Nexa. | pricing, planes, capacidades | Nexa / Vultures Devs |
+| FAQ | Nexa FAQ — Everything You Need to Know Before You Decide | Respuestas sobre implementación, seguridad, integraciones y precios. | FAQ, seguridad, precios | Nexa / Vultures Devs |
+| About the Product | Nexa - About the Product | Alcance y propuesta del producto para operaciones B2B refrigeradas. | producto, SaaS B2B, cold chain | Nexa / Vultures Devs |
+| About the Team | Nexa - About the Team | Equipo que desarrolla la propuesta de Nexa. | equipo, Vultures Devs, Nexa | Nexa / Vultures Devs |
+| Terms | Nexa - Terms & Conditions | Condiciones de uso y alcance académico de Nexa. | términos, condiciones, uso | Nexa / Vultures Devs |
+| Privacy | Nexa - Privacy & Policy | Política de privacidad y tratamiento de datos de la experiencia. | privacidad, datos, política | Nexa / Vultures Devs |
+| Cookies | Nexa - Cookies | Aviso sobre estado local y preferencias de interfaz. | cookies, preferencias, navegador | Nexa / Vultures Devs |
 
 > *Nota:* La tabla refleja títulos y enfoques metadata presentes en las páginas públicas. Elaboración propia.
 

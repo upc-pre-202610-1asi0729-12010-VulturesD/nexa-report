@@ -12,7 +12,7 @@ Traditional cold-chain logistics suffer from:
 ## The Nexa Solution
 
 Nexa addresses these gaps by integrating:
-- **IoT Sensors Integration**: Continuous logging of temperature, humidity, and location metadata.
+- **Referential Temperature Logs**: Continuous logging of reference temperature and location metadata to simulate cold-chain tracking without requiring physical hardware sensors.
 - **Smart Routing & Warehouse Coordination**: Automated warehouse picking and vehicle assignment algorithms.
 - **Unified B2B Portal**: An intuitive marketplace for buyers to browse catalog items, place orders, and trace active dispatches.
 

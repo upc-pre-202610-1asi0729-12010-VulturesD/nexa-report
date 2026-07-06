@@ -1,4 +1,4 @@
-# Release Notes
+﻿# Release Notes
 
 This folder documents the SemVer release notes for the `nexa-report` repository.
 

@@ -93,11 +93,11 @@ El contexto de Catalog Management administra la información comercial de los pr
 | `ICatalogItemRepository` | Interface | Contrato para la persistencia y búsquedas del catálogo comercial. | Domain (Backend) |
 | `CatalogItemsController` | Controller | Endpoints REST para el registro y consulta de productos del catálogo. | Interface / API (Backend) |
 | `CatalogItem` | JS Class | Representa un producto del catálogo en la UI. | Frontend |
-| `CatalogItemsApi` | Service | Cliente HTTP (Axios) para consumir los servicios del catálogo. | Frontend |
+| `ProductsApi` | Service | Cliente HTTP (HttpClient) para consumir los servicios del catálogo. | Frontend |
 
 > *Nota*: La tabla resume las clases, interfaces y enums principales del bounded context correspondiente, manteniendo la separación por capas y responsabilidades del diseño orientado a objetos. Elaboración propia.
 
-Las relaciones lógicas asocian cada producto (`CatalogItem`) a su categoría (`Category`) y marca (`Brand`). Cada producto expone métodos específicos como `ReserveStock()` and `SynchronizeAvailableStock()` para reflejar los cambios transaccionales del stock operativo e interactúa con el frontend a través del servicio adaptado `CatalogItemsApi`.
+Las relaciones lógicas asocian cada producto (`CatalogItem`) a su categoría (`Category`) y marca (`Brand`). Cada producto expone métodos específicos como `ReserveStock()` and `SynchronizeAvailableStock()` para reflejar los cambios transaccionales del stock operativo e interactúa con el frontend a través del servicio adaptado `ProductsApi`.
 
 #### Sales Class Diagram
 

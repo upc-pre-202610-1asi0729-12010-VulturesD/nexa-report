@@ -1,4 +1,4 @@
-## 2.3. Needfinding
+﻿## 2.3. Needfinding
 
 La construcción de este bloque parte de tres insumos previos. El primero es el análisis de entrevistas de la sección 2.2, que identifica patrones de comportamiento, fricciones recurrentes y expectativas de adopción. El segundo es el análisis competitivo de la sección 2.1, que muestra que las soluciones existentes resuelven fragmentos del problema, pero no articulan con suficiente claridad la continuidad entre captura comercial, abastecimiento del cliente y cierre de entrega. El tercero es la lógica del dominio modelada en el proyecto, donde cada segmento interviene en un momento distinto del flujo.
 

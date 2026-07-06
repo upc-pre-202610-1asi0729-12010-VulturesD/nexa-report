@@ -370,8 +370,8 @@ El C4 Container Diagram describe los límites técnicos de alto nivel de Nexa. E
 | Container | Technology | Responsibility | Main interactions |
 |---|---|---|---|
 | Landing Page | HTML5, CSS3, JavaScript | Comunica propuesta de valor, soluciones, pricing, FAQ, contenido institucional y CTAs hacia registro o login. | Recibe al Visitor y redirige hacia la Web Application. |
-| Web Application | Angular 21, npm, PrimeAngular, PrimeFlex, PrimeIcons, Angular Router, Angular I18n, Axios | Proporciona las experiencias autenticadas de Buyer, Sales, Logistics y Company Owner según rol y workspace. | Consume la RESTful API mediante HTTP/JSON. |
-| RESTful API | ASP.NET Core Web API, Java 21, Spring Boot / Hibernate, Npgsql, Swagger/OpenAPI | Expone servicios para autenticación, tenants, catálogo, ventas, inventario, logística, facturación referencial, pagos referenciales y perfiles. | Atiende la WebApp, persiste mediante Spring Boot / Hibernate y se comunica con Stripe cuando está configurado. |
+| Web Application | Angular 21, Angular CLI, Angular Material, PrimeIcons, HttpClient, Angular Signals (Stores) | Proporciona las experiencias autenticadas de Buyer, Sales, Logistics y Company Owner según rol y workspace. | Consume la RESTful API mediante HTTP/JSON. |
+| RESTful API | Spring Boot Web API, Java, JPA/Hibernate, PostgreSQL, Swagger/OpenAPI | Expone servicios para autenticación, tenants, catálogo, ventas, inventario, logística, facturación referencial, pagos referenciales y perfiles. | Atiende la WebApp, persiste mediante JPA/Hibernate y se comunica con Stripe cuando está configurado. |
 | PostgreSQL Database | PostgreSQL | Persiste tenants, usuarios, catálogo, clientes B2B, órdenes, inventario, despachos, documentos y pagos referenciales. | Recibe lecturas y escrituras exclusivamente desde la RESTful API. |
 | Stripe | External Payment Provider | Proporciona una integración externa configurable para flujos referenciales de pago. | Recibe solicitudes desde la API cuando hay configuración; en caso contrario, la plataforma conserva un estado seguro. |
 
@@ -383,7 +383,7 @@ El nivel C3 se divide en tres vistas para conservar legibilidad y distinguir res
 
 #### 4.6.4.1. Backend Components
 
-La vista backend organiza la API en interfaces REST, seguridad y multi-tenancy, módulos de dominio, servicios de aplicación y persistencia. REST Controllers y Swagger/OpenAPI exponen y documentan contratos; Authentication/IAM y Authorization and Tenant Middleware protegen el acceso; Command Services y Query Services coordinan los casos de uso; y Repositories, Unit of Work, Spring Boot / Hibernate DbContext y Domain Events/Outbox conectan el dominio con PostgreSQL. Los módulos representados cubren Tenant and Workspace Management, Profile and Client Accounts, Catalog Management, Sales Management, Inventory/Warehouse, Logistics/Dispatch, Business Documents/Invoicing, Payments y Promotions.
+La vista backend organiza la API en interfaces REST, seguridad y multi-tenancy, módulos de dominio, servicios de aplicación y persistencia. REST Controllers y Swagger/OpenAPI exponen y documentan contratos; Authentication/IAM y Authorization and Tenant Middleware protegen el acceso; Command Services y Query Services coordinan los casos de uso; y Repositories, Unit of Work, JPA/Hibernate DbContext y Domain Events/Outbox conectan el dominio con PostgreSQL. Los módulos representados cubren Tenant and Workspace Management, Profile and Client Accounts, Catalog Management, Sales Management, Inventory/Warehouse, Logistics/Dispatch, Business Documents/Invoicing, Payments y Promotions.
 
 *C4 Backend Components Diagram de Nexa.*
 
@@ -406,13 +406,13 @@ La vista backend organiza la API en interfaces REST, seguridad y multi-tenancy, 
 | Módulos de dominio | Gestionar tenant/workspace, perfiles y clientes, catálogo, ventas, inventario, logística, documentos, pagos referenciales y promociones. | Tenant Management, Catalog Management, Sales, Warehouse, Logistics e Invoicing |
 | Command Services y Query Services | Orquestar casos de escritura y rutas de consulta sin trasladar reglas del dominio a los controladores. | Application Layer |
 | Domain Events/Outbox y Repositories/Unit of Work | Registrar eventos transaccionales y persistir agregados coordinando unidades de trabajo. | Domain / Infrastructure Layers |
-| Spring Boot / Hibernate DbContext y PostgreSQL Database | Mapear entidades y ejecutar lecturas o escrituras relacionales mediante Spring Boot / Hibernate y Npgsql. | Persistence Layer |
+| JPA/Hibernate DbContext y PostgreSQL Database | Mapear entidades y ejecutar lecturas o escrituras relacionales mediante JPA/Hibernate y PostgreSQL. | Persistence Layer |
 
 > *Nota*: La tabla resume los grupos de componentes, sus responsabilidades y su relación con los contextos o capas del backend. Elaboración propia.
 
 #### 4.6.4.2. Frontend Components
 
-La WebApp utiliza Angular 21 y npm como base, PrimeAngular, PrimeFlex y PrimeIcons para la interfaz, Angular Router para navegación protegida, Angular I18n para internacionalización y Axios para consumir la API. App Shell/Layout y Router/Route Guards organizan la navegación; Auth Store, Tenant/Workspace Context y los feature stores de Pinia mantienen estado evidenciado; las vistas se agrupan en Buyer Portal, Sales, Logistics y Company Owner/Account Ownership; y los componentes compartidos gestionan presentación, mensajes y estados seguros de integración.
+La WebApp utiliza Angular 21 y Angular CLI como base, Angular Material y PrimeIcons para la interfaz, Angular Router para navegación protegida, un servicio propio de internacionalización (I18nService y pipe t) y HttpClient para consumir la API. App Shell/Layout y Router/Route Guards organizan la navegación; Auth Store, Tenant/Workspace Context y los stores basados en Angular Signals mantienen el estado de la aplicación; las vistas se agrupan en Buyer Portal, Sales, Logistics y Company Owner/Account Ownership; y los componentes compartidos gestionan la presentación, mensajes y estados referenciales de integración.
 
 *C4 Frontend Components Diagram de Nexa.*
 
@@ -435,8 +435,8 @@ La WebApp utiliza Angular 21 y npm como base, PrimeAngular, PrimeFlex y PrimeIco
 | Buyer Portal views | Presentar catálogo, solicitudes, órdenes, tracking, documentos visibles, pagos referenciales y perfil. | S3 — B2B Buyer Portal |
 | Sales views | Presentar solicitudes, órdenes, registro manual, clientes, catálogo y documentos comerciales. | S1 — Commercial Coordination |
 | Logistics y Account Ownership views | Presentar inventario, lotes, despachos, evidencia de entrega y opciones administrativas del workspace. | S2 — Operations / Account Owner |
-| API Client, Angular I18n, PrimeAngular UI y Shared Components | Consumir la API, localizar textos y reutilizar componentes, formularios, tablas, diálogos y mensajes. | Alcance transversal de la WebApp |
-| Pinia feature stores y Compatibility Store Facade | Mantener estado específico de funcionalidades y compatibilidad con el almacenamiento global evidenciado. | Soporte de estado de las vistas |
+| HttpClient, I18nService/t pipe, Angular Material y Shared Components | Consumir la API, localizar textos y reutilizar componentes, formularios, tablas, diálogos y mensajes. | Alcance transversal de la WebApp |
+| Angular Signals Stores | Mantener el estado específico de funcionalidades de manera reactiva e inyectar datos del catálogo, carrito y sesión. | Soporte de estado de las vistas |
 
 > *Nota*: La tabla resume los grupos de componentes de la WebApp y el alcance de usuario al que brindan soporte. Elaboración propia.
 

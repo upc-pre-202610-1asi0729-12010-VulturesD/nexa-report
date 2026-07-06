@@ -130,7 +130,7 @@ Web Application TB1 con flujos operativos  Segmento 1/Segmento 2 , portal compra
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
-| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `508aeb2` | `build(vite): configure Angular 21 webapp toolchain` | | 2026-04-27 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `508aeb2` | `build(npm): configure Angular 21 webapp toolchain` | | 2026-04-27 |
 | `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `3a21842` | `feat(app): bootstrap Angular application entry point` | | 2026-04-27 |
 | `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `21bf5b6` | `feat(routing): add ops and portal layout route shell` | | 2026-04-27 |
 | `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `7ecc433` | `feat(iam): add authentication bounded context` | | 2026-04-27 |
@@ -155,7 +155,7 @@ Web Application TB1 con flujos operativos  Segmento 1/Segmento 2 , portal compra
 | `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `ced5994` | `feat(catalog): map product domain resources` | | 2026-05-06 |
 | `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `0553d20` | `feat(catalog): add catalog API adapter` | | 2026-05-06 |
 | `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `7d611c6` | `feat(catalog): add product catalog store` | | 2026-05-06 |
-| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `c3372b8` | `docs(readme): document TB1 WebApp workflow` | | 2026-05-07 |
+| `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `c3372b8` | `docs(readme): document TB1 Angular WebApp workflow` | | 2026-05-07 |
 | `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `da9bfc4` | `chore(release): prepare webapp v1.0.0` | | 2026-05-11 |
 | `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `32dff38` | `chore(release): merge webapp v1.0.0 to main` | | 2026-05-11 |
 | `upc-pre-202610-1asi0729-12010-VulturesD/nexa-webapp` | `main` | `5cd4834` | `fix(routing): clarify protected scope behavior` | | 2026-05-12 |
@@ -215,7 +215,7 @@ La evidencia de ejecución del Sprint 2 corresponde al alcance TB1: Web Applicat
 | Soporte de datos simulados | JSON Server, adapters y stores para consumo de datos durante revisión académica. | `nexa-webapp`: `7ad15fc`, `bf841d8`, `f4ce731`, `6b50a5b`, `f4fa86a`, `e34d95d`, `0553d20` | No reemplaza la RESTful API interna objetivo. |
 | Landing Page actualizada | Landing Page actualizada con contenido bilingüe, páginas legales, pricing, cookie notice y releases del sitio. | `nexa-website`: `1d9e5be`, `bbce32b`, `1ab8c54`, `77af8b3`, `0120ead`, `a421767` | No implica que los Web Services estén desplegados. |
 
-La evidencia de ejecución confirma que TB1 consolida una Web Application frontend revisable, una Landing Page actualizada y una capa de datos simulada para sostener los recorridos principales. El backend ASP.NET Core y la RESTful API interna se mantienen como alcance posterior.
+La evidencia de ejecución confirma que TB1 consolida una Web Application frontend revisable, una Landing Page actualizada y una capa de datos simulada para sostener los recorridos principales. El backend Spring Boot y la RESTful API interna se mantienen como alcance posterior.
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -226,7 +226,7 @@ Para Sprint 2, la evidencia de servicios se documenta como soporte simulado para
 | Fake API | Soporte simulado para la Web Application | `nexa-webapp`: `7ad15fc`, `bf841d8`, `c3372b8` |
 | Servicios cliente | Organización interna de consumo de datos simulados por dominio frontend | `nexa-webapp`: `f4ce731`, `6b50a5b`, `f4fa86a`, `e34d95d`, `0553d20` |
 | Web Application | Consume datos simulados mediante adapters, stores y rutas por contexto frontend | `nexa-webapp`: commits de Sales, Logistics, Warehouse, Catalog y Dashboard |
-| Backend ASP.NET Core | Planificado para fase posterior | `nexa-platform` y arquitectura objetivo |
+| backend Spring Boot | Planificado para fase posterior | `nexa-platform` y arquitectura objetivo |
 | Base de datos relacional | Modelo objetivo documentado | Capítulo 4.8 |
 
 El Fake API se utiliza para simular recursos RESTful durante TB1. En desarrollo local puede ejecutarse con JSON Server, mientras que la revisión académica puede apoyarse en la Web Application desplegada y en la configuración de datos simulados documentada por el equipo.
@@ -257,7 +257,7 @@ La evidencia de despliegue de Sprint 2 se concentra en la Web Application, el La
 | Landing Page `nexa-website` | Publicada como capa pública actualizada | **GitHub Pages – nexa-website:** [https://upc-pre-202610-1asi0729-12010-VulturesD.github.io/nexa-website/](https://upc-pre-202610-1asi0729-12010-VulturesD.github.io/nexa-website/) | Punto de entrada comercial y conexión hacia la Web Application. |
 | Web Application `nexa-webapp` | Publicada para revisión académica con navegación frontend; en AV2 se registra despliegue en Render. | **Render – nexa-webapp:** [https://nexa-webapp.onrender.com](https://nexa-webapp.onrender.com) | Frontend con datos simulados parciales, flujos operativos y preparación progresiva hacia backend. |
 | Fake API | Soporte simulado para revisión frontend | JSON Server / configuración documentada en `nexa-webapp` | No corresponde a Web Services internos productivos. |
-| Backend / `nexa-platform` | Planificado para fase posterior | **nexa-platform:** [https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform](https://github.com/upc-pre-202610-1asi0729-12010-VulturesD/nexa-platform) | No se declara desplegado en TB1. |
+| Backend / `nexa-platform` | Planificado para fase posterior | **nexa-platform:** https://cutt.ly/FyqSp6JR | No se declara desplegado en TB1. |
 
 La lectura de despliegue para TB1 es deliberadamente limitada: Landing Page y Web Application se presentan como productos revisables, mientras que el Fake API sostiene la simulación de datos. La primera versión de Web Services queda reservada para AV2.
 

@@ -18,14 +18,14 @@ Se demostró una alta coherencia metodológica y de trazabilidad a lo largo de t
 ### Conclusión 4: Resultado de implementación de Landing Page, WebApp y RESTful API
 El desarrollo del producto digital se consolidó de manera física y funcional para el hito final de pre-cierre TB2:
 1. **Landing Page (nexa-website v4.0.1):** Desplegada de forma estable en GitHub Pages, con internacionalización (i18n) dinámica e integración de videos embebidos About-the-Product y About-the-Team.
-2. **Web Application (nexa-webapp v3.0.1):** SPA reactiva en Angular 21 y PrimeAngular desplegada en Render, estructurada por frentes (ops y portal), libre de mocks y conectada a la API mediante Axios con interceptores de seguridad.
-3. **Web Services (nexa-platform v2.0.1):** API RESTful desarrollada en ASP.NET Core y Java 21 bajo DDD, desplegada en Render con persistencia real en PostgreSQL. Cuenta con migración automática de esquemas en el startup, suite de documentación interactiva en Swagger/OpenAPI y protección multi-tenant mediante el middleware `WorkspaceMembershipValidationMiddleware`.
+2. **Web Application (nexa-webapp v3.0.1):** SPA reactiva en Angular 21 y Angular Material desplegada en Render, estructurada por frentes (ops y portal), libre de mocks y conectada a la API mediante HttpClient con interceptores de seguridad y estado administrado mediante Angular Signals.
+3. **Web Services (nexa-platform v2.0.1):** API RESTful desarrollada en Spring Boot y Java bajo DDD, desplegada en Render con persistencia real en PostgreSQL. Cuenta con generación automática de esquemas en el startup, suite de documentación interactiva en Swagger/OpenAPI y protección multi-tenant mediante filtros e interceptores de seguridad.
 
 ### Conclusión 5: Hallazgos de validación y mejoras de usabilidad incorporadas
 La validación y auditoría de usabilidad (evaluaciones heurísticas y entrevistas con usuarios) permitieron iterar el producto físico hacia una versión final pulida y robusta. Frente al hallazgo heurístico de severidad 3 donde el comprador B2B perdía los productos agregados al constructor de solicitudes al retornar al catálogo, el equipo implementó un carrito persistente (local storage) en la WebApp. Asimismo, ante la fricción en Logistics para identificar nuevas órdenes en el Kanban, se incorporaron badges visuales informativos (`NEW`) en las tarjetas. Esto comprueba que el feedback real fue escuchado y materializado en cambios de código verificables.
 
 ### Conclusión 6: Aprendizaje del equipo y evolución del ciclo de vida
-El trabajo colaborativo del equipo KING bajo metodologías ágiles Scrum y Jira facilitó una planificación por objetivos y una distribución de liderazgo conjunto muy efectiva. La adopción del enfoque Docs-as-Code para el Project Report garantizó que la documentación académica evolucionara a la par de los repositorios de software en GitFlow, controlando los alcances reales por cada sprint. El equipo consolidó el aprendizaje técnico de Clean Architecture, control térmico referencial y mecanismos de seguridad de aislamiento lógico de datos indispensables en entornos multi-tenant (SaaS).
+El trabajo colaborativo del equipo Vultures Devs bajo metodologías ágiles Scrum y Jira facilitó una planificación por objetivos y una distribución de liderazgo conjunto muy efectiva. La adopción del enfoque Docs-as-Code para el Project Report garantizó que la documentación académica evolucionara a la par de los repositorios de software en GitFlow, controlando los alcances reales por cada sprint. El equipo consolidó el aprendizaje técnico de Clean Architecture, control térmico referencial y mecanismos de seguridad de aislamiento lógico de datos indispensables en entornos multi-tenant (SaaS).
 
 ---
 
@@ -45,7 +45,7 @@ El trabajo colaborativo del equipo KING bajo metodologías ágiles Scrum y Jira 
 1. **Importación masiva de datos (CSV/Excel):** Desarrollar un motor de importación en el panel comercial para permitir que los vendedores carguen catálogos y fichas de clientes B2B de forma masiva, acelerando la migración operativa inicial.
 2. **Integración con pasarela de pagos productiva (Stripe):** Evolucionar la integración de Stripe (actualmente configurada de manera referencial/mock en backend) hacia una pasarela funcional con procesamiento de tarjetas de crédito y webhooks de confirmación en producción.
 3. **Telemetría e integración de sensores de temperatura IoT:** Reemplazar el Seed Data de temperatura en Logistics por una lectura física mediante protocolo MQTT o APIs REST consumiendo datos reales de sensores de temperatura instalados en los vehículos de reparto.
-4. **Módulo de facturación electrónica tributaria (SUNAT):** Diseñar un microservicio en Invoicing para firmar digitalmente los documentos referenciales XML generados por la plataforma, conectándolos con los OSE correspondientes bajo normativas locales.
+4. **Módulo de facturación electrónica tributaria (SUNAT):** Diseñar un componente autónomo en Invoicing para firmar digitalmente los documentos referenciales XML generados por la plataforma, conectándolos con los OSE correspondientes bajo normativas locales.
 5. **App móvil híbrida para choferes de reparto:** Diseñar una interfaz móvil responsiva simplificada o app híbrida (PWA) enfocada exclusivamente en el chofer, facilitando la captura de firmas y fotos de conformidad de entrega (Proof of Delivery) en ruta.
 6. **Consolidación cualitativa de validación (Fase de producción):** Ejecutar las 5 entrevistas de validación cualitativa complementarias planificadas por el equipo para alcanzar un volumen estadístico concluyente en todos los segmentos antes del lanzamiento productivo oficial.
 
@@ -59,7 +59,7 @@ El video "About-The-Team" sintetiza la trayectoria del equipo **Vultures Devs** 
 | Sección | Descripción | Timing (hh:mm:ss) |
 | :--- | :--- | :--- |
 | **Introducción** | Propuesta de valor de Nexa y objetivo del equipo | 00:00:01 - 00:01:06 |
-| **Roles del Equipo** | Distribución de responsabilidades (Diego, César, Jed, Gino, Joaquín) | 00:01:06 - 00:01:41 |
+| **Roles del Equipo** | Distribución de responsabilidades (Diego, César, Gerard, Gino, Joaquín) | 00:01:06 - 00:01:41 |
 | **Metodología** | Gestión de sprints, GitFlow y enfoque Docs-as-Code | 00:01:41 - 00:02:07 |
 | **Aprendizajes** | Reflexión técnica sobre arquitectura y experiencia de usuario | 00:02:07 - 00:02:59 |
 | **Testimonios** | Exposición de actividades, logros y competencias por integrante | 00:02:59 - 00:07:16 |
@@ -68,6 +68,6 @@ El video "About-The-Team" sintetiza la trayectoria del equipo **Vultures Devs** 
 ### Evidencia y Enlaces
 > ![Captura representativa del video About-The-Team](assets/images/chapter-5/interviews/AboutTheTeam.png)
 
-* **URL Microsoft Stream:** https://cutt.ly/rt66rjSO
+* **URL Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416289_upc_edu_pe/IQAMriMKhdJaTIPU7KZigs_bAZr8X1r4WmCJEx7-CuzHLMg?e=gVbggp
 * **URL YouTube:** https://youtu.be/cNdHZbD52eE
 
