@@ -20,10 +20,10 @@
 <p align="center">Docente</p>
 <p align="center"><strong>Robles Fernández, Iván</strong></p>
 
-<p align="center">Startup</p>
+<p align="center">Equipo</p>
 <p align="center"><strong>Vultures Devs</strong></p>
 
-<p align="center">Producto</p>
+<p align="center">Proyecto</p>
 <p align="center"><strong>Nexa</strong></p>
 
 <br>
